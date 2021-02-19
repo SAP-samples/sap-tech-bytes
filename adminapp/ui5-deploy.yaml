@@ -1,0 +1,26 @@
+specVersion: '1.0'
+metadata:
+  name: adminapp
+type: application
+ui5Version: 
+ui5Theme: sap_fiori_3
+resources:
+  configuration:
+    propertiesFileSourceEncoding: UTF-8
+builder:
+  resources:
+    excludes:
+      - "/test/**"
+      - "/localService/**"
+  customTasks:
+  - name: webide-extension-task-updateManifestJson
+    beforeTask: generateManifestBundle
+    configuration:
+      appFolder: webapp
+      destDir: dist
+  - name: ui5-task-zipper
+    afterTask: generateCachebusterInfo
+    configuration:
+      archiveName: adminapp
+      additionalFiles:
+      - xs-app.json

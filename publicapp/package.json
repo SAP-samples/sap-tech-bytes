@@ -1,0 +1,38 @@
+{
+    "name": "publicapp",
+    "version": "0.0.1",
+    "private": true,
+    "description": "A Fiori application.",
+    "keywords": [
+        "ui5",
+        "openui5",
+        "sapui5"
+    ],
+    "main": "webapp/index.html",
+    "scripts": {
+        "start": "fiori run --open test/flpSandbox.html",
+        "start-local": "fiori run --config ./ui5-local.yaml --open test/flpSandbox.html",
+        "build": "ui5 build -a --clean-dest --include-task=generateManifestBundle generateCachebusterInfo",
+        "deploy": "fiori add deploy-config",
+        "unit-tests": "fiori run --open test/unit/unitTests.qunit.html",
+        "int-tests": "fiori run --open test/integration/opaTests.qunit.html",
+        "build:cf": "ui5 build preload --clean-dest --config ui5-deploy.yaml --include-task=generateManifestBundle generateCachebusterInfo"
+    },
+    "devDependencies": {
+        "@ui5/cli": "2.7.1",
+        "@ui5/fs": "2.0.1",
+        "@ui5/logger": "2.0.0",
+        "@sap/ux-ui5-tooling": "1",
+        "@sap/ui5-builder-webide-extension": "1.0.x",
+        "ui5-task-zipper": "^0.3.1",
+        "mbt": "^1.0.15"
+    },
+    "ui5": {
+        "dependencies": [
+            "@sap/ux-ui5-tooling",
+            "@sap/ui5-builder-webide-extension",
+            "ui5-task-zipper",
+            "mbt"
+        ]
+    }
+}

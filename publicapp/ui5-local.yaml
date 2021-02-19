@@ -1,0 +1,30 @@
+specVersion: '2.0'
+metadata:
+  name: 'publicapp'
+type: application
+framework:
+  name: SAPUI5
+  version: '1.86.3'
+  libraries: 
+    - name: sap.f
+    - name: sap.m
+    - name: sap.suite.ui.generic.template
+    - name: sap.ui.comp
+    - name: sap.ui.core
+    - name: sap.ui.generic.app
+    - name: sap.ui.table
+    - name: sap.ushell
+    - name: themelib_sap_fiori_3
+server:
+  customMiddleware:
+  - name: fiori-tools-proxy
+    afterMiddleware: compression
+    configuration:
+      backend:
+      - path: /public
+        url: https://43de072btrial-sidecar-authtest-srv.cfapps.eu10.hana.ondemand.com
+  - name: fiori-tools-appreload
+    afterMiddleware: compression
+    configuration:
+     port: 35729
+     path: webapp
