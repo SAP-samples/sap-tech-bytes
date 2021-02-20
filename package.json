@@ -1,0 +1,9 @@
+{
+  "name": "userapitest",
+  "scripts": {
+    "start": "node node_modules/@sap/approuter/approuter.js"
+  },
+  "dependencies": {
+    "@sap/approuter": "^9.1.0"
+  }
+}

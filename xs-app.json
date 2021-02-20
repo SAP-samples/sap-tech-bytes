@@ -1,0 +1,10 @@
+{
+  "welcomeFile": "/user-api/attributes",
+  "routes": [
+    {
+      "source": "^/user-api(.*)",
+      "target": "$1",
+      "service": "sap-approuter-userapi"
+    }
+  ]
+}
