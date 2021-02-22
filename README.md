@@ -10,6 +10,11 @@ Where there's sample code or configuration to share, specifically relating to an
 
 Perhaps most of the time you'll be arriving at this repository, coming from such an episode or blog post, so you'll be sent to the appropriate branch like that. But if you're starting here and want to find out to which SAP Tech Bytes episode or blog post a given branch-based sample relates, you'll find the back link in the README in that branch.
 
+Here's what we have for you so far:
+
+- [2021-02-17 Creating a Multi-module SAP Fiori Project](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-02-17-multi-module-fiori-project)
+- [2021-02-20 Approuter User API Service](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-02-20-approuter-user-api-service)
+
 ## Requirements
 
 Requirements may differ from sample to sample, so please see the individual README files as appropriate.
