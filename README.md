@@ -39,3 +39,7 @@ buildpacks:          nodejs
 ```
 
 Open that as a URL in your browser. You should information shown similar to what was described in the blog post.
+
+---
+
+[More info about this repository](https://github.com/SAP-samples/sap-tech-bytes)
