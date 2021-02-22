@@ -9,7 +9,7 @@ module.exports = `
 {{#blogPosts}}- [{{{title}}}]({{{id}}}) by {{author}} ({{date}})
   - {{summary}}
 {{/blogPosts}} 
-- More on [My SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
+- More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
 {{#videos}}- [{{{title}}}]({{{link}}}) ({{date}})
