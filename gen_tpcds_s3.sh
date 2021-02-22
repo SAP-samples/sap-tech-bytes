@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 source env_tpcds.sh
 
 if [ ! -f ${tpcds_kit_tools_folder}/dsdgen ]; then

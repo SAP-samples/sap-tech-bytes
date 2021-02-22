@@ -8,7 +8,7 @@ datasets_root_folder=~/Datasets
 prefixObj=sf$(printf "%04d" ${tpcds_scale_factor})/data
 
 aws_region=eu-central-1
-s3bucket=tpcds4hcdb
+s3bucket=tpcds4hdbc
 
 aws_key_file_folder=${myTemp_folder}
 aws_key_file=S3TPC-reader-access-key.json
