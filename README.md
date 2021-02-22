@@ -21,3 +21,7 @@ Prerequisites
 * [You are logged in to SAP Business Application Studio and its configured](https://developers.sap.com/tutorials/appstudio-onboarding.html)​
 * [Create a destination with the name "UI5"](https://developers.sap.com/tutorials/appstudio-sapui5-create.html#04188525-d917-41ac-8d2c-ee4ef11ab774)
 
+
+---
+
+[More info about this repository](https://github.com/SAP-samples/sap-tech-bytes)
