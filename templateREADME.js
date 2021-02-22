@@ -2,7 +2,7 @@ module.exports = `
 {{readme1}}
  
 ## Recent Branches
-{{#branches}}- [{{{name}}}]({{{url}}}) by <img src="{{{authorAvatar}}}" alt="{{{authorName}}}" width="48"/>[{{{authorName}}}]({{{authorURL}}}) 
+{{#branches}}- [{{{name}}}]({{{url}}}) by [{{{authorName}}}]({{{authorURL}}}) 
 {{/branches}}
 
 ## Recent Blog Posts
