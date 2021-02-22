@@ -1,4 +1,4 @@
-# SAP Tech Bytes
+![SAP Tech Bytes header image](header-image.png)
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/sap-tech-bytes)](https://api.reuse.software/info/github.com/SAP-samples/sap-tech-bytes)
 
