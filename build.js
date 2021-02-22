@@ -39,7 +39,7 @@ const branchProcessing = async (item, octokit) => {
     })
     item.url = branchDetails.data._links.html
     item.authorName = branchDetails.data.commit.author.login
-    item.authorURL = branchDetails.data.commit.author.url
+    item.authorURL = branchDetails.data.commit.author.html_url
     item.authorAvatar = branchDetails.data.commit.author.avatar_url
     return Promise.resolve(item)
 }
