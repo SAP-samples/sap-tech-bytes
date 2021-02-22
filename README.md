@@ -12,9 +12,9 @@ Where there&#x27;s sample code or configuration to share, specifically relating 
 Perhaps most of the time you&#x27;ll be arriving at this repository, coming from such an episode or blog post, so you&#x27;ll be sent to the appropriate branch like that. But if you&#x27;re starting here and want to find out to which SAP Tech Bytes episode or blog post a given branch-based sample relates, you&#x27;ll find the back link in the README in that branch.
  
 ## Recent Branches
-- [2021-02-22-saphanacloud-db-import-tpcds-datafiles-from-s3](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-02-22-saphanacloud-db-import-tpcds-datafiles-from-s3) by ![Sygyzmundovych](https://avatars.githubusercontent.com/u/8822534?v=4) [Sygyzmundovych](https://api.github.com/users/Sygyzmundovych) 
-- [2021-02-20-approuter-user-api-service](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-02-20-approuter-user-api-service) by ![qmacro](https://avatars.githubusercontent.com/u/73068?v=4) [qmacro](https://api.github.com/users/qmacro) 
-- [2021-02-17-multi-module-fiori-project](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-02-17-multi-module-fiori-project) by ![IObert](https://avatars.githubusercontent.com/u/1873245?v=4) [IObert](https://api.github.com/users/IObert) 
+- [2021-02-22-saphanacloud-db-import-tpcds-datafiles-from-s3](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-02-22-saphanacloud-db-import-tpcds-datafiles-from-s3) by ![Sygyzmundovych](https://avatars.githubusercontent.com/u/8822534?v=4 =48px) [Sygyzmundovych](https://github.com/Sygyzmundovych) 
+- [2021-02-20-approuter-user-api-service](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-02-20-approuter-user-api-service) by ![qmacro](https://avatars.githubusercontent.com/u/73068?v=4 =48px) [qmacro](https://github.com/qmacro) 
+- [2021-02-17-multi-module-fiori-project](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-02-17-multi-module-fiori-project) by ![IObert](https://avatars.githubusercontent.com/u/1873245?v=4 =48px) [IObert](https://github.com/IObert) 
 
 ## Recent Blog Posts
 - [SAP Tech Bytes: Approuter User API Service](https://blogs.sap.com/?p=1281120) by DJ Adams (Sat Feb 20 2021)
