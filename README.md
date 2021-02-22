@@ -19,7 +19,7 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 ## Recent Blog Posts
 - [SAP Tech Bytes: Approuter User API Service](https://blogs.sap.com/?p=1281120) by DJ Adams (Sat Feb 20 2021)
   - SAP Tech Bytes is an initiative to bring you bite-sized information on all manner of topics, in video and written format. Enjoy! In the SAP Developer News episode for calendar week 04, there was an item covering updates to some NPM packages, including @sap/approuter – which now has a User ...
-- More on [My SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
+- More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
 - [SAP Tech Bytes: Tutorial - Creating a Multi-module SAP Fiori Project](https://www.youtube.com/watch?v=yvUUBbw85-M) (Wed Feb 17 2021)
