@@ -19,6 +19,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 ## Recent Blog Posts
 - [SAP Tech Bytes: Approuter User API Service](https://blogs.sap.com/?p=1281120) by DJ Adams (Sat Feb 20 2021)
   - Use a simple example to kick the tyres of the new User API Service available in the @sap/approuter NPM package. In the SAP Developer News episode for calendar week 04, there was an item covering updates to some NPM packages, including @sap/approuter – which now has a User API Service. ...
+- [An overview of SAP Developers video content](https://blogs.sap.com/?p=1217792) by DJ Adams (Mon Nov 09 2020)
+  - There’s a wealth of video content for SAP developers on the SAP Developers YouTube channel. Find out what it is, and how to navigate it. Back in January 2019, our live streaming journey started over on Twitch as somewhat of an experiment, before moving over to YouTube. Initially we streamed ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
