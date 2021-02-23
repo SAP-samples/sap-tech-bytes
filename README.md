@@ -18,7 +18,7 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 
 ## Recent Blog Posts
 - [SAP Tech Bytes: Approuter User API Service](https://blogs.sap.com/?p=1281120) by DJ Adams (Sat Feb 20 2021)
-  - SAP Tech Bytes is an initiative to bring you bite-sized information on all manner of topics, in video and written format. Enjoy! In the SAP Developer News episode for calendar week 04, there was an item covering updates to some NPM packages, including @sap/approuter – which now has a User ...
+  - Use a simple example to kick the tyres of the new User API Service available in the @sap/approuter NPM package. In the SAP Developer News episode for calendar week 04, there was an item covering updates to some NPM packages, including @sap/approuter – which now has a User API Service. ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
