@@ -24,6 +24,7 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [SAP Tech Bytes: SAP Mobile Cards](https://www.youtube.com/watch?v=yCgZZD1HsgE) (Wed Feb 24 2021)
 - [SAP Tech Bytes: Tutorial - Creating a Multi-module SAP Fiori Project](https://www.youtube.com/watch?v=yvUUBbw85-M) (Wed Feb 17 2021)
 - [SAP Tech Bytes: Tutorial - Create a Calculation View of Type Cube in the SAP HANA Cloud](https://www.youtube.com/watch?v=fwwPcYZb-jQ) (Tue Feb 02 2021)
 - [SAP Tech Bytes: Tutorial - Create a Calculation View with Differential Privacy in SAP HANA Cloud](https://www.youtube.com/watch?v=kZhATB7yJ-M) (Tue Feb 02 2021)
