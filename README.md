@@ -17,6 +17,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-02-17-multi-module-fiori-project](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-02-17-multi-module-fiori-project) by [IObert](https://github.com/IObert) 
 
 ## Recent Blog Posts
+- [Loading TPC-DS files into SAP HANA Cloud from a cloud storage (Amazon S3)](https://blogs.sap.com/?p=1279994) by Witalij Rudnicki (Wed Feb 24 2021)
+  - Being the cloud-native product SAP HANA Cloud does not give you an access to the underlying OS shell and file system. Therefore it is not possible to load a file from the database server as you can do with on-prem SAP HANA. But through its broad data integration capabilities SAP ...
 - [SAP Tech Bytes: Approuter User API Service](https://blogs.sap.com/?p=1281120) by DJ Adams (Sat Feb 20 2021)
   - Use a simple example to kick the tyres of the new User API Service available in the @sap/approuter NPM package. In the SAP Developer News episode for calendar week 04, there was an item covering updates to some NPM packages, including @sap/approuter – which now has a User API Service. ...
 - [An overview of SAP Developers video content](https://blogs.sap.com/?p=1217792) by DJ Adams (Mon Nov 09 2020)
