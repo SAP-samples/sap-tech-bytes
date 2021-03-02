@@ -4,7 +4,7 @@ The related blog post https://blogs.sap.com/2021/02/24/loading-tpc-ds-files-into
 
 Prerequisites
 * [SAP HANA Cloud trial](https://developers.sap.com/tutorials/hana-cloud-deploying.html) or productive account.
-* AWS Account
+* AWS Account (a free tier with services free for 12 months is sufficient)
 
 ---
 
