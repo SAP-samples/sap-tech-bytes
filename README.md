@@ -21,17 +21,15 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - Being the cloud-native product SAP HANA Cloud does not give you an access to the underlying OS shell and file system. Therefore it is not possible to load a file from the database server as you can do with on-prem SAP HANA. But through its broad data integration capabilities SAP ...
 - [SAP Tech Bytes: Approuter User API Service](https://blogs.sap.com/?p=1281120) by DJ Adams (Sat Feb 20 2021)
   - Use a simple example to kick the tyres of the new User API Service available in the @sap/approuter NPM package. In the SAP Developer News episode for calendar week 04, there was an item covering updates to some NPM packages, including @sap/approuter – which now has a User API Service. ...
-- [An overview of SAP Developers video content](https://blogs.sap.com/?p=1217792) by DJ Adams (Mon Nov 09 2020)
-  - There’s a wealth of video content for SAP developers on the SAP Developers YouTube channel. Find out what it is, and how to navigate it. Back in January 2019, our live streaming journey started over on Twitch as somewhat of an experiment, before moving over to YouTube. Initially we streamed ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [SAP Tech Bytes: SAP Mobile Development Kit](https://www.youtube.com/watch?v=iRuVJ0GMCoI) (Wed Mar 03 2021)
 - [SAP Tech Bytes: SAP Mobile Cards](https://www.youtube.com/watch?v=yCgZZD1HsgE) (Wed Feb 24 2021)
 - [SAP Tech Bytes: Tutorial - Creating a Multi-module SAP Fiori Project](https://www.youtube.com/watch?v=yvUUBbw85-M) (Wed Feb 17 2021)
 - [SAP Tech Bytes: Tutorial - Create a Calculation View of Type Cube in the SAP HANA Cloud](https://www.youtube.com/watch?v=fwwPcYZb-jQ) (Tue Feb 02 2021)
 - [SAP Tech Bytes: Tutorial - Create a Calculation View with Differential Privacy in SAP HANA Cloud](https://www.youtube.com/watch?v=kZhATB7yJ-M) (Tue Feb 02 2021)
 - [SAP Tech Bytes: Tutorial - Access a Classic Schema from SAP Business Application Studio](https://www.youtube.com/watch?v=ItEvMHWGak0) (Tue Feb 02 2021)
-- [SAP Tech Bytes: Tutorial - Create SAP HANA Database Project](https://www.youtube.com/watch?v=O0x7Jt6yre0) (Mon Feb 01 2021)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
