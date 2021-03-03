@@ -1,8 +1,9 @@
 #!/bin/bash
 set -e
 
-source env_tpcds.sh
-log_file=${myTemp_folder}/${0}__$(date +%Y%m%e%H%M).log
+source ${0%/*}/env_tpcds.sh
+log_file=${myTemp_folder}/${0##*/}__$(date +%Y%m%d%H%M).log
+echo -e "Logging to a file ${log_file}"
 
 if [ ! -f ~/sap/hdbclient/hdbsql ]; then
   echo "You should have ~/sap/hdbclient/hdbsql installed!"
