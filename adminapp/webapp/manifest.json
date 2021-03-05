@@ -1,5 +1,8 @@
 {
     "_version": "",
+    "sap.cloud": {
+        "service": "techbytes"
+    },
     "sap.app": {
         "id": "adminapp",
         "type": "application",
