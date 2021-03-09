@@ -1,0 +1,10 @@
+{
+    "authenticationMethod": "route",
+    "routes": [
+        {
+            "source": "(.*)",
+            "target": "$1",
+            "destination": "VirtualCAP"
+        }
+    ]
+}

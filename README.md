@@ -1,25 +1,23 @@
-# SAP Tech Bytes - 2021-02-17
+# SAP Tech Bytes - 2021-03-09
 
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0zzFCfuUIbs/0.jpg)](https://www.youtube.com/watch?v=0zzFCfuUIbs)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yvUUBbw85-M/0.jpg)](https://www.youtube.com/embed/yvUUBbw85-M)
-
-
-
-This video shows how to use the SAP Business Application Studio to create a project that included multiple HTML5 modules
+This video shows how to leverage the SAP Business Application Studio to verify whether your SAP BTP destinations are working correctly.
 
 Background reading:
-[Serverless SAP Fiori Apps on SAP BTP, Cloud Foundry environment](https://blogs.sap.com/2020/10/02/serverless-sap-fiori-apps-in-sap-cloud-platform/)
+[Using the Destination service in SAP BTP, Cloud Foundry Environment](https://blogs.sap.com/2018/10/08/using-the-destination-service-in-the-cloud-foundry-environment/)
 
 You will learn
-* How to create a basic multi-target application project in the SAP Business Application Studio
-* How to add a managed application router and HTML5 modules
-* How to deploy the project to SAP BTP
+* How to test destinations via the terminal
+* How to test destinations via an application router
+* That the SAP Cloud Connector can be used to create a secure tunnel
 
 Prerequisites
-* [Set Up SAP Cloud Platform Launchpad Service](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-getting-started.html)
-* [You are logged in to SAP Business Application Studio and its configured](https://developers.sap.com/tutorials/appstudio-onboarding.html)​
-* [Create a destination with the name "UI5"](https://developers.sap.com/tutorials/appstudio-sapui5-create.html#04188525-d917-41ac-8d2c-ee4ef11ab774)
+* [Set Up SAP Cloud Connector](https://github.com/SAP-samples/cloud-workflow-codejam/tree/master/exercises/03) and [destinations](https://github.com/SAP-samples/cloud-workflow-codejam/tree/master/exercises/04)
+* [You are logged in to SAP Business Application Studio and it is configured](https://developers.sap.com/tutorials/appstudio-onboarding.html)​
+* [(Optional) Create any other destination](
+https://developers.sap.com/tutorials/cp-cf-create-destination.html)
 
 
 ---

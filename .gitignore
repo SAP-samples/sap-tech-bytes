@@ -1,6 +1,3 @@
 node_modules/
-resources/
-mta_archives/
-dist/
-package-lock.json
-yarn.lock
+/mta_archives/
+/resources/
