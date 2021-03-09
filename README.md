@@ -12,6 +12,7 @@ Where there&#x27;s sample code or configuration to share, specifically relating 
 Perhaps most of the time you&#x27;ll be arriving at this repository, coming from such an episode or blog post, so you&#x27;ll be sent to the appropriate branch like that. But if you&#x27;re starting here and want to find out to which SAP Tech Bytes episode or blog post a given branch-based sample relates, you&#x27;ll find the back link in the README in that branch.
  
 ## Recent Branches
+- [2021-03-09-testing-sap-btp-destinations](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-03-09-testing-sap-btp-destinations) by [IObert](https://github.com/IObert) 
 - [2021-02-22-saphanacloud-db-import-tpcds-datafiles-from-s3](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-02-22-saphanacloud-db-import-tpcds-datafiles-from-s3) by [Sygyzmundovych](https://github.com/Sygyzmundovych) 
 - [2021-02-20-approuter-user-api-service](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-02-20-approuter-user-api-service) by [qmacro](https://github.com/qmacro) 
 - [2021-02-17-multi-module-fiori-project](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-02-17-multi-module-fiori-project) by [IObert](https://github.com/IObert) 
@@ -24,12 +25,12 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [SAP Tech Bytes: Tutorial - Testing SAP BTP Destinations](https://www.youtube.com/watch?v=0zzFCfuUIbs) (Tue Mar 09 2021)
 - [SAP Tech Bytes: SAP Mobile Development Kit](https://www.youtube.com/watch?v=iRuVJ0GMCoI) (Wed Mar 03 2021)
 - [SAP Tech Bytes: SAP Mobile Cards](https://www.youtube.com/watch?v=yCgZZD1HsgE) (Wed Feb 24 2021)
 - [SAP Tech Bytes: Tutorial - Creating a Multi-module SAP Fiori Project](https://www.youtube.com/watch?v=yvUUBbw85-M) (Wed Feb 17 2021)
 - [SAP Tech Bytes: Tutorial - Create a Calculation View of Type Cube in the SAP HANA Cloud](https://www.youtube.com/watch?v=fwwPcYZb-jQ) (Tue Feb 02 2021)
 - [SAP Tech Bytes: Tutorial - Create a Calculation View with Differential Privacy in SAP HANA Cloud](https://www.youtube.com/watch?v=kZhATB7yJ-M) (Tue Feb 02 2021)
-- [SAP Tech Bytes: Tutorial - Access a Classic Schema from SAP Business Application Studio](https://www.youtube.com/watch?v=ItEvMHWGak0) (Tue Feb 02 2021)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
