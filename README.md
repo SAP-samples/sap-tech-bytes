@@ -2,7 +2,7 @@
 
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yvUUBbw85-M/0.jpg)](https://www.youtube.com/embed/yvUUBbw85-M)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yvUUBbw85-M/0.jpg)](https://www.youtube.com/watch?v=yvUUBbw85-M)
 
 
 
