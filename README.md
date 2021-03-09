@@ -18,7 +18,7 @@ You will learn
 
 Prerequisites
 * [Set Up SAP Cloud Platform Launchpad Service](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-getting-started.html)
-* [You are logged in to SAP Business Application Studio and its configured](https://developers.sap.com/tutorials/appstudio-onboarding.html)​
+* [You are logged in to SAP Business Application Studio and it is configured](https://developers.sap.com/tutorials/appstudio-onboarding.html)​
 * [Create a destination with the name "UI5"](https://developers.sap.com/tutorials/appstudio-sapui5-create.html#04188525-d917-41ac-8d2c-ee4ef11ab774)
 
 
