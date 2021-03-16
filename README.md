@@ -25,12 +25,12 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [SAP Tech Bytes: Tutorial - SAP HANA Cloud, Create Calculation View and Expose via CAP](https://www.youtube.com/watch?v=Zb_9ccGXIRk) (Tue Mar 16 2021)
 - [SAP Tech Bytes: Tutorial - SAP HANA Cloud, Add User Authentication to Your Application](https://www.youtube.com/watch?v=AvROFBCEcEc) (Mon Mar 15 2021)
 - [SAP Tech Bytes: Tutorial - SAP HANA Cloud, Create a UI with SAP Cloud Application Programming Model](https://www.youtube.com/watch?v=WMDpKa1QkFE) (Mon Mar 15 2021)
 - [SAP Tech Bytes: Tutorial - Create Database Artifacts Using Core Data Services for SAP HANA Cloud](https://www.youtube.com/watch?v=hlHY7eBriRA) (Thu Mar 11 2021)
 - [SAP Tech Bytes: Getting Started with SQLScript in SAP HANA Cloud - Part 1](https://www.youtube.com/watch?v=YIUe7rXAoTY) (Thu Mar 11 2021)
 - [SAP Tech Bytes: Tutorial - Create SAP Cloud Application Programming Model Project for SAP HANA Cloud](https://www.youtube.com/watch?v=ydDOGz7P--8) (Thu Mar 11 2021)
-- [SAP TechBytes: SAP BTP SDK for iOS](https://www.youtube.com/watch?v=CA7hA2G7VCo) (Wed Mar 10 2021)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
