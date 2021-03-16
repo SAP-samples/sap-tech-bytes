@@ -19,6 +19,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-02-17-multi-module-fiori-project](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-02-17-multi-module-fiori-project) by [IObert](https://github.com/IObert) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: SAP HANA Mass Input with Duplicates](https://blogs.sap.com/?p=1300544) by Thomas Jung (Tue Mar 16 2021)
+  - Recently I was working on a project and hit a rather interesting challenge. I needed to insert large datasets from multiple Excel spreadsheets into SAP HANA. That alone wouldn’t be too difficult, but my situation had a few wrinkles. First the data I needed to process would contain duplicate entries ...
 - [Scripting import of multiple files into SAP HANA Cloud from a cloud storage (Amazon S3)](https://blogs.sap.com/?p=1279994) by Witalij Rudnicki (Wed Feb 24 2021)
   - Being the cloud-native product SAP HANA Cloud does not give you an access to the underlying OS shell and file system. Therefore it is not possible to load a file from the database server as you can do with on-prem SAP HANA. But through its broad data integration capabilities SAP ...
 - [SAP Tech Bytes: Approuter User API Service](https://blogs.sap.com/?p=1281120) by DJ Adams (Sat Feb 20 2021)
