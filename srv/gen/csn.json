@@ -1,0 +1,64 @@
+{
+  "definitions": {
+    "Catalog": {
+      "@source": "service.cds",
+      "kind": "service"
+    },
+    "Catalog.Stats": {
+      "kind": "entity",
+      "query": {
+        "SELECT": {
+          "from": {
+            "ref": [
+              "Stats"
+            ],
+            "as": "StatsSource"
+          }
+        }
+      },
+      "elements": {
+        "org": {
+          "key": true,
+          "type": "cds.String"
+        },
+        "repository": {
+          "key": true,
+          "type": "cds.String"
+        },
+        "date": {
+          "key": true,
+          "type": "cds.Date"
+        },
+        "views": {
+          "type": "cds.Integer"
+        }
+      },
+      "$syntax": "projection"
+    },
+    "Stats": {
+      "kind": "entity",
+      "elements": {
+        "org": {
+          "key": true,
+          "type": "cds.String"
+        },
+        "repository": {
+          "key": true,
+          "type": "cds.String"
+        },
+        "date": {
+          "key": true,
+          "type": "cds.Date"
+        },
+        "views": {
+          "type": "cds.Integer"
+        }
+      }
+    }
+  },
+  "meta": {
+    "flavor": "inferred",
+    "creator": "CDS Compiler v1.50.0"
+  },
+  "$version": "1.0"
+}

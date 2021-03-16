@@ -1,0 +1,39 @@
+{
+    "name": "hana-mass-input-with-dups",
+    "version": "1.0.0",
+    "description": "A simple CAP project.",
+    "repository": "<Add your repository here>",
+    "license": "UNLICENSED",
+    "private": true,
+    "dependencies": {
+        "@sap/cds": "^4",
+        "express": "^4",
+        "@sap/hana-client": "^2.7",
+        "inquirer": "^8.0.0",
+        "inquirer-fuzzy-path": "^2.3.0",
+        "ora": "^5.3.0",
+        "sap-hdbext-promisfied": "^2.202103",
+        "node-xlsx": "^0.16.1"
+    },
+    "devDependencies": {
+        "sqlite3": "^5.0.2"
+    },
+    "scripts": {
+        "start": "cds run",
+        "load": "node ./srv/loadData",
+        "clear": "node ./srv/clearData"
+    },
+    "cds": {
+        "build": {
+            "target": "."
+        },
+        "hana": {
+            "deploy-format": "hdbtable"
+        },
+        "requires": {
+            "db": {
+                "kind": "hana"
+            }
+        }
+    }
+}

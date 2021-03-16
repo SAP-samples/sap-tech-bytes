@@ -1,0 +1,16 @@
+{
+  "file_suffixes": {
+    "csv": {
+      "plugin_name": "com.sap.hana.di.tabledata.source"
+    },
+    "hdbtable": {
+      "plugin_name": "com.sap.hana.di.table"
+    },
+    "hdbtabledata": {
+      "plugin_name": "com.sap.hana.di.tabledata"
+    },
+    "hdbview": {
+      "plugin_name": "com.sap.hana.di.view"
+    }
+  }
+}
