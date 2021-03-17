@@ -50,6 +50,10 @@ modules:
       - adminapp.zip
       name: adminapp
       target-path: resources/
+    - artifacts:
+      - apjfioriapp.zip
+      name: apjfioriapp
+      target-path: resources/
 - name: publicapp
   type: html5
   path: publicapp
@@ -63,6 +67,16 @@ modules:
 - name: adminapp
   type: html5
   path: adminapp
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []
+- name: apjfioriapp
+  type: html5
+  path: apjfioriapp
   build-parameters:
     build-result: dist
     builder: custom
