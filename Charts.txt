@@ -1,0 +1,33 @@
+title Token Flow OAuth2UserTokenExchange
+
+User Interface->SAP BTP Connectivity Service:Request by user A \n with token A1[]
+SAP BTP Connectivity Service->CAP Backend:Request data with token A2[admin]
+CAP Backend->SAP BTP Connectivity Service:HTTP 200
+SAP BTP Connectivity Service->User Interface:HTTP 200
+
+
+User Interface->SAP BTP Connectivity Service:Request by user B \n with token B1[]
+SAP BTP Connectivity Service->CAP Backend:Request data with token B2[admin]
+CAP Backend->SAP BTP Connectivity Service:HTTP 200
+SAP BTP Connectivity Service->User Interface:HTTP 200
+
+
+
+
+
+title Token Flow OAuth2Password
+
+User Interface->SAP BTP Connectivity Service:Request by user A \n with token A1[]
+SAP BTP Connectivity Service->CAP Backend:Request data with token M1[admin]
+CAP Backend->SAP BTP Connectivity Service:HTTP 200
+SAP BTP Connectivity Service->User Interface:HTTP 200
+
+
+User Interface->SAP BTP Connectivity Service:Request by user B \n with token B1[]
+SAP BTP Connectivity Service->CAP Backend:Request data with token M2[admin]
+CAP Backend->SAP BTP Connectivity Service:HTTP 200
+SAP BTP Connectivity Service->User Interface:HTTP 200
+
+
+
+
