@@ -29,12 +29,12 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
-- [SAP Tech Bytes: SAP HANA & Cloud Application Programming Model Development Using Only VSCode and CLI](https://www.youtube.com/watch?v=slaqdw341T4) (Mon Mar 22 2021)
-- [SAP Tech Bytes: Understanding a Multi-module SAP Fiori Project](https://www.youtube.com/watch?v=2Czqs6zQV5c) (Thu Mar 18 2021)
-- [SAP Tech Bytes: SAP BTP SDK for Android](https://www.youtube.com/watch?v=CArLYfJU4dc) (Wed Mar 17 2021)
-- [SAP Tech Bytes: Tutorial - SAP HANA Cloud, Create Store Procedure and Expose as CAP Service Function](https://www.youtube.com/watch?v=wr9KpbqsNpM) (Tue Mar 16 2021)
-- [SAP Tech Bytes: Tutorial - SAP HANA Cloud, Create Calculation View and Expose via CAP](https://www.youtube.com/watch?v=Zb_9ccGXIRk) (Tue Mar 16 2021)
-- [SAP Tech Bytes: Tutorial - SAP HANA Cloud, Add User Authentication to Your Application](https://www.youtube.com/watch?v=AvROFBCEcEc) (Mon Mar 15 2021)
+- [On-Device Machine Learning with CreateML and the SAP BTP SDK for iOS](https://www.youtube.com/watch?v=8Or1siLDIHM) (Thu Mar 25 2021)
+- [SAP Mobile Services: Features](https://www.youtube.com/watch?v=U0YtI1HrFYU) (Thu Mar 25 2021)
+- [SAP Mobile Services: Push Notifications](https://www.youtube.com/watch?v=uj0ORqO_yEA) (Thu Mar 25 2021)
+- [Load and Display Data using the SAP BTP SDK for iOS](https://www.youtube.com/watch?v=b3loeKdmzxI) (Thu Mar 25 2021)
+- [Run your app with Mac Catalyst on MacOS](https://www.youtube.com/watch?v=tiqNiFMss5E) (Thu Mar 25 2021)
+- [SAP Tech Bytes: Getting Started With SQLScript in SAP HANA Cloud - Part 3](https://www.youtube.com/watch?v=QD8Uaus6fbg) (Thu Mar 25 2021)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
