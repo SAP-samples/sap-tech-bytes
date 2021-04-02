@@ -29,12 +29,12 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [SAP Tech Bytes: Getting Started With SQLScript in SAP HANA Cloud - Part 4](https://www.youtube.com/watch?v=S_fgdnuwan0) (Wed Mar 31 2021)
 - [On-Device Machine Learning with CreateML and the SAP BTP SDK for iOS](https://www.youtube.com/watch?v=8Or1siLDIHM) (Thu Mar 25 2021)
 - [SAP Mobile Services: Features](https://www.youtube.com/watch?v=U0YtI1HrFYU) (Thu Mar 25 2021)
 - [SAP Mobile Services: Push Notifications](https://www.youtube.com/watch?v=uj0ORqO_yEA) (Thu Mar 25 2021)
 - [Load and Display Data using the SAP BTP SDK for iOS](https://www.youtube.com/watch?v=b3loeKdmzxI) (Thu Mar 25 2021)
 - [Run your app with Mac Catalyst on MacOS](https://www.youtube.com/watch?v=tiqNiFMss5E) (Thu Mar 25 2021)
-- [SAP Tech Bytes: Getting Started With SQLScript in SAP HANA Cloud - Part 3](https://www.youtube.com/watch?v=QD8Uaus6fbg) (Thu Mar 25 2021)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
