@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+readonly org="${1:?Specify org name}"
+
+jqscript() {
+
+  cat << EOF
+  .[]
+  | [
+    .name,
+    "Name: \(.name)\n\nDescription: \(.description)\n\nLanguage: \(.language)\nWatchers: \(.watchers_count)\nStars: \(.stargazers_count)\nForks: \(.forks_count)"
+    ]
+  | @tsv
+EOF
+
+}
+
+
+gh api \
+  "/orgs/$org/repos" \
+  --paginate \
+  --cache 1h \
+  --jq "$(jqscript)" \
+  | fzf \
+    --with-nth=1 \
+    --delimiter='\t' \
+    --preview='echo -e {2}' \
+    --preview-window=up:sharp:wrap:40%
