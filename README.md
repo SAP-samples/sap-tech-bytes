@@ -1,6 +1,6 @@
 # GitHub Organization Sampler
 
-The content in this branch accompanies the post [Exploring SAP-samples with gh and fzf](https://blogs.sap.com/2021/04/05/sap-tech-bytes-exploring-sap-samples-with-gh-and-fzf).
+The content in this branch accompanies the post [Exploring SAP-samples with gh and fzf](https://blogs.sap.com/2021/04/06/sap-tech-bytes-exploring-sap-samples-with-gh-and-fzf).
 
 Install `gh` by following the [installation instructions](https://cli.github.com/manual/installation), then [authenticate `gh` for use](https://cli.github.com/manual/gh_auth) (you'll need to do this once only).
 
