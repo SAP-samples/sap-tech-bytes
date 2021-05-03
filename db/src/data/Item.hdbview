@@ -18,4 +18,4 @@ VIEW "PO_ITEM_VIEW" COMMENT 'Purchase Order Item View'
 	 "Item_$0"."QUANTITY" ,
 	 "Item_$0"."QUANTITYUNIT",
 	 "Item_$0"."DELIVERYDATE"
-FROM "PO.Item" AS "Item_$0" WITH READ ONLY 
+FROM "PO.Item" AS "Item_$0"

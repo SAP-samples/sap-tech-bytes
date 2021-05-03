@@ -11,6 +11,6 @@ BEGIN
    *************************************/
    Items = 
      select *
-              from "PO_ITEM_VIEW";
+              from "PO_ITEM_VIEW" WHERE GROSSAMOUNT > 1000 limit 100;
 
 END
