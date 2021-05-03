@@ -25,6 +25,9 @@ module.exports = function (app) {
 
 	require('./healthCheck')(app, { hdbext: HDBConn, hanaOptions: hanaOptions })
 	require('./overloadProtection')(app)
+	
+	const cors = require('cors')
+	app.use(cors())
 
 	require('./expressSecurity')(app)
 
