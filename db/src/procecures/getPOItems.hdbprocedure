@@ -1,0 +1,16 @@
+
+PROCEDURE "getPOItems" ( 
+    OUT Items "PO_ITEM_VIEW" )
+   LANGUAGE SQLSCRIPT
+   SQL SECURITY INVOKER
+   --DEFAULT SCHEMA <default_schema_name>
+   READS SQL DATA AS
+BEGIN
+   /*************************************
+       Write your procedure logic 
+   *************************************/
+   Items = 
+     select *
+              from "PO_ITEM_VIEW";
+
+END

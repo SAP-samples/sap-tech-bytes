@@ -1,0 +1,16 @@
+_schema-version: "2.1"
+ID: hana-existing-starting
+version: 0.0.1
+modules:
+- name: db
+  type: hdb
+  path: db
+  requires:
+  - name: hana-po
+    properties:
+      TARGET_CONTAINER: ~{hdi-container-name}
+resources:
+- name: hana-po
+  type: com.sap.xs.hdi-container
+  properties:
+    hdi-container-name: ${service-name}

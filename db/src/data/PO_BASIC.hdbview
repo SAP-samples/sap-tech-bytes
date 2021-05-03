@@ -1,0 +1,33 @@
+VIEW "PO_BASIC_VIEW" COMMENT 'Purchase Order Item View'
+   ( "PURCHASEORDERID",
+   	 "CREATED_BY_EMPLOYEEID",
+	 "CREATED_AT",
+     "CHANGED_BY_EMPLOYEEID",
+	 "CHANGED_AT",
+     "PARTNER_ID",
+	 "CURRENCY",
+	 "GROSSAMOUNT",
+	 "NETAMOUNT",
+	 "TAXAMOUNT",
+     "LIFECYCLESTATUS",
+	 "APPROVALSTATUS" ,
+	 "CONFIRMSTATUS" ,
+	 "ORDERINGSTATUS",
+	 "INVOICINGSTATUS"
+	 ) AS SELECT
+	 "Item_$0"."pold" AS "PURCHASEORDERID" ,
+     "Item_$0"."createdBy" AS "CREATED_BY_EMPLOYEEID",
+	 "Item_$0"."createdAt" AS "CREATED_AT" ,
+     "Item_$0"."changedBy" AS "CHANGED_BY_EMPLOYEEID",
+	 "Item_$0"."changedAt" AS "CHANGED_AT" ,
+	 "Item_$0"."partnerId" AS "PARTNER_ID" ,
+	 "Item_$0"."currency" AS "CURRENCY",
+	 "Item_$0"."grossAmount" AS "GROSSAMOUNT",
+	 "Item_$0"."netAmount" AS "NETAMOUNT",
+	 "Item_$0"."taxAmount" AS "TAXAMOUNT" ,
+     "Item_$0"."lifecycleStatus" AS "LIFECYCLESTATUS",
+	 "Item_$0"."approvalStatus" AS "APPROVALSTATUS",
+	 "Item_$0"."confirmStatus" AS "CONFIRMSTATUS",
+	 "Item_$0"."orderingStatus" AS "CONFIRMSTATUS",
+	 "Item_$0"."invoicingStatus" as "INVOICINGSTATUS"
+FROM "core.models::PO_BASIC" AS "Item_$0" WITH READ ONLY 
