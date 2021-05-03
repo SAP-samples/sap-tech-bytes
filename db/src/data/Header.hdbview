@@ -15,4 +15,4 @@ VIEW "PO_HEADER_VIEW" COMMENT 'Purchase Order Header View'
 	 "Header_$0"."GROSSAMOUNT",
 	 "Header_$0"."NETAMOUNT",
 	 "Header_$0"."TAXAMOUNT"
-FROM "PO.Header" AS "Header_$0" WITH READ ONLY 
+FROM "PO.Header" AS "Header_$0"
