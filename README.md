@@ -14,10 +14,10 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 ## Recent Branches
 - [2021-05-03-serverless-sap-fiori-apps-kyma-runtime](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-serverless-sap-fiori-apps-kyma-runtime) by [IObert](https://github.com/IObert) 
 - [2021-05-03-hana-existing-starting](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-starting) by [jung-thomas](https://github.com/jung-thomas) 
+- [2021-05-03-hana-existing-nodejs](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-nodejs) by [jung-thomas](https://github.com/jung-thomas) 
+- [2021-05-03-hana-existing-cap](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-cap) by [jung-thomas](https://github.com/jung-thomas) 
 - [2021-04-05-exploring-sap-samples-with-gh-and-fzf](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-04-05-exploring-sap-samples-with-gh-and-fzf) by [qmacro](https://github.com/qmacro) 
 - [2021-03-18-understand-multi-module-fiori-project](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-03-18-understand-multi-module-fiori-project) by [IObert](https://github.com/IObert) 
-- [2021-03-17-hana-mass-input-with-dups](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-03-17-hana-mass-input-with-dups) by [jung-thomas](https://github.com/jung-thomas) 
-- [2021-03-09-testing-sap-btp-destinations](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-03-09-testing-sap-btp-destinations) by [IObert](https://github.com/IObert) 
 
 ## Recent Blog Posts
 - [SAP Tech Bytes: Exploring SAP-samples with gh and fzf](https://blogs.sap.com/?p=1311682) by DJ Adams (Tue Apr 06 2021)
