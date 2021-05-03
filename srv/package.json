@@ -1,0 +1,35 @@
+{
+  "name": "srv",
+  "version": "1.0.0",
+  "description": "Service Layer",
+  "dependencies": {
+    "@cloudnative/health-connect": "^2.1.0",
+    "@sap/hdbext": "~7.1",
+    "sap-hdbext-promisfied": "^2.202104",
+    "@sap/logging": "^6.0",
+    "@sap/textbundle": "^4.0",
+    "@sap/xsenv": "^3.1",
+    "@sap/xssec": "^3.2",
+    "accept-language-parser": "latest",
+    "event-loop-lag": "1.4.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6",
+    "opossum": "^6.0",
+    "opossum-prometheus": "^0.3",
+    "overload-protection": "^1.1.0",
+    "passport": "~0.4.0",
+    "pg": "^8.6",
+    "swagger-jsdoc": "^3.7",
+    "swagger-ui-express": "^4.1",
+    "then-request": "^6.0.2",
+    "@dynatrace/oneagent-sdk": "^1.3.0",
+    "node-zip": "^1.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC"
+}

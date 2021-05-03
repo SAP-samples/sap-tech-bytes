@@ -9,6 +9,18 @@ modules:
   - name: hana-po
     properties:
       TARGET_CONTAINER: ~{hdi-container-name}
+
+
+- name: hana-existing-cap-srv
+  type: nodejs
+  path: srv
+  requires:
+   - name: hana-po
+  provides:
+   - name: srv-api      # required by consumers of services (e.g. approuter)
+     properties:
+       srv-url: ${default-url}      
+
 resources:
 - name: hana-po
   type: com.sap.xs.hdi-container
