@@ -1,12 +1,12 @@
-# SAP Tech Bytes - 2021-03-09
+# SAP Tech Bytes - 2021-05-03
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0zzFCfuUIbs/0.jpg)](https://www.youtube.com/watch?v=0zzFCfuUIbs)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi//0.jpg)](https://www.youtube.com/watch?v=)
 
-This video shows how to leverage the SAP Business Application Studio to verify whether your SAP BTP destinations are working correctly.
+Learn how to create a project that includes an HTML5 module that exposes data retrieved from a second Node.js backend module. You will see how both modules can be dockerized and deployed to SAP BTP, Kyma runtime. 
 
 Background reading:
-[Using the Destination service in SAP BTP, Cloud Foundry Environment](https://blogs.sap.com/2018/10/08/using-the-destination-service-in-the-cloud-foundry-environment/)
+[Deploy Serverless SAP Fiori Apps from the Kyma Runtime](https://blogs.sap.com/2021/03/01/deploy-serverless-sap-fiori-apps-from-the-kyma-runtime/)
 
 You will learn
 * How to test destinations via the terminal
@@ -14,11 +14,10 @@ You will learn
 * That the SAP Cloud Connector can be used to create a secure tunnel
 
 Prerequisites
-* [Set Up SAP Cloud Connector](https://github.com/SAP-samples/cloud-workflow-codejam/tree/master/exercises/03) and [destinations](https://github.com/SAP-samples/cloud-workflow-codejam/tree/master/exercises/04)
-* [You are logged in to SAP Business Application Studio and it is configured](https://developers.sap.com/tutorials/appstudio-onboarding.html)​
-* [(Optional) Create any other destination](
-https://developers.sap.com/tutorials/cp-cf-create-destination.html)
-
+* [Set Up SAP Cloud Platform Launchpad Service](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-getting-started.html)
+* [Enable SAP BTP, Kyma Runtime](https://developers.sap.com/tutorials/cp-kyma-getting-started.html)​
+* [Install the Kubernetes Command Line Tool](https://developers.sap.com/tutorials/cp-kyma-download-cli.htmll)
+* [Install Docker](https://docs.docker.com/get-docker/) and log in with your [Docker ID](https://docs.docker.com/docker-id/)
 
 ---
 
