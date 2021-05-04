@@ -1,7 +1,7 @@
 # SAP Tech Bytes - 2021-05-03
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi//0.jpg)](https://www.youtube.com/watch?v=)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/48vOeu7XqkM/0.jpg)](https://www.youtube.com/watch?v=48vOeu7XqkM)
 
 Learn how to create a project that includes an HTML5 module that exposes data retrieved from a second Node.js backend module. You will see how both modules can be dockerized and deployed to SAP BTP, Kyma runtime. 
 
