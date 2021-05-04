@@ -9,9 +9,10 @@ Background reading:
 [Deploy Serverless SAP Fiori Apps from the Kyma Runtime](https://blogs.sap.com/2021/03/01/deploy-serverless-sap-fiori-apps-from-the-kyma-runtime/)
 
 You will learn
-* How to test destinations via the terminal
-* How to test destinations via an application router
-* That the SAP Cloud Connector can be used to create a secure tunnel
+* How to build a minimalistic SAP Fiori application 
+* How to extract information from a JWT token
+* How to create Docker images for each module
+* How to deploy the project to SAP BTP, Kyma runtime
 
 Prerequisites
 * [Set Up SAP Cloud Platform Launchpad Service](https://developers.sap.com/tutorials/cp-portal-cloud-foundry-getting-started.html)
