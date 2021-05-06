@@ -31,12 +31,12 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [SAP Tech Bytes: Advocates Service – CAP Service, OData V2/4 & REST in One single Project](https://www.youtube.com/watch?v=LocKpyv2m8Y) (Thu May 06 2021)
 - [SAP Tech Bytes: Adding Node.js Module to Existing SAP HANA Project](https://www.youtube.com/watch?v=5GTTtq8405Y) (Wed May 05 2021)
 - [SAP Tech Bytes: Converting Existing SAP HANA Project to Cloud Application Programming Model](https://www.youtube.com/watch?v=CrhIfKvI1bs) (Wed May 05 2021)
 - [SAP Tech Bytes: Deploy Serverless SAP Fiori Apps from the Kyma Runtime](https://www.youtube.com/watch?v=48vOeu7XqkM) (Tue May 04 2021)
 - [SAP Tech Bytes: SAP Mobile Cards Push](https://www.youtube.com/watch?v=Msd0AFZ9Hd8) (Wed Apr 28 2021)
 - [SAP Tech Bytes: SAP BTP SDK for iOS & CAP with OData V4 support](https://www.youtube.com/watch?v=VLHNgeAw8Zg) (Wed Apr 21 2021)
-- [SAP Tech Bytes: Getting Started With SQLScript in SAP HANA Cloud - Part 5](https://www.youtube.com/watch?v=wPOpNo3PwGo) (Tue Apr 06 2021)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
