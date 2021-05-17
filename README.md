@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-03-18-understand-multi-module-fiori-project](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-03-18-understand-multi-module-fiori-project) by [IObert](https://github.com/IObert) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: FAQ Managed Approuter vs. Standalone Approuter](https://blogs.sap.com/?p=1334880) by Marius Obert (Mon May 17 2021)
+  - In the past two years, I wrote a few posts that explained the nature of the managed approuter and when it can be helpful to use this feature (here and here). In parallel, we created a GitHub repository that contains sample projects and diagrams to make the differences between both ...
 - [SAP Tech Bytes: Adding Service Implementation to an SAP HANA Project](https://blogs.sap.com/?p=1332159) by Thomas Jung (Fri May 07 2021)
   - A recent question prompted this content. A customer had an existing SAP HANA only project they had created in the SAP Business Application Studio. They now wanted to add OData service functionality to this project. In SAP Web IDE you would run a wizard to add a Node.js module which ...
 - [SAP Tech Bytes: Exploring SAP-samples with gh and fzf](https://blogs.sap.com/?p=1311682) by DJ Adams (Tue Apr 06 2021)
