@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-03-18-understand-multi-module-fiori-project](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-03-18-understand-multi-module-fiori-project) by [IObert](https://github.com/IObert) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes meet #GeospatialTuesday: Import zipped shapefiles into SAP HANA Cloud using Database Explorer](https://blogs.sap.com/?p=1337809) by Witalij Rudnicki (Tue May 18 2021)
+  - Over years I posted quite many Geospatial Tuesday posts — short examples of what you can do with SAP HANA Spatial SQL. Some of those examples were based on the public free geospatial data available in Esri Shapefile format that you would import into your SAP HANA database. But over ...
 - [SAP Tech Bytes: FAQ Managed Approuter vs. Standalone Approuter](https://blogs.sap.com/?p=1334880) by Marius Obert (Mon May 17 2021)
   - In the past two years, I wrote a few posts that explained the nature of the managed approuter and when it can be helpful to use this feature (here and here). In parallel, we created a GitHub repository that contains sample projects and diagrams to make the differences between both ...
 - [SAP Tech Bytes: Adding Service Implementation to an SAP HANA Project](https://blogs.sap.com/?p=1332159) by Thomas Jung (Fri May 07 2021)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - Recently I was working on a project and hit a rather interesting challenge. I needed to insert large datasets from multiple Excel spreadsheets into SAP HANA. That alone wouldn’t be too difficult, but my situation had a few wrinkles. First the data I needed to process would contain duplicate entries ...
 - [Scripting import of multiple files into SAP HANA Cloud from a cloud storage (Amazon S3)](https://blogs.sap.com/?p=1279994) by Witalij Rudnicki (Wed Feb 24 2021)
   - Being the cloud-native product SAP HANA Cloud does not give you an access to the underlying OS shell and file system. Therefore it is not possible to load a file from the database server as you can do with on-prem SAP HANA. But through its broad data integration capabilities SAP ...
-- [SAP Tech Bytes: Approuter User API Service](https://blogs.sap.com/?p=1281120) by DJ Adams (Sat Feb 20 2021)
-  - Use a simple example to kick the tyres of the new User API Service available in the @sap/approuter NPM package. In the SAP Developer News episode for calendar week 04, there was an item covering updates to some NPM packages, including @sap/approuter – which now has a User API Service. ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
