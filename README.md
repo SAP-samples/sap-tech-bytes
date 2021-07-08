@@ -12,12 +12,12 @@ Where there&#x27;s sample code or configuration to share, specifically relating 
 Perhaps most of the time you&#x27;ll be arriving at this repository, coming from such an episode or blog post, so you&#x27;ll be sent to the appropriate branch like that. But if you&#x27;re starting here and want to find out to which SAP Tech Bytes episode or blog post a given branch-based sample relates, you&#x27;ll find the back link in the README in that branch.
  
 ## Recent Branches
+- [2021-07-07-predictive-scenarios](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-07-07-predictive-scenarios) by [Sygyzmundovych](https://github.com/Sygyzmundovych) 
 - [2021-05-03-serverless-sap-fiori-apps-kyma-runtime](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-serverless-sap-fiori-apps-kyma-runtime) by [IObert](https://github.com/IObert) 
 - [2021-05-03-hana-existing-starting](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-starting) by [jung-thomas](https://github.com/jung-thomas) 
 - [2021-05-03-hana-existing-nodejs](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-nodejs) by [jung-thomas](https://github.com/jung-thomas) 
 - [2021-05-03-hana-existing-cap](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-cap) by [jung-thomas](https://github.com/jung-thomas) 
 - [2021-04-05-exploring-sap-samples-with-gh-and-fzf](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-04-05-exploring-sap-samples-with-gh-and-fzf) by [qmacro](https://github.com/qmacro) 
-- [2021-03-18-understand-multi-module-fiori-project](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-03-18-understand-multi-module-fiori-project) by [IObert](https://github.com/IObert) 
 
 ## Recent Blog Posts
 - [SAP Tech Bytes meet #GeospatialTuesday: Import zipped shapefiles into SAP HANA Cloud using Database Explorer](https://blogs.sap.com/?p=1337809) by Witalij Rudnicki (Tue May 18 2021)
