@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-04-05-exploring-sap-samples-with-gh-and-fzf](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-04-05-exploring-sap-samples-with-gh-and-fzf) by [qmacro](https://github.com/qmacro) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: Your first Predictive Scenario in SAP Analytics Cloud](https://blogs.sap.com/?p=1366059) by Witalij Rudnicki (Fri Jul 09 2021)
+  - If you get interested in Machine Learning, then sooner rather than later you hear about or discover the website called Kaggle. Founded in 2010 Kaggle &quot;allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning ...
 - [SAP Tech Bytes meet #GeospatialTuesday: Import zipped shapefiles into SAP HANA Cloud using Database Explorer](https://blogs.sap.com/?p=1337809) by Witalij Rudnicki (Tue May 18 2021)
   - Over years I posted quite many Geospatial Tuesday posts — short examples of what you can do with SAP HANA Spatial SQL. Some of those examples were based on the public free geospatial data available in Esri Shapefile format that you would import into your SAP HANA database. But over ...
 - [SAP Tech Bytes: FAQ Managed Approuter vs. Standalone Approuter](https://blogs.sap.com/?p=1334880) by Marius Obert (Mon May 17 2021)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - Discover repositories that might be useful for you by exploring them from the command line with a couple of powerful tools. The SAP-samples organisation on GitHub contains many repositories with sample code on various SAP technology topics. There’s also a new show SAP Samples Spotlight on our SAP Developers YouTube ...
 - [SAP Tech Bytes: SAP HANA Mass Input with Duplicates](https://blogs.sap.com/?p=1300544) by Thomas Jung (Tue Mar 16 2021)
   - Recently I was working on a project and hit a rather interesting challenge. I needed to insert large datasets from multiple Excel spreadsheets into SAP HANA. That alone wouldn’t be too difficult, but my situation had a few wrinkles. First the data I needed to process would contain duplicate entries ...
-- [Scripting import of multiple files into SAP HANA Cloud from a cloud storage (Amazon S3)](https://blogs.sap.com/?p=1279994) by Witalij Rudnicki (Wed Feb 24 2021)
-  - Being the cloud-native product SAP HANA Cloud does not give you an access to the underlying OS shell and file system. Therefore it is not possible to load a file from the database server as you can do with on-prem SAP HANA. But through its broad data integration capabilities SAP ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
