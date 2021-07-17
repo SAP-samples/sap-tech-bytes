@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-04-05-exploring-sap-samples-with-gh-and-fzf](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-04-05-exploring-sap-samples-with-gh-and-fzf) by [qmacro](https://github.com/qmacro) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: Understand your classification model in Smart Predict](https://blogs.sap.com/?p=1371611) by Witalij Rudnicki (Fri Jul 16 2021)
+  - In the previous post “SAP Tech Bytes: Your first Predictive Scenario in SAP Analytics Cloud” of the series, with just a few clicks we have built our predictive model using Smart Predict in SAP Analytics Cloud. Or maybe you have built a classification model by yourself based on some other ...
 - [SAP Tech Bytes: Your first Predictive Scenario in SAP Analytics Cloud](https://blogs.sap.com/?p=1366059) by Witalij Rudnicki (Fri Jul 09 2021)
   - If you got interested in Machine Learning, then sooner rather than later you hear about or discover the website called Kaggle. Founded in 2010 Kaggle “allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning ...
 - [SAP Tech Bytes meet #GeospatialTuesday: Import zipped shapefiles into SAP HANA Cloud using Database Explorer](https://blogs.sap.com/?p=1337809) by Witalij Rudnicki (Tue May 18 2021)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - A recent question prompted this content. A customer had an existing SAP HANA only project they had created in the SAP Business Application Studio. They now wanted to add OData service functionality to this project. In SAP Web IDE you would run a wizard to add a Node.js module which ...
 - [SAP Tech Bytes: Exploring SAP-samples with gh and fzf](https://blogs.sap.com/?p=1311682) by DJ Adams (Tue Apr 06 2021)
   - Discover repositories that might be useful for you by exploring them from the command line with a couple of powerful tools. The SAP-samples organisation on GitHub contains many repositories with sample code on various SAP technology topics. There’s also a new show SAP Samples Spotlight on our SAP Developers YouTube ...
-- [SAP Tech Bytes: SAP HANA Mass Input with Duplicates](https://blogs.sap.com/?p=1300544) by Thomas Jung (Tue Mar 16 2021)
-  - Recently I was working on a project and hit a rather interesting challenge. I needed to insert large datasets from multiple Excel spreadsheets into SAP HANA. That alone wouldn’t be too difficult, but my situation had a few wrinkles. First the data I needed to process would contain duplicate entries ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
