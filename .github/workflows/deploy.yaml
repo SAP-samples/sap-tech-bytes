@@ -14,7 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          ref: '2021-08-02-github-actions-kyma'
+          ref: 2021-08-02-github-actions-kyma
 
       - run: npm install
 
@@ -38,7 +38,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: ghcr.io/tech-bytes-kyma-cicd
           labels: ${{ steps.meta.outputs.labels }}
 
       - uses: steebchen/kubectl@v2.0.0
