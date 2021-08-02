@@ -83,7 +83,7 @@ jobs:
         uses: steebchen/kubectl@v2.0.0
         with:
           config: ${{ secrets.DEV_KUBECONFIG }}
-          command: -n tutorial set image deployment/demo-app demo-app=${{needs.build-and-push-image.outputs.image-tag }}
+          command: -n tutorial set image deployment/tech-bytes tech-bytes=${{needs.build-and-push-image.outputs.image-tag }}
 
   create-release:
     needs: build-and-push-image
