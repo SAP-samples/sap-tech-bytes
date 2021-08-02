@@ -13,8 +13,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-        with:
-          ref: 2021-08-02-github-actions-kyma
 
       - run: npm install
 
