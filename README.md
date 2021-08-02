@@ -1,6 +1,6 @@
 # SAP Tech Bytes - 2021-08-02 Using GitHub Actions to Deploy Continuously to your Kyma/Kubernetes Cluster
 
-The content in this branch accompanies the post [SAP Tech Bytes: Using GitHub Actions to Deploy Continuously to your Kyma/Kubernetes Cluster](https://blogs.sap.com/2021/02/INSERT/).
+The content in this branch accompanies the post [SAP Tech Bytes: Using GitHub Actions to Deploy Continuously to your Kyma/Kubernetes Cluster](https://blogs.sap.com/2021/08/02/sap-tech-bytes-using-github-actions-to-deploy-continuously-to-kyma-kubernetes/).
 
 To try this out for yourself, follow these steps.
 ## 0. Preparations
