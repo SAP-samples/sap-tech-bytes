@@ -1,3 +1,5 @@
+# This file is only here for reference. Refer to this file to see the implementation that is actually used: https://github.com/SAP-samples/sap-tech-bytes/blob/main/.github/workflows/deploy.yaml
+
 name: Deploy Manually
 
 # Triggered manually
