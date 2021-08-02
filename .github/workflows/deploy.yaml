@@ -13,8 +13,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-        with:
-          ref: 2021-08-02-github-actions-kyma
 
       - run: npm install
 
@@ -36,14 +34,10 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
-          push: false
-          tags: ghcr.io/tech-bytes-kyma-cicd
+          context: .
+          push: true
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           labels: ${{ steps.meta.outputs.labels }}
-
-
-      - name: push service
-        run: |
-          docker push ghcr.io/tech-bytes-kyma-cicd
 
       - uses: steebchen/kubectl@v2.0.0
         with:
