@@ -27,11 +27,23 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v3
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
-          push: true
-          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+          push: false
+          tags: ghcr.io/tech-bytes-kyma-cicd
+          labels: ${{ steps.meta.outputs.labels }}
+
+
+      - name: push service
+        run: |
+          docker push ghcr.io/tech-bytes-kyma-cicd
 
       - uses: steebchen/kubectl@v2.0.0
         with:
