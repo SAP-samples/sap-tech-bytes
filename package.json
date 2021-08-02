@@ -1,14 +1,14 @@
 {
-  "name": "mta-project",
-  "version": "0.0.1",
-  "description": "Build and deployment scripts",
+  "name": "tech-bytes_kyma-cicd",
+  "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "clean": "rimraf resources mta_archives mta-op*",
-    "build": "rimraf resources mta_archives && mbt build --mtar archive",
-    "deploy": "cf deploy mta_archives/archive.mtar"
+    "start": "node server.js",
+    "build": "node buildScript.js",
+    "test": "echo \"Success\" "
   },
-  "devDependencies": {
-    "mbt": "^1.0.15",
-    "rimraf": "3.0.0"
+  "dependencies": {
+    "express": "^4.16.1",
+    "replace-in-file": "^6.2.0"
   }
 }

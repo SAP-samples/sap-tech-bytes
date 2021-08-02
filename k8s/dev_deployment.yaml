@@ -1,0 +1,62 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tech-bytes
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tech-bytes
+  template:
+    metadata:
+      labels:
+        app: tech-bytes
+        version: v1
+    spec:
+      containers:
+        - image: ghcr.io/sap-samples/tech-bytes-kyma-cicd:latest
+          imagePullPolicy: Always
+          name: tech-bytes
+          ports:
+            - name: http
+              containerPort: 3000
+          resources:
+            limits:
+              memory: 2000Mi
+            requests:
+              memory: 32Mi
+      imagePullSecrets:
+        - name: regcred
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: tech-bytes
+  labels:
+    app: tech-bytes
+spec:
+  ports:
+    - port: 8080
+      name: http
+      targetPort: 3000
+  selector:
+    app: tech-bytes
+
+---
+apiVersion: gateway.kyma-project.io/v1alpha1
+kind: APIRule
+metadata:
+  name: tech-bytes
+spec:
+  gateway: kyma-gateway.kyma-system.svc.cluster.local
+  service:
+    name: tech-bytes
+    port: 8080
+    host: tech-bytes
+  rules:
+    - path: /.*
+      methods: ["GET"]
+      accessStrategies:
+        - handler: noop
+          config: {}
