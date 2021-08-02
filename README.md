@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-05-03-hana-existing-cap](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-cap) by [jung-thomas](https://github.com/jung-thomas) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: Using GitHub Actions to Deploy Continuously to Kyma/Kubernetes](https://blogs.sap.com/?p=1377978) by Marius Obert (Mon Aug 02 2021)
+  - This post will show you how you can use the full power of the GitHub platform for your Kubernetes-based projects. I’ll show you a minimal sample that uses GitHub to store, manage, and maintain its source code and build, publish, and deploy Docker images. In other words: We’ll use GitHub ...
 - [SAP Tech Bytes: Understand your classification model in Smart Predict](https://blogs.sap.com/?p=1371611) by Witalij Rudnicki (Fri Jul 16 2021)
   - In the previous post “SAP Tech Bytes: Your first Predictive Scenario in SAP Analytics Cloud” of the series, with just a few clicks we have built our predictive model using Smart Predict in SAP Analytics Cloud. Or maybe you have built a classification model by yourself based on some other ...
 - [SAP Tech Bytes: Your first Predictive Scenario in SAP Analytics Cloud](https://blogs.sap.com/?p=1366059) by Witalij Rudnicki (Fri Jul 09 2021)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - In the past two years, I wrote a few posts that explained the nature of the managed approuter and when it can be helpful to use this feature (here and here). In parallel, we created a GitHub repository that contains sample projects and diagrams to make the differences between both ...
 - [SAP Tech Bytes: Adding Service Implementation to an SAP HANA Project](https://blogs.sap.com/?p=1332159) by Thomas Jung (Fri May 07 2021)
   - A recent question prompted this content. A customer had an existing SAP HANA only project they had created in the SAP Business Application Studio. They now wanted to add OData service functionality to this project. In SAP Web IDE you would run a wizard to add a Node.js module which ...
-- [SAP Tech Bytes: Exploring SAP-samples with gh and fzf](https://blogs.sap.com/?p=1311682) by DJ Adams (Tue Apr 06 2021)
-  - Discover repositories that might be useful for you by exploring them from the command line with a couple of powerful tools. The SAP-samples organisation on GitHub contains many repositories with sample code on various SAP technology topics. There’s also a new show SAP Samples Spotlight on our SAP Developers YouTube ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
