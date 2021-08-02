@@ -7,7 +7,7 @@ on: workflow_dispatch
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: tech-bytes-kyma-cicd
+  IMAGE_NAME: sap-samples/tech-bytes-kyma-cicd
 
 jobs:
   deploy-to-dev:
@@ -38,7 +38,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           labels: ${{ steps.meta.outputs.labels }}
 
       - uses: steebchen/kubectl@v2.0.0
