@@ -1,4 +1,4 @@
-# This file is only here for reference. Refer to this file to see the implementation that is actually used: https://github.com/SAP-samples/sap-tech-bytes/blob/main/.github/workflows/deploy.yaml
+# This file will only contains the implementation. Please note that you also need a file of the same name on the default branch to show up in the UI https://github.com/SAP-samples/sap-tech-bytes/blob/main/.github/workflows/deploy.yaml
 
 name: Deploy Manually
 

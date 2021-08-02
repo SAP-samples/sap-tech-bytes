@@ -1,0 +1,102 @@
+name: Release New Version
+
+on:
+  push:
+    branches:
+      - 2021-08-02-github-actions-kyma
+    tags:
+      - "v*" # Push events to matching v*, i.e. v1.0, v20.15.10
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: sap-samples/tech-bytes-kyma-cicd
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    name: Run tests
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - run: npm install
+      - run: npm test
+
+  build-and-push-image:
+    needs: run-tests
+    name: Build and push the image
+    outputs:
+      image-tag: ${{ steps.get-image-tag.outputs.result }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - run: npm install
+
+      - run: npm run build
+
+      - name: Log in to the container registry
+        uses: docker/login-action@v1
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v3
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+
+      - name: Get the image tag
+        uses: actions/github-script@v4
+        id: get-image-tag
+        with:
+          script: return ${{ steps.meta.outputs.json }}.tags[0]
+          result-encoding: string
+
+  deploy-to-dev:
+    needs: build-and-push-image
+    name: Deploy to dev
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Deploy to the dev environment
+        uses: steebchen/kubectl@v2.0.0
+        with:
+          config: ${{ secrets.DEV_KUBECONFIG }}
+          command: -n tutorial set image deployment/demo-app demo-app=${{needs.build-and-push-image.outputs.image-tag }}
+
+  create-release:
+    needs: build-and-push-image
+    name: Create release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
