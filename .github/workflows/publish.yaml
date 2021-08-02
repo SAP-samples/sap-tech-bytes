@@ -2,8 +2,6 @@ name: Release New Version
 
 on:
   push:
-    branches:
-      - 2021-08-02-github-actions-kyma
     tags:
       - "v*" # Push events to matching v*, i.e. v1.0, v20.15.10
 
