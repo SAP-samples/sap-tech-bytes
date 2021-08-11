@@ -35,12 +35,12 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [Sending Notifications from SAP BTP Applications to the SAP Fiori Launchpad](https://www.youtube.com/watch?v=PZPp1gyLLQo) (Wed Aug 11 2021)
 - [SAP Fiori for iOS ARKit](https://www.youtube.com/watch?v=aVpojvjDEco) (Tue Jul 27 2021)
 - [Advocates Service – Building the Advocates App with SAP BTP SDK for iOS Part 1](https://www.youtube.com/watch?v=B2rPzwWHrJs) (Fri Jul 09 2021)
 - [Advocates Service – Building the Advocates App with SAP BTP SDK for iOS Part 2](https://www.youtube.com/watch?v=amKqv2wSybQ) (Fri Jul 09 2021)
 - [How to Use the RAP Generator](https://www.youtube.com/watch?v=c8IFkjmLhI8) (Mon Jun 28 2021)
 - [SAP HANA Cloud User Management](https://www.youtube.com/watch?v=aK4Pd8KKBQE) (Wed Jun 23 2021)
-- [Multi-tenant Development with SAP BTP, Kyma Runtime](https://www.youtube.com/watch?v=hnD7Lr_2464) (Mon May 31 2021)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
