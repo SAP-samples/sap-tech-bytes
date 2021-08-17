@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-05-03-hana-existing-cap](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-cap) by [jung-thomas](https://github.com/jung-thomas) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: Feature Engineering using Data Wrangling](https://blogs.sap.com/?p=1387627) by Witalij Rudnicki (Tue Aug 17 2021)
+  - In the previous posts of the series, we have built our predictive model using Smart Predict in SAP Analytics Cloud with just a few clicks. And then we looked at some key Performance Indicators of the model built for us by Smart Predict. Improving Model Performance Smart Predict greatly simplifies ...
 - [SAP Tech Bytes: Using GitHub Actions to Deploy Continuously to Kyma/Kubernetes](https://blogs.sap.com/?p=1377978) by Marius Obert (Mon Aug 02 2021)
   - This post will show you how you can use the full power of the GitHub platform for your Kubernetes-based projects. I’ll show you a minimal sample that uses GitHub to store, manage, and maintain its source code and build, publish, and deploy Docker images. In other words: We’ll use GitHub ...
 - [SAP Tech Bytes: Understand your classification model in Smart Predict](https://blogs.sap.com/?p=1371611) by Witalij Rudnicki (Fri Jul 16 2021)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - Over years I posted quite many Geospatial Tuesday posts — short examples of what you can do with SAP HANA Spatial SQL. Some of those examples were based on the public free geospatial data available in Esri Shapefile format that you would import into your SAP HANA database. But over ...
 - [SAP Tech Bytes: FAQ Managed Approuter vs. Standalone Approuter](https://blogs.sap.com/?p=1334880) by Marius Obert (Mon May 17 2021)
   - In the past two years, I wrote a few posts that explained the nature of the managed approuter and when it can be helpful to use this feature (here and here). In parallel, we created a GitHub repository that contains sample projects and diagrams to make the differences between both ...
-- [SAP Tech Bytes: Adding Service Implementation to an SAP HANA Project](https://blogs.sap.com/?p=1332159) by Thomas Jung (Fri May 07 2021)
-  - A recent question prompted this content. A customer had an existing SAP HANA only project they had created in the SAP Business Application Studio. They now wanted to add OData service functionality to this project. In SAP Web IDE you would run a wizard to add a Node.js module which ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
