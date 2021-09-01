@@ -40,7 +40,7 @@ You can run the script in test mode, just to get it to tell you what the latest 
 ./getbtpcli --test
 ```
 
-This will give you output something like this:
+This will give you something like this:
 
 ```
 Latest version is 2.8.0
@@ -111,13 +111,13 @@ The welcome message confirms the version you have, and also gives you informatio
 
 You now have the btp CLI installed in a convenient place where you can start to try things out. You also have a script that you can use to keep your btp CLI up to date.
 
-Let me know in the comments whether you've managed to set up the btp CLI like this, and whether you have your own way of managing versions and downloads. I'd love to see how you do it!
+Let me know in the comments whether you've managed to set up the btp CLI like this, and if you have your own way of managing versions and downloads. I'd love to see how you do it! Also, if you have any questions about `getbtpcli` itself, feel free to ask - no question is too simple.
 
 Next time we'll take our first steps with the btp CLI by logging in and understanding what's going on.
 
 ---
 
-![SAP Tech Bytes logo](https://blogs.sap.com/wp-content/uploads/2021/02/screenshot-2021-02-22-at-11.00.25.png)
+![](https://blogs.sap.com/wp-content/uploads/2021/02/screenshot-2021-02-22-at-11.00.25.png)
 
 
 SAP Tech Bytes is an initiative to bring you bite-sized information on all manner of topics, in [video](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z) and [written](https://blogs.sap.com/tag/sap-tech-bytes/) format. Enjoy!
