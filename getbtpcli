@@ -5,7 +5,8 @@
 
 set -o errexit
 
-declare -r ARCH=darwin-amd64
+declare -r PLATFORM="$(uname -s)"
+declare -r ARCH="${PLATFORM,,}-amd64"
 declare -r TARGETDIR="$HOME/bin"
 declare -r LICENCE="tools.hana.ondemand.com/developer-license-3_1.txt"
 
@@ -57,7 +58,7 @@ get_version() {
   # Determine the version (uses the proper grep, from GNU)
 
   local file=$1
-  "$file" --version 2> /dev/null | ggrep -P -o '(?<=v)\d+\.\d+\.\d+'
+  "$file" --version 2> /dev/null | grep -P -o '(?<=v)\d+\.\d+\.\d+'
 
 }
 
@@ -71,8 +72,13 @@ main() {
   # Determine if we're in test mode
   [[ $1 =~ ^(-t|--test)$ ]] && testmode=true
 
-  # Allow the user to cancel if they don't accept the licence
-  [[ $testmode = false ]] && confirm_licence_acceptance
+  # Couple of setup activities if we're going to try to install
+  # - make sure the target dir exists
+  # - make sure the user confirms acceptance of the licence
+  if [[ $testmode = false ]]; then
+    [[ ! -d "$TARGETDIR" ]] && mkdir "$TARGETDIR"
+    confirm_licence_acceptance
+  fi
 
   # Set up temporary directory and move into it
   tempdir="$(mktemp -d)"
@@ -81,7 +87,7 @@ main() {
   retrieve "$tempdir"
 
   # Dequarantine if on macOS
-  [[ $ARCH =~ darwin ]] && dequarantine "$tempdir/btp"
+  [[ $PLATFORM =~ Darwin ]] && dequarantine "$tempdir/btp"
 
   # Determine version
   ver="$(get_version "$tempdir/btp")"
