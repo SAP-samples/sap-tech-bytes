@@ -1,4 +1,4 @@
-Install the btp CLI and get started exploring its features and functions.
+_Install the btp CLI to be ready to start exploring its features and functions._
 
 The SAP BTP Command Line Interface (aka btp CLI) is a great tool for administering accounts and related resources on the SAP Business Technology Platform (BTP). It's a super fit for devops and cloud native activities as it's a command line tool that is both interactive and scriptable. And as we all know, [#TheFutureIsTerminal](https://blogs.sap.com/tag/thefutureisterminal/), right?
 
@@ -118,5 +118,6 @@ Next time we'll take our first steps with the btp CLI by logging in and understa
 ---
 
 ![SAP Tech Bytes logo](https://blogs.sap.com/wp-content/uploads/2021/02/screenshot-2021-02-22-at-11.00.25.png)
+
 
 SAP Tech Bytes is an initiative to bring you bite-sized information on all manner of topics, in [video](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z) and [written](https://blogs.sap.com/tag/sap-tech-bytes/) format. Enjoy!
