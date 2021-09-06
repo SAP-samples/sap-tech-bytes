@@ -68,3 +68,6 @@ default-*.json
 
 # Visual Studio Code
 .vscode
+
+# Synology drive management
+@eaDir
