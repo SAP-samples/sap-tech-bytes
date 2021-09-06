@@ -16,7 +16,7 @@ Make this your CLI in the cloud - you don't need any file explorer, or even any 
 
 You can just download the btp CLI from the SAP Development Tools site mentioned earlier, which would be fine. But I prefer a script to help me not only download and unpack it, but also to let me check what the latest version is, and also have a slightly more flexible version management approach. So I wrote one, and we'll use that together here.
 
-It's available in the SAP Tech Bytes repository branch associated with this post: [getbtpcli](https://github.com/SAP-samples/sap-tech-bytes/blob/2021-09-01-btp-cli-installation/getbtpcli), and we'll grab it from within our App Studio terminal session now.
+It's available in the SAP Tech Bytes repository branch associated with this post: [getbtpcli](https://github.com/SAP-samples/sap-tech-bytes/blob/2021-09-01-btp-cli/getbtpcli), and we'll grab it from within our App Studio terminal session now.
 
 ## Get the download script
 
@@ -26,7 +26,7 @@ In your terminal, run this to grab the script:
 curl \
   --remote-name \
   --location \
-  --url "https://raw.githubusercontent.com/SAP-samples/sap-tech-bytes/2021-09-01-btp-cli-installation/getbtpcli" \
+  --url "https://raw.githubusercontent.com/SAP-samples/sap-tech-bytes/2021-09-01-btp-cli/getbtpcli" \
   && chmod +x getbtpcli
 ```
 
