@@ -1,13 +1,5 @@
-# SAP btp CLI - installation
+# SAP btp CLI
 
-The content in this branch accompanies the post [SAP Tech Bytes: btp CLI - installation](https://blogs.sap.com/2021/09/01/sap-tech-bytes-btp-cli-installation/).
+The content in this branch accompanies the posts on the SAP btp CLI:
 
----
-
-**Notes**
-
-The post was rendered from the [Markdown draft](./draftpost.md) with `pandoc`:
-
-```bash
-pandoc -f markdown-smart -t html --ascii ./draftpost.md 
-```
+* [SAP Tech Bytes: btp CLI - installation](https://blogs.sap.com/2021/09/01/sap-tech-bytes-btp-cli-installation/)
