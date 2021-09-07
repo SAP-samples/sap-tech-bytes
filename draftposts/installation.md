@@ -113,7 +113,7 @@ You now have the btp CLI installed in a convenient place where you can start to 
 
 Let me know in the comments whether you've managed to set up the btp CLI like this, and if you have your own way of managing versions and downloads. I'd love to see how you do it! Also, if you have any questions about `getbtpcli` itself, feel free to ask - no question is too simple.
 
-Next time we'll take our first steps with the btp CLI by logging in and understanding what's going on.
+In the next post we take our first steps with the btp CLI by logging in and understanding what's going on: [SAP Tech Bytes: btp CLI - logging in](https://blogs.sap.com/2021/09/07/sap-tech-bytes-btp-cli-logging-in/).
 
 ---
 

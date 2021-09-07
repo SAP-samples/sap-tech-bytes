@@ -1,6 +1,6 @@
 _Start exploring with the btp CLI by logging in, then finding and selecting a subaccount for subsequent activities._
 
-This is a follow-on post from the previous one: [SAP Tech Bytes - btp CLI installation](https://blogs.sap.com/2021/09/01/sap-tech-bytes-btp-cli-installation/) and assumes you've got it set up according to that post, in an SAP Business Application Studio (App Studio) dev space, with the location of the `btp` binary (in `$HOME/bin/`) added to the environment variable `$PATH` so that you can invoke it simply as `btp`.
+This is a follow-on post from the previous one: [SAP Tech Bytes: btp CLI - installation](https://blogs.sap.com/2021/09/01/sap-tech-bytes-btp-cli-installation/) and assumes you've got it set up according to that post, in an SAP Business Application Studio (App Studio) dev space, with the location of the `btp` binary (in `$HOME/bin/`) added to the environment variable `$PATH` so that you can invoke it simply as `btp`.
 
 Previously I made a brief mention of the client-server nature of the btp CLI. The fact that you're running a command line interface to connect to and control remote services more or less pre-supposes that architecture; moreover, it's a great way for the team to provide an abstraction between the btp CLI command structure and the surface area of the services & entities on the platform itself.
 
@@ -204,7 +204,7 @@ state message:         Updated tenant status to ACTIVE
 OK
 ```
 
-Great! In the next post, we'll look at managing configuration.
+Great! In the next post, we take a quick look at managing configuration.
 
 ---
 
