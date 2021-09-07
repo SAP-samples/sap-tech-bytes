@@ -2,11 +2,11 @@ _Start exploring with the btp CLI by logging in, then finding and selecting a su
 
 This is a follow-on post from the previous one: [SAP Tech Bytes - btp CLI installation](https://blogs.sap.com/2021/09/01/sap-tech-bytes-btp-cli-installation/) and assumes you've got it set up according to that post, in an SAP Business Application Studio (App Studio) dev space, with the location of the `btp` binary (in `$HOME/bin/`) added to the environment variable `$PATH` so that you can invoke it simply as `btp`.
 
-Previously I made a brief mention of the client-server nature of the btp CLI. The fact that you're running a command line interface to connect to and control remote services more or less pre-supposes that architecture; moreover, it's a great way for the team to provide an abstraction between the btp CLI command structure and surface area and the services and entities on the platform itself.
+Previously I made a brief mention of the client-server nature of the btp CLI. The fact that you're running a command line interface to connect to and control remote services more or less pre-supposes that architecture; moreover, it's a great way for the team to provide an abstraction between the btp CLI command structure and the surface area of the services & entities on the platform itself.
 
 ## Invoking btp
 
-Invoke `btp` from a terminal and stare at the output for a moment; it should look something like this:
+Invoke `btp` from a terminal in your App Studio dev space and stare at the output for a moment; it should look something like this:
 
 ```
 Welcome to the SAP BTP command line interface (client v2.8.0)
@@ -28,10 +28,10 @@ OK
 
 There's a lot to unpack here. Briefly:
 
-* the version of the client is confirmed (2.8.0)
-* there's a well-defined structure to the command syntax
-* we connect to a server via a URL
-* we're not logged in
+* the version of the client (that we downloaded last time) is confirmed as 2.8.0
+* the "Usage" shows that there's a well-defined structure to the command syntax
+* we connect to a btp CLI server via a URL
+* we're not currently logged in
 * configuration is stored locally in a JSON file
 
 ## Logging in
@@ -42,7 +42,7 @@ Initiate the login process:
 btp login
 ```
 
-You should see, and respond, like this:
+You should see the following prompts, and should respond similar to what's shown here - see below for an explanation of the "Global account subdomain":
 
 ```
 SAP BTP command line interface (client v2.8.0)
@@ -70,17 +70,11 @@ In the trial context, which we're in here, the default CLI server that
 is suggested (`https://cpcli.cf.eu10.hana.ondemand.com`) is appropriate.
 
 
-Additionally, the global account subdomain is just your global account identifier with a `-ga` suffix. Here's a screenshot of the temporary trial account I set up for this set of examples, where the relationship between the global account identifier and the global account subdomain can be seen.
+Additionally, the global account subdomain is just your global account identifier with a `-ga` suffix. Here's a screenshot of the temporary trial account I set up for this set of examples, where the relationship between the global account identifier and the global account subdomain can be seen:
 
 ![Screenshot of account explorer](images/account-explorer.png)
 
-Note that when you next enter `btp`, the version of the server to which you're now connected and authenticated is shown:
-
-```
-CLI server URL: https://cpcli.cf.eu10.hana.ondemand.com (server v2.8.0)
-```
-
-Run `btp` again to see the difference; you should now see the version of the server to which you're connected and authenticated, confirmation of your user identification, and also the "current target", being the global account that you specified (via the subdomain) when you logged in. The output should look something like this:
+Now you've logged in, run `btp` again to see the difference. You should now see the version of the server to which you're connected and authenticated, confirmation of your user identification, and also the "current target", being the global account that you specified (via the subdomain) when you logged in. The output should look something like this:
 
 ```
 SAP BTP command line interface (client v2.8.0)
@@ -131,7 +125,7 @@ Hmm, ok. Well, let's follow the advice we're given:
 btp list accounts/subaccount
 ```
 
-> Pause for a second to consider the `ACTION [GROUP/OBJECT]` command structure we saw earlier.
+> Pause for a second to consider the `ACTION [GROUP/OBJECT]` command structure we saw earlier - here we're seeing a nice example of that.
 
 There's our trial account in the list that's produced:
 
@@ -154,7 +148,8 @@ btp target --subaccount b8a33bf9-b155-4736-aadf-582dae8fd65a
 The result is what we need:
 
 ```
-Targeting subaccount 'b8a33bf9-b155-4736-aadf-582dae8fd65a'. Commands that only work on global account level will be executed in the parent global account.
+Targeting subaccount 'b8a33bf9-b155-4736-aadf-582dae8fd65a'.
+Commands that only work on global account level will be executed in the parent global account.
 
 Current target:
   Global account (subdomain: 82715b8dtrial-ga)
@@ -167,25 +162,51 @@ Tips:
 OK
 ```
 
-This is already more useful for us with our trial accounts on the Business Technology Platform. It's a good setup with which to start.
+This is already more useful for us with our trial accounts on the Business Technology Platform. It's a good setup with which to continue our journey of discovery.
 
-
-## Managing configuration
-
-When you connect and authenticate, the details are stored locally, as we noted from staring at the output from our initial invocation of `btp`.
-
-This post and the posts in the rest of this SAP Tech Bytes mini-series is based on running the btp CLI in the App Studio. Certain directories in your dev space's work area are cleaned up when a dev space is stopped and restarted, and one of those directories is the `.cache/` directory in your home directory.
-
-If we look at this in detail (with `ls -la | grep .cache`), it's fairly clear that it's ephemeral - nothing in `/tmp/` is guaranteed to be there on a restart:
+Let's end this post with a final command, to examine details of our subaccount we're now targetting:
 
 ```
-lrwxrwxrwx  1 root root    20 Sep  7 09:01 .cache -> /tmp/usertemp/.cache
+btp get accounts/subaccount
 ```
 
-But we saw from an earlier informational message that this is where `btp` stores its configuration by default:
+If we hadn't already specified the subaccount as part of the target, we'd have received an error at this point:
 
 ```
-Configuration:                     /home/user/.cache/.btp/config.json
+Constraint violated - you must provide parameter 'ID'.
+
+Usage: btp [OPTIONS] get accounts/subaccount ID --global-account SUBDOMAIN
+
+ERROR
 ```
 
+However, because we've stored the identification of our trial subaccount using the `target` command, we get what we're looking for:
 
+```
+Showing subaccount details for b8a33bf9-b155-4736-aadf-582dae8fd65a...
+
+subaccount id:         b8a33bf9-b155-4736-aadf-582dae8fd65a
+display name:          trial
+description:
+subdomain:             82715b8dtrial
+region:                eu10
+created by:
+beta-enabled:          true
+used for production:   false
+parent id:             906b8d84-2f2c-429d-8ce4-c1bf166aeb08
+parent type:           global account
+state:                 OK
+state message:         Updated tenant status to ACTIVE
+
+
+OK
+```
+
+Great! In the next post, we'll look at managing configuration.
+
+---
+
+![](https://blogs.sap.com/wp-content/uploads/2021/02/screenshot-2021-02-22-at-11.00.25.png)
+
+
+SAP Tech Bytes is an initiative to bring you bite-sized information on all manner of topics, in [video](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z) and [written](https://blogs.sap.com/tag/sap-tech-bytes/) format. Enjoy!
