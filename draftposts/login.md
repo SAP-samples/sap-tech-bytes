@@ -145,7 +145,9 @@ It's the ID that's required:
 btp target --subaccount b8a33bf9-b155-4736-aadf-582dae8fd65a
 ```
 
-The result is what we need:
+> The ID is what you see when selecting "More Info" from the three-dots menu on the "trial" subaccount card in the screenshot we saw earlier.
+
+The result of specifying the ID in the target command is what we're looking for:
 
 ```
 Targeting subaccount 'b8a33bf9-b155-4736-aadf-582dae8fd65a'.
