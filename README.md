@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-05-03-hana-existing-nodejs](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-nodejs) by [jung-thomas](https://github.com/jung-thomas) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: btp CLI – logging in](https://blogs.sap.com/?p=1400128) by DJ Adams (Tue Sep 07 2021)
+  - Start exploring with the btp CLI by logging in, then finding and selecting a subaccount for subsequent activities. This is a follow-on post from the previous one: SAP Tech Bytes – btp CLI installation and assumes you’ve got it set up according to that post, in an SAP Business Application ...
 - [SAP Tech Bytes: btp CLI - installation](https://blogs.sap.com/?p=1396954) by DJ Adams (Wed Sep 01 2021)
   - Install the btp CLI to be ready to start exploring its features and functions. The SAP BTP Command Line Interface (aka btp CLI) is a great tool for administering accounts and related resources on the SAP Business Technology Platform (BTP). It’s a super fit for devops and cloud native activities ...
 - [SAP Tech Bytes: Feature Engineering using Data Wrangling](https://blogs.sap.com/?p=1387627) by Witalij Rudnicki (Tue Aug 17 2021)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - In the previous post “SAP Tech Bytes: Your first Predictive Scenario in SAP Analytics Cloud” of the series, with just a few clicks we have built our predictive model using Smart Predict in SAP Analytics Cloud. Or maybe you have built a classification model by yourself based on some other ...
 - [SAP Tech Bytes: Your first Predictive Scenario in SAP Analytics Cloud](https://blogs.sap.com/?p=1366059) by Witalij Rudnicki (Fri Jul 09 2021)
   - If you got interested in Machine Learning, then sooner rather than later you hear about or discover the website called Kaggle. Founded in 2010 Kaggle “allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning ...
-- [SAP Tech Bytes meet #GeospatialTuesday: Import zipped shapefiles into SAP HANA Cloud using Database Explorer](https://blogs.sap.com/?p=1337809) by Witalij Rudnicki (Tue May 18 2021)
-  - Over years I posted quite many Geospatial Tuesday posts — short examples of what you can do with SAP HANA Spatial SQL. Some of those examples were based on the public free geospatial data available in Esri Shapefile format that you would import into your SAP HANA database. But over ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
