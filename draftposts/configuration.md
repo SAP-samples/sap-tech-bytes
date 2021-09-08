@@ -12,19 +12,19 @@ This is the default location that `btp` uses.
 
 ## App Studio lifecycle
 
-This post and the posts in the rest of this SAP Tech Bytes mini-series is based on running the btp CLI in the SAP Business Application Studio (App Studio). Certain directories in your dev space's work area are cleaned up when a dev space is stopped and restarted.
+This post and the posts in the rest of this SAP Tech Bytes mini-series are based on running the btp CLI in the SAP Business Application Studio (App Studio). Certain directories in your App Studio dev space's work area are cleaned up when a dev space is stopped and restarted.
 
-One of those directories is the `.cache/` directory in your home directory.
+One of those directories is the `/home/user/.cache/` directory.
 
-If we look at this in detail (with `ls -la | grep .cache`), it's fairly clear that it's ephemeral - in general, in most Unix-like environments, nothing in `/tmp/` is guaranteed to be there after a restart:
+If we look at this in detail (with `ls -la | grep .cache`), it's fairly clear that it's ephemeral - here it's a symbolic link to a directory in `/tmp/`:
 
 ```
 lrwxrwxrwx  1 root root    20 Sep  7 09:01 .cache -> /tmp/usertemp/.cache
 ```
 
-Given that this is where `btp` stores configuration, what happens when our App Studio dev space is stopped and then restarted? Well, let's find out.
+In general, in most Unix-like environments, nothing in `/tmp/` is guaranteed to be there after a restart. Given that this is where `btp` stores configuration, what happens when our App Studio dev space is stopped and then restarted? Well, let's find out.
 
-First, let's make sure that we *are* still logged in, by invoking `btp` with no further parameters. If we're logged in, we should see something like this:
+First, let's make sure that we *are* still logged in, by invoking `btp` with no further parameters. If we're logged in, we should see something like this (i.e. `btp` shows us the details of our connection and identity):
 
 ```
 SAP BTP command line interface (client v2.8.0)
@@ -46,21 +46,21 @@ Tips:
 OK
 ```
 
-Next, go back to the App Studio "Dev Space Manager", and stop the dev space you created for this adventure (in [SAP Tech Bytes: btp CLI - installation](https://blogs.sap.com/2021/09/01/sap-tech-bytes-btp-cli-installation/)). Once it's stopped, restart it and re-enter it.
+Next, go back to the App Studio "Dev Space Manager", and stop the dev space you created for this btp CLI adventure (in [SAP Tech Bytes: btp CLI - installation](https://blogs.sap.com/2021/09/01/sap-tech-bytes-btp-cli-installation/)). Once it's stopped, restart it and re-enter it.
 
 > I find the quickest way to get back to the App Studio's "Dev Space Manager" is just to remove the hashpath from the URL; in this example, it would be by removing `#ws-kvhjc` from `https://82715b8dtrial.eu10cf.trial.applicationstudio.cloud.sap/index.html#ws-kvhjc` (this is the dev space's ID).
 
 ## Starting over
 
-Now, in a new terminal, first have a look in the `.cache/` directory:
+Now, in a new terminal, first have a look in the `.cache/` directory (we can refer to this relative name as we'll be in our home directory `/home/user/` by default in a newly created terminal anyway):
 
 ```
 ls --all --dereference --recursive .cache/
 ```
 
-> the options given to `ls` here make sure we see hidden files (`--all`) (remember that `.btp` begins with a dot and is therefore hidden by default), that symbolic links are followed (`--dereference`) and that the list descends recursively (`--recursive`); normally I'd write this as `-aLR`.
+> the options given to `ls` here make sure we see hidden files (`--all`) (remember that `.btp` begins with a dot and is therefore hidden by default), that symbolic links are followed (`--dereference`) and that the list descends recursively (`--recursive`); normally I'd write this as `ls -aLR .cache/`.
 
-You won't see the `.btp/` directory or anything in it, because it's not there any more (the content that is there has just been recreated when the dev space was restarted).
+You won't see the `.btp/` directory or anything in it, because it's not there any more (any content that is there will have been recreated when the dev space was restarted).
 
 Try `btp` again. This is the result:
 
@@ -112,7 +112,7 @@ What's in `config.json`? Basically, this:
 }
 ```
 
-(although flat, it wasn't prettified like that).
+(although it is flat, unformatted - it wasn't prettified like that).
 
 So now we understand why `btp` shows nothing, and that we're not logged in any more.
 
@@ -128,13 +128,13 @@ Let's tell the btp CLI that we want our configuration in this location (relative
 .config/btp/config.json
 ```
 
-Environment variables are best set when a shell session starts, so let's add the appropriate assignment to `SAPCP_CLIENTCONFIG` in the same file as we added the `bin/` directory to our path. This is the `.bashrc` file in our home directory.
+Environment variables are best set when a shell session starts, so let's add the appropriate assignment to `SAPCP_CLIENTCONFIG` in the same file as we added the `bin/` directory to our path in the [previous post](https://blogs.sap.com/2021/09/01/sap-tech-bytes-btp-cli-installation/). This is the `.bashrc` file in our home directory.
 
-You can edit this file using App Studio of course. First, open your home directory as a folder in the explorer, like this:
+You can edit this file using App Studio of course. First, open your home directory as a folder in the explorer, using the "Open Folder" button like this:
 
 ![opening the home directory as a folder in Explorer](images/open-home-in-explorer.png)
 
-Then open the `.bashrc` file, and at the bottom, add content so it looks like this:
+Then find and open the `.bashrc` file from the Explorer, and at the bottom, add content so it looks like this:
 
 ```bash
 export PATH=$PATH:$HOME/bin
@@ -177,7 +177,7 @@ Tips:
 OK
 ```
 
-But note the location of the configuration - it is honouring where we told the btp CLI to keep it. Great!
+But note the location of the configuration - it is honouring where we told the btp CLI to keep it, via `SAPCP_CLIENTCONFIG`. Great!
 
 ## Final checks
 
