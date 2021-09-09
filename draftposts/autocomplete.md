@@ -181,7 +181,7 @@ portal                               standard           100
 
 Now that's what I call working in comfort! Here it is in action:
 
-![btp CLI autocomplete in action](../images/autocomplete.gif)
+![btp CLI autocomplete in action](images/autocomplete.gif)
 
 The best thing to do here is to simply try the autocomplete feature out for yourself - it's easiest to learn about it by doing. And that's it for this post!
 
