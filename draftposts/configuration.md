@@ -128,7 +128,7 @@ Let's tell the btp CLI that we want our configuration in this location (relative
 .config/btp/config.json
 ```
 
-Environment variables are best set when a shell session starts, so let's add the appropriate assignment to `SAPCP_CLIENTCONFIG` in the same file as we added the `bin/` directory to our path in the [previous post](https://blogs.sap.com/2021/09/01/sap-tech-bytes-btp-cli-installation/). This is the `.bashrc` file in our home directory.
+Environment variables are best set when a shell session starts, so let's add the appropriate assignment to `SAPCP_CLIENTCONFIG` in the same file as we added the `bin/` directory to our path in the [SAP Tech Bytes: btp CLI - installation](https://blogs.sap.com/2021/09/01/sap-tech-bytes-btp-cli-installation/) post. This is the `.bashrc` file in our home directory.
 
 You can edit this file using App Studio of course. First, open your home directory as a folder in the explorer, using the "Open Folder" button like this:
 
@@ -183,7 +183,7 @@ But note the location of the configuration - it is honouring where we told the b
 
 Go through the process of restarting your dev space once more. When starting a new terminal after that, and invoking `btp`, you should see that your configuration has survived, and you're still logged in. Great!
 
-In the next post, we look at adding a whole ton of comfort to invoking commands with the btp CLI.
+In the next post, we look at adding a whole ton of comfort to invoking commands with the btp CLI: [SAP Tech Bytes: btp CLI - autocompletion](https://blogs.sap.com/2021/09/XX/sap-tech-bytes-btp-cli-autocompletion/).
 
 ---
 
