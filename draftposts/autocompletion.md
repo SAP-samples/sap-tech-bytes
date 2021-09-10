@@ -1,6 +1,6 @@
 _Get the btp CLI to help you with command autocompletion._
 
-This is a follow-on post from the previous one: [SAP Tech Bytes: btp CLI - logging in](https://blogs.sap.com/2021/09/07/sap-tech-bytes-btp-cli-logging-in/) and starts where we left off there, with you logged in.
+This is a follow-on post from the previous one: [SAP Tech Bytes: btp CLI - configuration](https://blogs.sap.com/2021/09/XX/sap-tech-bytes-btp-cli-configuration/) and starts where we left off there, with you logged in.
 
 ## Actions, groups, objects and the command structure
 
