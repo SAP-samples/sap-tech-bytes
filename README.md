@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-05-03-hana-existing-starting](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-starting) by [jung-thomas](https://github.com/jung-thomas) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: btp CLI - managing configuration](https://blogs.sap.com/?p=1404163) by DJ Adams (Tue Sep 14 2021)
+  - Understand and manage the btp CLI client configuration. This is a follow-on post from the previous one: SAP Tech Bytes: btp CLI – logging in and starts where we left off there, with you logged in. When you connect and authenticate, the connection and login details are stored locally, as ...
 - [SAP Tech Bytes: btp CLI – logging in](https://blogs.sap.com/?p=1400128) by DJ Adams (Tue Sep 07 2021)
   - Start exploring with the btp CLI by logging in, then finding and selecting a subaccount for subsequent activities. This is a follow-on post from the previous one: SAP Tech Bytes – btp CLI installation and assumes you’ve got it set up according to that post, in an SAP Business Application ...
 - [SAP Tech Bytes: btp CLI - installation](https://blogs.sap.com/?p=1396954) by DJ Adams (Wed Sep 01 2021)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - This post will show you how you can use the full power of the GitHub platform for your Kubernetes-based projects. I’ll show you a minimal sample that uses GitHub to store, manage, and maintain its source code and build, publish, and deploy Docker images. In other words: We’ll use GitHub ...
 - [SAP Tech Bytes: Understand your classification model in Smart Predict](https://blogs.sap.com/?p=1371611) by Witalij Rudnicki (Fri Jul 16 2021)
   - In the previous post “SAP Tech Bytes: Your first Predictive Scenario in SAP Analytics Cloud” of the series, with just a few clicks we have built our predictive model using Smart Predict in SAP Analytics Cloud. Or maybe you have built a classification model by yourself based on some other ...
-- [SAP Tech Bytes: Your first Predictive Scenario in SAP Analytics Cloud](https://blogs.sap.com/?p=1366059) by Witalij Rudnicki (Fri Jul 09 2021)
-  - If you got interested in Machine Learning, then sooner rather than later you hear about or discover the website called Kaggle. Founded in 2010 Kaggle “allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
