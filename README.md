@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-05-03-hana-existing-starting](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-starting) by [jung-thomas](https://github.com/jung-thomas) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: btp CLI - autocompletion](https://blogs.sap.com/?p=1407602) by DJ Adams (Tue Sep 21 2021)
+  - Get the btp CLI to help you with command autocompletion. This is a follow-on post from the previous one: SAP Tech Bytes: btp CLI – managing configuration and starts where we left off there, with you logged in. Actions, groups, objects and the command structure There are many different types ...
 - [SAP Tech Bytes: btp CLI - managing configuration](https://blogs.sap.com/?p=1404163) by DJ Adams (Tue Sep 14 2021)
   - Understand and manage the btp CLI client configuration. This is a follow-on post from the previous one: SAP Tech Bytes: btp CLI – logging in and starts where we left off there, with you logged in. When you connect and authenticate, the connection and login details are stored locally, as ...
 - [SAP Tech Bytes: btp CLI – logging in](https://blogs.sap.com/?p=1400128) by DJ Adams (Tue Sep 07 2021)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - In the previous posts of the series, we have built our predictive model using Smart Predict in SAP Analytics Cloud with just a few clicks. And then we looked at some key Performance Indicators of the model built for us by Smart Predict. Improving Model Performance Smart Predict greatly simplifies ...
 - [SAP Tech Bytes: Using GitHub Actions to Deploy Continuously to Kyma/Kubernetes](https://blogs.sap.com/?p=1377978) by Marius Obert (Mon Aug 02 2021)
   - This post will show you how you can use the full power of the GitHub platform for your Kubernetes-based projects. I’ll show you a minimal sample that uses GitHub to store, manage, and maintain its source code and build, publish, and deploy Docker images. In other words: We’ll use GitHub ...
-- [SAP Tech Bytes: Understand your classification model in Smart Predict](https://blogs.sap.com/?p=1371611) by Witalij Rudnicki (Fri Jul 16 2021)
-  - In the previous post “SAP Tech Bytes: Your first Predictive Scenario in SAP Analytics Cloud” of the series, with just a few clicks we have built our predictive model using Smart Predict in SAP Analytics Cloud. Or maybe you have built a classification model by yourself based on some other ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
