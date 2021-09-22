@@ -12,16 +12,16 @@ Where there&#x27;s sample code or configuration to share, specifically relating 
 Perhaps most of the time you&#x27;ll be arriving at this repository, coming from such an episode or blog post, so you&#x27;ll be sent to the appropriate branch like that. But if you&#x27;re starting here and want to find out to which SAP Tech Bytes episode or blog post a given branch-based sample relates, you&#x27;ll find the back link in the README in that branch.
  
 ## Recent Branches
-- [btp-cli-patch-1](https://github.com/SAP-samples/sap-tech-bytes/tree/btp-cli-patch-1) by [qmacro](https://github.com/qmacro) 
 - [2021-09-01-btp-cli](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-09-01-btp-cli) by [qmacro](https://github.com/qmacro) 
 - [2021-08-02-github-actions-kyma](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-08-02-github-actions-kyma) by [IObert](https://github.com/IObert) 
 - [2021-07-07-predictive-scenarios](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-07-07-predictive-scenarios) by [Sygyzmundovych](https://github.com/Sygyzmundovych) 
 - [2021-05-03-serverless-sap-fiori-apps-kyma-runtime](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-serverless-sap-fiori-apps-kyma-runtime) by [IObert](https://github.com/IObert) 
 - [2021-05-03-hana-existing-starting](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-starting) by [jung-thomas](https://github.com/jung-thomas) 
+- [2021-05-03-hana-existing-nodejs](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-nodejs) by [jung-thomas](https://github.com/jung-thomas) 
 
 ## Recent Blog Posts
 - [SAP Tech Bytes: btp CLI - autocompletion](https://blogs.sap.com/?p=1407602) by DJ Adams (Tue Sep 21 2021)
-  - Get the btp CLI to help you with command autocompletion. This is a follow-on post from the previous one: SAP Tech Bytes: btp CLI - managing configuration and starts where we left off there, with you logged in. Actions, groups, objects and the command structure There are many different types ...
+  - Get the btp CLI to help you with command autocompletion. This is a follow-on post from the previous one: SAP Tech Bytes: btp CLI – managing configuration and starts where we left off there, with you logged in. Actions, groups, objects and the command structure There are many different types ...
 - [SAP Tech Bytes: btp CLI - managing configuration](https://blogs.sap.com/?p=1404163) by DJ Adams (Tue Sep 14 2021)
   - Understand and manage the btp CLI client configuration. This is a follow-on post from the previous one: SAP Tech Bytes: btp CLI – logging in and starts where we left off there, with you logged in. When you connect and authenticate, the connection and login details are stored locally, as ...
 - [SAP Tech Bytes: btp CLI – logging in](https://blogs.sap.com/?p=1400128) by DJ Adams (Tue Sep 07 2021)
