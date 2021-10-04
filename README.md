@@ -35,12 +35,12 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [Getting Started with ABAP Development - Part 1](https://www.youtube.com/watch?v=gRCg9mj0NaQ) (Fri Oct 01 2021)
 - [Create an Application with SAP AppGyver](https://www.youtube.com/watch?v=0xWz2XN0h2w) (Mon Sep 27 2021)
 - [Configure your AppGyver Application to Open your Device Camera](https://www.youtube.com/watch?v=DZyU1OPmlh4) (Mon Sep 27 2021)
 - [Connect your AppGyver Application to a Public API](https://www.youtube.com/watch?v=cH9mG77UubA) (Mon Sep 27 2021)
 - [Fetch Data from Public API to your AppGyver Application](https://www.youtube.com/watch?v=42R4JDCCFMo) (Mon Sep 27 2021)
 - [Display Fetched Data in your AppGyver Application](https://www.youtube.com/watch?v=n2U_PARo23E) (Mon Sep 27 2021)
-- [SAP Intelligent RPA and SAP Analytics Cloud Download Excel from SAP Analytics Cloud to desktop](https://www.youtube.com/watch?v=AgkrZGBY6s8) (Wed Sep 01 2021)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
