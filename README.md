@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-05-03-hana-existing-nodejs](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-nodejs) by [jung-thomas](https://github.com/jung-thomas) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: Call ABAP services from SAP Conversational AI chatbot](https://blogs.sap.com/?p=1455513) by Daniel Wroblewski (Wed Dec 08 2021)
+  - I just completed my first Tech Byte as a Developer Advocate!! 😀 SAP Conversational AI is really cool, and you can see how to create chatbots with both basic and advanced features in these tutorials. Still, I wanted to start working on more SAP scenarios, like: Using the SAP Conversational ...
 - [SAP Tech Bytes: btp CLI - autocompletion](https://blogs.sap.com/?p=1407602) by DJ Adams (Tue Sep 21 2021)
   - Get the btp CLI to help you with command autocompletion. This is a follow-on post from the previous one: SAP Tech Bytes: btp CLI – managing configuration and starts where we left off there, with you logged in. Actions, groups, objects and the command structure There are many different types ...
 - [SAP Tech Bytes: btp CLI - managing configuration](https://blogs.sap.com/?p=1404163) by DJ Adams (Tue Sep 14 2021)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - Install the btp CLI to be ready to start exploring its features and functions. The SAP BTP Command Line Interface (aka btp CLI) is a great tool for administering accounts and related resources on the SAP Business Technology Platform (BTP). It’s a super fit for devops and cloud native activities ...
 - [SAP Tech Bytes: Feature Engineering using Data Wrangling](https://blogs.sap.com/?p=1387627) by Witalij Rudnicki (Tue Aug 17 2021)
   - In the previous posts of the series, we have built our predictive model using Smart Predict in SAP Analytics Cloud with just a few clicks. And then we looked at some key Performance Indicators of the model built for us by Smart Predict. Improving Model Performance Smart Predict greatly simplifies ...
-- [SAP Tech Bytes: Using GitHub Actions to Deploy Continuously to Kyma/Kubernetes](https://blogs.sap.com/?p=1377978) by Marius Obert (Mon Aug 02 2021)
-  - This post will show you how you can use the full power of the GitHub platform for your Kubernetes-based projects. I’ll show you a minimal sample that uses GitHub to store, manage, and maintain its source code and build, publish, and deploy Docker images. In other words: We’ll use GitHub ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
