@@ -35,12 +35,12 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [SAP Cloud Application Programming Model: Consume External Services](https://www.youtube.com/watch?v=rWQFbXFEr1M) (Tue Dec 14 2021)
 - [Calling ABAP Services from an SAP Conversational AI Chatbot](https://www.youtube.com/watch?v=j-hNvzwsbw0) (Wed Dec 08 2021)
 - [Unpacking an *.mtar Archive](https://www.youtube.com/watch?v=Bo5qtTsmObY) (Mon Dec 06 2021)
 - [Getting Started with ABAP Development - Part 2](https://www.youtube.com/watch?v=4M1ieJgaRwA) (Mon Oct 11 2021)
 - [Getting Started with ABAP Development - Part 1](https://www.youtube.com/watch?v=gRCg9mj0NaQ) (Fri Oct 01 2021)
 - [Create an Application with SAP AppGyver](https://www.youtube.com/watch?v=0xWz2XN0h2w) (Mon Sep 27 2021)
-- [Configure your AppGyver Application to Open your Device Camera](https://www.youtube.com/watch?v=DZyU1OPmlh4) (Mon Sep 27 2021)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
