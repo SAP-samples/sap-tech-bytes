@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-05-03-hana-existing-nodejs](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-nodejs) by [jung-thomas](https://github.com/jung-thomas) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: SAP HANA / CAP Access Tables from a Different Schema](https://blogs.sap.com/?p=1471463) by Thomas Jung (Fri Jan 14 2022)
+  - Introduction I read on social media about a New Year’s resolution idea: instead of answering questions sent in direct communication, write the response as a blog post and send the requester a link to the post. It sounds like a great idea to better utilize time and share knowledge so ...
 - [SAP Tech Bytes: Call ABAP services from SAP Conversational AI chatbot](https://blogs.sap.com/?p=1455513) by Daniel Wroblewski (Wed Dec 08 2021)
   - I just completed my first Tech Byte as a Developer Advocate!! 😀 SAP Conversational AI is really cool, and you can see how to create chatbots with both basic and advanced features in these tutorials. Still, I wanted to start working on more SAP scenarios, like: Using the SAP Conversational ...
 - [SAP Tech Bytes: btp CLI - autocompletion](https://blogs.sap.com/?p=1407602) by DJ Adams (Tue Sep 21 2021)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - Start exploring with the btp CLI by logging in, then finding and selecting a subaccount for subsequent activities. This is a follow-on post from the previous one: SAP Tech Bytes – btp CLI installation and assumes you’ve got it set up according to that post, in an SAP Business Application ...
 - [SAP Tech Bytes: btp CLI - installation](https://blogs.sap.com/?p=1396954) by DJ Adams (Wed Sep 01 2021)
   - Install the btp CLI to be ready to start exploring its features and functions. The SAP BTP Command Line Interface (aka btp CLI) is a great tool for administering accounts and related resources on the SAP Business Technology Platform (BTP). It’s a super fit for devops and cloud native activities ...
-- [SAP Tech Bytes: Feature Engineering using Data Wrangling](https://blogs.sap.com/?p=1387627) by Witalij Rudnicki (Tue Aug 17 2021)
-  - In the previous posts of the series, we have built our predictive model using Smart Predict in SAP Analytics Cloud with just a few clicks. And then we looked at some key Performance Indicators of the model built for us by Smart Predict. Improving Model Performance Smart Predict greatly simplifies ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
