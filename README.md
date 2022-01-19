@@ -35,12 +35,12 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [Extending SAP S4/HANA Cloud Applications with Custom ABAP using BAdIs](https://www.youtube.com/watch?v=YHISNMQbnMQ) (Tue Jan 18 2022)
 - [SAP Tech Bytes: iOS Multi-User Support](https://www.youtube.com/watch?v=tBWIslu5hZ4) (Thu Jan 13 2022)
 - [Getting Started with ABAP Development - Part 3](https://www.youtube.com/watch?v=elVfOGopjCM) (Thu Dec 16 2021)
 - [SAP Cloud Application Programming Model: Consume External Services](https://www.youtube.com/watch?v=rWQFbXFEr1M) (Tue Dec 14 2021)
 - [Calling ABAP Services from an SAP Conversational AI Chatbot](https://www.youtube.com/watch?v=j-hNvzwsbw0) (Wed Dec 08 2021)
 - [Unpacking an *.mtar Archive](https://www.youtube.com/watch?v=Bo5qtTsmObY) (Mon Dec 06 2021)
-- [Getting Started with ABAP Development - Part 2](https://www.youtube.com/watch?v=4M1ieJgaRwA) (Mon Oct 11 2021)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
