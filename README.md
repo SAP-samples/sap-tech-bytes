@@ -35,7 +35,7 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
-- [Extending SAP S4/HANA Cloud Applications with Custom ABAP using BAdIs](https://www.youtube.com/watch?v=YHISNMQbnMQ) (Tue Jan 18 2022)
+- [Extending SAP S/4HANA Cloud Applications with Custom ABAP using BAdIs](https://www.youtube.com/watch?v=YHISNMQbnMQ) (Tue Jan 18 2022)
 - [SAP Tech Bytes: iOS Multi-User Support](https://www.youtube.com/watch?v=tBWIslu5hZ4) (Thu Jan 13 2022)
 - [Getting Started with ABAP Development - Part 3](https://www.youtube.com/watch?v=elVfOGopjCM) (Thu Dec 16 2021)
 - [SAP Cloud Application Programming Model: Consume External Services](https://www.youtube.com/watch?v=rWQFbXFEr1M) (Tue Dec 14 2021)
