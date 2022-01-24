@@ -13,9 +13,11 @@ const { Octokit } = require("@octokit/core")
 const { createActionAuth } = require("@octokit/auth-action")
 const auth = createActionAuth()
 
-
+/** @type String - URL to the YouTube SAP Tech Bytes Playlist */
 const URLYouTube1 = 'https://www.youtube.com/feeds/videos.xml?playlist_id=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z'
+/** @type String - URL to the YouTube SAP 2 Minutes Of Playlist */
 const URLYouTube2 = 'https://www.youtube.com/feeds/videos.xml?playlist_id=PL6RpkC85SLQBM78mD6AiJ1vKlSB7OWtUz'
+/** @type String - URL to query SAP Community for all Blogposts with tag sap-tech-bytes */
 const URLSCN = 'https://content.services.sap.com/feed?type=blogpost&tags=sap-tech-bytes'
 
 const sort_by = (field, reverse, primer) => {
