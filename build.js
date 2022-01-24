@@ -14,7 +14,8 @@ const { createActionAuth } = require("@octokit/auth-action")
 const auth = createActionAuth()
 
 
-const URLYouTube = 'https://www.youtube.com/feeds/videos.xml?playlist_id=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z'
+const URLYouTube1 = 'https://www.youtube.com/feeds/videos.xml?playlist_id=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z'
+const URLYouTube2 = 'https://www.youtube.com/feeds/videos.xml?playlist_id=PL6RpkC85SLQBM78mD6AiJ1vKlSB7OWtUz'
 const URLSCN = 'https://content.services.sap.com/feed?type=blogpost&tags=sap-tech-bytes'
 
 const sort_by = (field, reverse, primer) => {
@@ -83,13 +84,19 @@ const getBlogPosts = async _ => {
 
 const getYoutubeVideos = async _ => {
     //Read List of Videos in the SAP Tech Bytes Playlist on YouTube
-    const feedNew = await parser.parseURL(URLYouTube)
+    const feedNew1 = await parser.parseURL(URLYouTube1)
 
+    //Add List of Videos in the "2 Minutes of..." Playlist
+    const feedNew2 = await parser.parseURL(URLYouTube2)
+
+    //Concat Lists of Videos
+    const feedItems = [...feedNew1.items, ...feedNew2.items]
+    
     //Sort by date
-    feedNew.items.sort(sort_by('pubDate', true))
-
+    feedItems.sort(sort_by('pubDate', true))
+    
     //Return the most recent 6 Videos
-    const itemsNew = feedNew.items.slice(0, 6).map(item => {
+    const itemsNew = feedItems.slice(0, 6).map(item => {
         item.date = new Date(item.pubDate).toDateString()
         return item
     })
