@@ -5,7 +5,7 @@ sap.ui.define([
 	"use strict";
 
 	XMLView.create({
-		viewName: "sap.ui.demo.view.App"
+		viewName: "sap.ui.demo.App"
 	}).then(function (oView) {
 		oView.placeAt("content");
 	});
