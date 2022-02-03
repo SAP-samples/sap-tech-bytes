@@ -35,12 +35,12 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [2 Minutes of ABAP: 3 Useful Tools For Beginners](https://www.youtube.com/watch?v=LztHpAIfyYY) (Thu Feb 03 2022)
 - [Getting Started with ABAP Development - Part 4](https://www.youtube.com/watch?v=RUYLQ-OxGoA) (Thu Jan 27 2022)
 - [2 Minutes of SAPUI5 - #3 (JSON Models, Data Binding)](https://www.youtube.com/watch?v=q2BeNFJoQdo) (Wed Jan 26 2022)
 - [2 Minutes of ABAP: 5 Mistakes to Avoid](https://www.youtube.com/watch?v=Ov3LuwZNIUY) (Thu Jan 20 2022)
 - [Extending SAP S/4HANA Cloud Applications with Custom ABAP using BAdIs](https://www.youtube.com/watch?v=YHISNMQbnMQ) (Tue Jan 18 2022)
 - [2 Minutes of SAPUI5 - #2 (JavaScript Controllers)](https://www.youtube.com/watch?v=zWPfAf7Hlek) (Mon Jan 17 2022)
-- [2 Minutes of SAPUI5 - #1 (Getting Started, XML Views)](https://www.youtube.com/watch?v=J9NMwsipMkw) (Mon Jan 17 2022)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
