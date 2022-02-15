@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@ui5/cli": "^2.14.0",
     "ui5-middleware-cfdestination": "^0.8.1"
   },
   "ui5": {
