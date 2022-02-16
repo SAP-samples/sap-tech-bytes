@@ -7,3 +7,4 @@ The content in this branch accompanies the YouTube series [2 Minutes of SAPUI5](
 1. [#3 - JSON Models, Data Binding](/episode3)
 1. [#4 - Remote Data Source, Approuter](/episode4)
 1. [#5 - Approuter, Middleware](/episode5)
+1. [#6 - Build, Deployment](/episode6)
