@@ -5,14 +5,6 @@ parameters:
   enable-parallel-deployments: true
 
 modules:
-  - name: approuter
-    type: approuter.nodejs
-    path: approuter
-    parameters:
-      disk-quota: 256M
-      memory: 256M
-    requires:
-      - name: html5-destination
   - name: ui5
     type: html5
     path: ./
@@ -22,6 +14,14 @@ modules:
         - npm install
         - ui5 build --dest ./approuter/webapp
       supported-platforms: []
+  - name: approuter
+    type: approuter.nodejs
+    path: approuter
+    parameters:
+      disk-quota: 256M
+      memory: 256M
+    requires:
+      - name: html5-destination
 resources:
   - name: html5-destination
     type: org.cloudfoundry.managed-service
