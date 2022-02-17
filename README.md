@@ -6,5 +6,6 @@ The content in this branch accompanies the posts on the SAP btp CLI, which you c
 1. [SAP Tech Bytes: btp CLI - logging in](https://blogs.sap.com/2021/09/07/sap-tech-bytes-btp-cli-logging-in/)
 1. [SAP Tech Bytes: btp CLI - managing configuration](https://blogs.sap.com/2021/09/14/sap-tech-bytes-btp-cli-managing-configuration/)
 1. [SAP Tech Bytes: btp CLI - autocompletion](https://blogs.sap.com/2021/09/21/sap-tech-bytes-btp-cli-autocompletion/)
+1. [SAP Tech Bytes: btp CLI - new home for configuration](https://blogs.sap.com/2022/02/17/sap-tech-bytes-btp-cli-new-home-for-configuration/)
 
 We've also been running a short series of live streams on YouTube on this topic; you can find recordings of past live streams and links to any upcoming ones in this playlist: [The SAP btp CLI](https://www.youtube.com/playlist?list=PL6RpkC85SLQDXx827kdjKc6HRvdMRZ8P5).
