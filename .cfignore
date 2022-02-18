@@ -1,0 +1,3 @@
+.env
+uimodule/webapp/ #not needed, as we have out build result in uimodule/dist/
+node_modules/ #cloud foundry will run another npm install for us

@@ -1,7 +1,11 @@
-.DS_Store
-node_modules
+node_modules/
+.idea/
+.mta/
+*.mtar
+dist/
 package-lock.json
-episode7
-resources
-dist
-mta_archives
+mta_archives/
+deployer/resources/
+Makefile*
+mta-*
+approuter/*/webapp/

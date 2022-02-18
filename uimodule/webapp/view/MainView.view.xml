@@ -1,0 +1,11 @@
+<mvc:View controllerName="com.sap.ui5express.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content />
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

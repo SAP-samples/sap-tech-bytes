@@ -1,0 +1,22 @@
+{
+  "generator-template-ui5-project": {
+    "projectname": "ui5express",
+    "namespaceUI5": "com.sap",
+    "platform": "Static webserver",
+    "viewtype": "XML",
+    "ui5libs": "Content delivery network (OpenUI5)",
+    "newdir": true,
+    "codeassist": false,
+    "namespaceURI": "com/sap",
+    "opa5pos": [
+      "Main"
+    ],
+    "opa5Journeys": [
+      "Main"
+    ],
+    "uimodules": [
+      "uimodule"
+    ],
+    "setupCompleted": true
+  }
+}

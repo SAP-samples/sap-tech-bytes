@@ -1,0 +1,38 @@
+{
+  "name": "ui5express",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node index.js",
+    "build:ui": "run-s  build:uimodule",
+    "test": "run-s lint karma",
+    "karma-ci": "karma start karma-ci.conf.js",
+    "clearCoverage": "shx rm -rf coverage",
+    "karma": "run-s clearCoverage karma-ci",
+    "lint": "eslint ./**/webapp/**/*.js && prettier --check ./**/webapp/**/*.{js,xml}",
+    "lint-fix": "eslint ./**/webapp/**/*.js --fix && prettier --write ./**/webapp/**/*.{js,xml}",
+    "serve:uimodule": "ui5 serve --config=uimodule/ui5.yaml",
+    "build:uimodule": "ui5 build --config=uimodule/ui5.yaml --clean-dest --dest uimodule/dist --include-task=generateManifestBundle"
+  },
+  "devDependencies": {
+    "@prettier/plugin-xml": "^1.1.0",
+    "@ui5/cli": "^2.14.1",
+    "eslint": "^7.32.0",
+    "karma": "^6.3.9",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.1.0",
+    "karma-ui5": "^2.3.4",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.5.1",
+    "shx": "^0.3.3",
+    "ui5-middleware-livereload": "^0.5.8"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-livereload"
+    ]
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}

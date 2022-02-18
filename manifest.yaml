@@ -1,0 +1,6 @@
+---
+applications:
+  - name: ui5express
+    buildpacks:
+      - nodejs_buildpack
+    memory: 512M

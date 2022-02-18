@@ -1,0 +1,9 @@
+build
+
+*.html
+*.properties
+
+
+# Only temporarely relevant as long as open-ux-tools writes the models.js file without jsdoc comment
+# see https://github.com/ui5-community/generator-ui5-project/issues/26
+/uimodule/webapp/model/models.js
