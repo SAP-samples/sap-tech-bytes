@@ -1,0 +1,23 @@
+{
+  "name": "ui5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "mbt build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ui5/cli": "^2.14.0",
+    "ui5-middleware-cfdestination": "^0.8.1"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-cfdestination"
+    ]
+  }
+}
