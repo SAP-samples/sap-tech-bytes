@@ -3,12 +3,12 @@
    xmlns:mvc="sap.ui.core.mvc"
    controllerName="sap.ui.demo.controller.App"
    xmlns:html="http://www.w3.org/1999/xhtml">
-   <!-- <html:style>
+   <html:style>
         .redBold {
             color: red;
             font-weight: bold;
         }
-   </html:style> -->
+   </html:style>
 
    <App>
       <pages>
@@ -34,13 +34,13 @@
                         </items>
                      </List>
 
-                     <!-- <Text class="redBold" text="Please note: You need a valid" />
+                     <Text class="redBold" text="Please note: You need a valid" />
                      <Link
                         class="redBold"
                         text="Google Developer API Key"
                         target="_blank"
                         href="https://console.developers.google.com/apis/credentials" />
-                     <Text class="redBold" text="and attach it to the value for 'youTubeAPI' in the manifest.json to make the API call work." /> -->
+                     <Text class="redBold" text="and attach it to the value for 'youTubeAPI' in the manifest.json to make the API call work." />
                   </content>
                </Panel>
             </content>
