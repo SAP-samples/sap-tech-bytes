@@ -26,7 +26,7 @@
       </items>
    </List>
 
-   <Text class="redBold" text="Please note: You need a valid" />
+   <Text class="redBold" text="In case you don't the any data: You need a valid" />
    <Link
       class="redBold"
       text="Google Developer API Key"
