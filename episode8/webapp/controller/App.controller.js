@@ -20,7 +20,7 @@ sap.ui.define([
             let userInfo = JSON.parse(response)
             let userFirstName = userInfo.firstname
             controller.getView().byId("appPanel")
-               .setHeaderText(`Hello, ${userFirstName}`)   
+               .setHeaderText(`Hello, ${userFirstName}! 👋`)   
          });
       }
    });

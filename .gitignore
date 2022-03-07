@@ -4,3 +4,5 @@ package-lock.json
 resources
 dist
 mta_archives
+default-env.json
+episode9
