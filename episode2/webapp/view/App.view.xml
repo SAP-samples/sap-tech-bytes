@@ -1,9 +1,0 @@
-<mvc:View
-   xmlns="sap.m"
-   xmlns:mvc="sap.ui.core.mvc"
-   controllerName="sap.ui.demo.controller.App">
-   <Button 
-      text="increment by 1"
-      press=".incrementBy1" />
-   <Text id="counter" text="0"/>
-</mvc:View>
