@@ -1,0 +1,38 @@
+{
+  "name": "sap-tech-bytes-public",
+  "version": "1.0.0",
+  "description": "HANA Access from JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "types": "tsc  --declaration --allowJs --emitDeclarationOnly --outDir @types"
+  },
+  "type": "module",
+  "module": "./index.js",
+  "types": "./@types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAP-samples/sap-tech-bytes.git"
+  },
+  "keywords": [
+    "HANA"
+  ],
+  "author": "jung-thomas",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/SAP-samples/sap-tech-bytes/issues"
+  },
+  "homepage": "https://github.com/SAP-samples/sap-tech-bytes#readme",
+  "dependencies": {
+    "@sap/hana-client": "^2.11.20",
+    "@sap/xsenv": "^3.2.1",
+    "@types/sap__xsenv": "^2.0.3",
+    "hdb": "^0.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+},
+  "engines": {
+    "node": "^12.18.0 || ^14.0.0 || ^16.0.0"
+  }
+}
