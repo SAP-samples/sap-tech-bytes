@@ -12,12 +12,12 @@ Where there&#x27;s sample code or configuration to share, specifically relating 
 Perhaps most of the time you&#x27;ll be arriving at this repository, coming from such an episode or blog post, so you&#x27;ll be sent to the appropriate branch like that. But if you&#x27;re starting here and want to find out to which SAP Tech Bytes episode or blog post a given branch-based sample relates, you&#x27;ll find the back link in the README in that branch.
  
 ## Recent Branches
+- [2022-03-17-hana-javascript](https://github.com/SAP-samples/sap-tech-bytes/tree/2022-03-17-hana-javascript) by [jung-thomas](https://github.com/jung-thomas) 
 - [2022-02-18-ui5-express-cf](https://github.com/SAP-samples/sap-tech-bytes/tree/2022-02-18-ui5-express-cf) by [nicogeburek](https://github.com/nicogeburek) 
 - [2021-09-01-btp-cli](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-09-01-btp-cli) by [qmacro](https://github.com/qmacro) 
 - [2021-08-02-github-actions-kyma](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-08-02-github-actions-kyma) by [IObert](https://github.com/IObert) 
 - [2021-07-07-predictive-scenarios](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-07-07-predictive-scenarios) by [Sygyzmundovych](https://github.com/Sygyzmundovych) 
 - [2021-05-03-serverless-sap-fiori-apps-kyma-runtime](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-serverless-sap-fiori-apps-kyma-runtime) by [IObert](https://github.com/IObert) 
-- [2021-05-03-hana-existing-starting](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-hana-existing-starting) by [jung-thomas](https://github.com/jung-thomas) 
 
 ## Recent Blog Posts
 - [SAP Tech Bytes: Running a UI5 app with an express server and deploying it to Cloud Foundry](https://blogs.sap.com/?p=1493427) by Nicolai Geburek (Fri Feb 18 2022)
