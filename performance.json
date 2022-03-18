@@ -1,0 +1,32 @@
+[
+    {
+        "name": "All Tests",
+        "tests": [
+           "test1", "test2", "test3", "test4", "test5", "test6", "test7", "test8"
+        ]
+    },
+    {
+        "name": "Impact of hana-client Synchronous",
+        "tests": [
+           "test1", "test2"
+        ]
+    },
+    {
+        "name": "All hana-cli tests",
+        "tests": [
+           "test1", "test4", "test5", "test6"
+        ]
+    },
+    {
+        "name": "hana-cli vs hdb wide column test",
+        "tests": [
+           "test10", "test9"
+        ]
+    },
+    {
+        "name": "hdb vs hdbext stored procedure test",
+        "tests": [
+           "test11", "test12"
+        ]
+    }
+]

@@ -37,7 +37,6 @@ export function example1(dbQuery, callback) {
                 if (err) {
                     callback(err)
                 } else {
-                    client.disconnect()
                     callback(null, result)
                 }
             })

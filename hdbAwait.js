@@ -1,23 +1,23 @@
 // @ts-check
 /**
- * @module hdbext-await - examples using sap-hdbext-promisfied
+ * @module hdb-await - examples using sap-hdb-promisfied
  */
 
 
-/** @type {typeof import("sap-hdbext-promisfied")} */
-import dbClass from "sap-hdbext-promisfied"
-/** @type {typeof import("@sap/hdbext")} */
-import * as hdbext from '@sap/hdbext'
+/** @type {typeof import("sap-hdb-promisfied")} */
+import dbClass from "sap-hdb-promisfied"
 
 /**
- * hdbext Await example
+ * hdb Await example
  * @param {string} [dbQuery] Database Query 
  * @returns {Promise<object>} HANA ResultSet Object
  */
 export async function example1(dbQuery) {
     try {
         let db = new dbClass(await dbClass.createConnectionFromEnv())
-        return await db.execSQL(dbQuery)
+        let result = await db.execSQL(dbQuery)
+        db.destroyClient()
+        return result
     } catch (error) {
         throw error
     }
@@ -25,7 +25,7 @@ export async function example1(dbQuery) {
 
 
 /**
- * hdbext procedure example with Callbacks
+ * hdb procedure example with Callbacks
  * @param {string} [schema] Database Stored Procedure Schema 
  * @param {string} [dbProcedure] Database Stored Procedure Name 
  * @param {object} [inputParams] Database Stored Procedure Input Parameters
@@ -34,8 +34,10 @@ export async function example1(dbQuery) {
 export async function example2(schema, dbProcedure, inputParams) {
     try {
         let db = new dbClass(await dbClass.createConnectionFromEnv())
-        let sp = await db.loadProcedurePromisified(hdbext, schema, dbProcedure)
-        return await db.callProcedurePromisified(sp, inputParams)
+        let sp = await db.loadProcedurePromisified(schema, dbProcedure)
+        let result = await db.callProcedurePromisified(sp, inputParams)
+        db.destroyClient()
+        return result
     } catch (error) {
         throw error
     }
@@ -43,7 +45,7 @@ export async function example2(schema, dbProcedure, inputParams) {
 
 
 /**
- * Test hdbext Await example
+ * Test hdb Await example
  */
  export async function testExample1() {
     try {
@@ -56,7 +58,7 @@ export async function example2(schema, dbProcedure, inputParams) {
 
 
 /**
- * Test hdbext Await example multiple rows
+ * Test hdb Await example multiple rows
  */
  export async function testExample2() {
     try {
@@ -67,7 +69,7 @@ export async function example2(schema, dbProcedure, inputParams) {
 }
 
 /**
- * Test hdbext Await stored procedure example
+ * Test hdb Await stored procedure example
  */
  export async function testExample3() {
     try {
@@ -76,3 +78,4 @@ export async function example2(schema, dbProcedure, inputParams) {
         console.error(error)
     }
 }
+

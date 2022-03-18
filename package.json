@@ -30,9 +30,12 @@
     "@sap/hdbext": "^7.6.2",
     "@sap/xsenv": "^3.2.1",
     "@sap/xsjs": "^6.5.5",
+    "@types/inquirer": "^8.2.0",
     "@types/sap__xsenv": "^2.0.3",
     "hdb": "^0.19.1",
+    "inquirer": "^8.2.1",
     "open": "^8.4.0",
+    "sap-hdb-promisfied": "^2.202203.1",
     "sap-hdbext-promisfied": "^2.202203.1"
   },
   "devDependencies": {
