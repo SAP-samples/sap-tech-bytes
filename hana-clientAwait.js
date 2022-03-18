@@ -11,7 +11,7 @@ import hanaClientPromise from "@sap/hana-client/extension/Promise.js"
 import * as xsenv from "@sap/xsenv"
 
 /**
- * hana-client Promise example
+ * hana-client Await example
  * @param {string} [dbQuery] Database Query 
  * @returns {Promise<object>} HANA ResultSet Object
  */

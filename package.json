@@ -27,11 +27,13 @@
   "homepage": "https://github.com/SAP-samples/sap-tech-bytes#readme",
   "dependencies": {
     "@sap/hana-client": "^2.11.20",
+    "@sap/hdbext": "^7.6.2",
     "@sap/xsenv": "^3.2.1",
     "@sap/xsjs": "^6.5.5",
     "@types/sap__xsenv": "^2.0.3",
     "hdb": "^0.19.1",
-    "open": "^8.4.0"
+    "open": "^8.4.0",
+    "sap-hdbext-promisfied": "^2.202203.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.21"

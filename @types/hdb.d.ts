@@ -4,17 +4,17 @@
  * @param {object} [result] HANA ResultSet Object
  */
 /**
- * hana-client example with Callbacks
+ * hdb example with Callbacks
  * @param {string} [dbQuery] Database Query
  * @param {Callback} [callback] Callback Function to receive results
  */
 export function example1(dbQuery?: string, callback?: Callback): void;
 /**
- * Test hana-client example with Callbacks
+ * Test hdb example with Callbacks
  */
 export function testExample1(): void;
 /**
- * Test hana-client example with Callbacks Multiple Rows
+ * Test hdb example with Callbacks Multiple Rows
  */
-export function testExample2(): void;
+export function hdbTestExample2(): void;
 export type Callback = (err?: Error, result?: object) => any;

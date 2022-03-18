@@ -4,6 +4,7 @@ import * as hanaClientCallbacks from "./hana-client.js"
 import * as hanaClientPromise from "./hana-clientPromise.js"
 import * as hanaClientAwait from "./hana-clientAwait.js"
 import * as hdb from "./hdb.js"
+import * as hdbext from "./hdbext.js"
 
 const limit = 100
 const perfObserver = new PerformanceObserver((items) => {
@@ -16,9 +17,19 @@ perfObserver.observe({ entryTypes: ["measure"], buffer: true })
 
 
 performance.mark("example-start")
-hanaClientSync.example1(`SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT ${limit}`)
+let result = hanaClientSync.example1(`SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT ${limit}`)
 performance.mark("example-end")
 performance.measure("Synchronous hana-client example", "example-start", "example-end")
+
+performance.mark("example-start")
+hdbext.example1(`SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT ${limit}`, (err, result) => {
+    if (err) {
+        console.error(err)
+    } else {
+        performance.mark("example-end")
+        performance.measure("Callback hdbext example", "example-start", "example-end")
+    }
+}) 
 
 performance.mark("example-start")
 hdb.example1(`SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT ${limit}`, (err, result) => {
@@ -62,5 +73,7 @@ try {
 } catch (error) {
     console.error(error)
 }
+
+
 
 
