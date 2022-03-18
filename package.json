@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "types": "tsc  --declaration --allowJs --emitDeclarationOnly --outDir @types",
-    "perf": "node performance.js"
+    "perf": "node performance.js",
+    "xsjs": "node xsjs.js"
   },
   "type": "module",
   "module": "./index.js",
@@ -27,12 +28,14 @@
   "dependencies": {
     "@sap/hana-client": "^2.11.20",
     "@sap/xsenv": "^3.2.1",
+    "@sap/xsjs": "^6.5.5",
     "@types/sap__xsenv": "^2.0.3",
-    "hdb": "^0.19.1"
+    "hdb": "^0.19.1",
+    "open": "^8.4.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.21"
-},
+  },
   "engines": {
     "node": "^12.18.0 || ^14.0.0 || ^16.0.0"
   }
