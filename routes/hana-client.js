@@ -21,13 +21,11 @@ export default function (app) {
      *     responses:
      *       '200':
      *         description: Info
-     * @param {express.Request} [req] Request Object from Express 
-     * @param {express.Response} [res] Response Object from Express
-     * @returns {any}        
      */
-    app.get("/rest/hanaClient", (req, res) => {
-        return query(res, `select CURRENT_USER, CURRENT_SCHEMA from DUMMY`)
-    })
+    app.get("/rest/hanaClient",
+        (/** @type {express.Request} */ req, /** @type {express.Response} */ res) => {
+            return query(res, `select CURRENT_USER, CURRENT_SCHEMA from DUMMY`)
+        })
 
     /**
      * @swagger
@@ -40,13 +38,11 @@ export default function (app) {
      *     responses:
      *       '200':
      *         description: Info
-     * @param {express.Request} [req] Request Object from Express 
-     * @param {express.Response} [res] Response Object from Express
-     * @returns {any}        
      */
-    app.get("/rest/hanaClient2", (req, res) => {
-        return query(res, `SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`)
-    })
+    app.get("/rest/hanaClient2",
+        (/** @type {express.Request} */ req, /** @type {express.Response} */ res) => {
+            return query(res, `SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`)
+        })
 }
 
 /**
