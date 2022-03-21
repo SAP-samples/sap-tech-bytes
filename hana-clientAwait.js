@@ -24,7 +24,7 @@ export async function example1(dbQuery) {
             }
         })
         let conn = hanaClient.createConnection()
-        var connParams = {
+        let connParams = {
             serverNode: hanaOptions.hana.host + ":" + hanaOptions.hana.port,
             uid: hanaOptions.hana.user,
             pwd: hanaOptions.hana.password,

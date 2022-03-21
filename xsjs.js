@@ -1,6 +1,7 @@
 /*eslint no-console: 0, no-unused-vars: 0*/
+// @ts-check
 "use strict"
-if(process.versions.node.split('.')[0] > 14){
+if(parseInt(process.versions.node.split('.')[0]) > 14){
     console.log(`XSJS only supports Node.js version 10.x, 12.x, or 14.x`)
     process.exit()
 }
@@ -8,8 +9,9 @@ import open from 'open'
 const {default: xsjs} = await import('@sap/xsjs')
 const xsenv = await import('@sap/xsenv')
 
-var port  = process.env.PORT || 3000
-if (!(/^[1-9]\d*$/.test(port) && 1 <= 1 * port && 1 * port <= 65535)) {
+ /** @type {Number} - Default Port*/
+let port  = parseInt(process.env.PORT) || 3_000
+if (!(/^[1-9]\d*$/.test(port.toString()) && 1 <= 1 * port && 1 * port <= 65_535)) {
      console.error(`${port} is not a valid HTTP port value`)
 }
 var options = {
