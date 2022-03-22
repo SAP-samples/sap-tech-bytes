@@ -1,0 +1,42 @@
+Entity ![TABLES] {
+key     ![SCHEMA_NAME]: String(256)  @title: 'SCHEMA_NAME: Schema name' ;
+key     ![TABLE_NAME]: String(256)  @title: 'TABLE_NAME: Table name' ;
+key     ![TABLE_OID]: Integer64  @title: 'TABLE_OID: Object ID of the table' ;
+key     ![COMMENTS]: String(5000)  @title: 'COMMENTS: Table description' ;
+key     ![FIXED_PART_SIZE]: hana.SMALLINT  @title: 'FIXED_PART_SIZE: Fixed part size of the table' ;
+key     ![IS_LOGGED]: String(5)  @title: 'IS_LOGGED: Specifies whether or not logging was on for the table at last restart time: ''TRUE''/''FALSE''' ;
+key     ![IS_SYSTEM_TABLE]: String(5)  @title: 'IS_SYSTEM_TABLE: Specifies whether the table is a system table: ''TRUE''/''FALSE''' ;
+key     ![IS_COLUMN_TABLE]: String(5)  @title: 'IS_COLUMN_TABLE: Specifies whether the table is a column table: ''TRUE''/''FALSE''' ;
+key     ![TABLE_TYPE]: String(16)  @title: 'TABLE_TYPE: Specifies type of the table: ''ROW''/''COLUMN''/''VIRTUAL''/''EXTENDED''/''COLLECTION''' ;
+key     ![IS_INSERT_ONLY]: String(5)  @title: 'IS_INSERT_ONLY: Deprecated: will not be set any more' ;
+key     ![IS_TEMPORARY]: String(5)  @title: 'IS_TEMPORARY: Specifies whether the table is a temporary table: ''TRUE''/''FALSE''' ;
+key     ![TEMPORARY_TABLE_TYPE]: String(10)  @title: 'TEMPORARY_TABLE_TYPE: Temporary table type' ;
+key     ![COMMIT_ACTION]: String(8)  @title: 'COMMIT_ACTION: On commit deletion for global temporary tables' ;
+key     ![IS_USER_DEFINED_TYPE]: String(5)  @title: 'IS_USER_DEFINED_TYPE: ''TRUE'' if user defined table type, ''FALSE'' otherwise' ;
+key     ![HAS_PRIMARY_KEY]: String(5)  @title: 'HAS_PRIMARY_KEY: ''TRUE'' if the table has a primary key, else ''FALSE''. Only valid for column store tables' ;
+key     ![USES_EXTKEY]: String(5)  @title: 'USES_EXTKEY: ''TRUE'' if the table uses an external key, else ''FALSE''. Only valid for column store tables' ;
+key     ![AUTO_MERGE_ON]: String(5)  @title: 'AUTO_MERGE_ON: ''TRUE'' if automatic delta table merge is activated for the table, else ''FALSE''. Only valid for column store tables' ;
+key     ![USES_DIMFN_CACHE]: String(5)  @title: 'USES_DIMFN_CACHE: ''TRUE'' if DimFunctionCache feature is used by the table, else ''FALSE''. Only valid for column store tables' ;
+key     ![IS_PUBLIC]: String(5)  @title: 'IS_PUBLIC: ''TRUE'' if the table is public, else ''FALSE''. Only valid for column store tables' ;
+key     ![AUTO_OPTIMIZE_COMPRESSION_ON]: String(5)  @title: 'AUTO_OPTIMIZE_COMPRESSION_ON: ''TRUE'' if automatic optimize compression is activated for the table, else ''FALSE''. Only valid for column store tables' ;
+key     ![COMPRESSED_EXTKEY]: String(5)  @title: 'COMPRESSED_EXTKEY: ''TRUE'' if the table uses a compressed external key, else ''FALSE''. Only valid for column store tables' ;
+key     ![HAS_TEXT_FIELDS]: String(5)  @title: 'HAS_TEXT_FIELDS: ''TRUE'' if the table has at least one column of type TEXT, else ''FALSE''. Only valid for column store tables' ;
+key     ![USES_QUEUE_TABLE]: String(5)  @title: 'USES_QUEUE_TABLE: ''TRUE'' if the table uses a queue table, else ''FALSE''. Only valid for column store tables' ;
+key     ![IS_PRELOAD]: String(5)  @title: 'IS_PRELOAD: ''TRUE'' if the table uses preloading, else ''FALSE''. Only valid for column store tables' ;
+key     ![IS_PARTIAL_PRELOAD]: String(5)  @title: 'IS_PARTIAL_PRELOAD: ''TRUE'' if the table uses partial preloading, else ''FALSE''. Only valid for column store tables' ;
+key     ![UNLOAD_PRIORITY]: hana.TINYINT  @title: 'UNLOAD_PRIORITY: Specifies unload priority of the table: 0 - 9. 0 means not unloadable, 1 means latest unload, and 9 means earliest unload' ;
+key     ![IS_REPLICA]: String(5)  @title: 'IS_REPLICA: ''TRUE'' if the table is a replica, else ''FALSE''' ;
+key     ![HAS_STRUCTURED_PRIVILEGE_CHECK]: String(5)  @title: 'HAS_STRUCTURED_PRIVILEGE_CHECK: ''TRUE'' if the table is registered for structured privilege check, else ''FALSE''' ;
+key     ![ROW_ORDER_TYPE]: String(8)  @title: 'ROW_ORDER_TYPE: Row order type: NULL/''BY VALUE''' ;
+key     ![CREATE_TIME]: Timestamp  @title: 'CREATE_TIME: Creation time' ;
+key     ![TEMPORAL_TYPE]: String(8)  @title: 'TEMPORAL_TYPE: Temporal type' ;
+key     ![HAS_MASKED_COLUMNS]: String(5)  @title: 'HAS_MASKED_COLUMNS: ''TRUE'' if the table has a MASK definition for at least one column, else ''FALSE''' ;
+key     ![MASK_MODE]: String(12)  @title: 'MASK_MODE: Specifies the mask mode ''DEFAULT''/''SESSION USER'' to be applied if the table has masked columns, otherwise ''NULL''' ;
+key     ![PERSISTENT_MEMORY]: String(5)  @title: 'PERSISTENT_MEMORY: ''TRUE'' if the table has Persistent Memory preference ON, ''FALSE'' if table Persistent Memory preference is OFF' ;
+key     ![HAS_RECORD_COMMIT_TIMESTAMP]: String(5)  @title: 'HAS_RECORD_COMMIT_TIMESTAMP: Specifies whether the table is tracking commit timestamps of records: ''TRUE''/''FALSE''' ;
+key     ![IS_REPLICATION_LOG_ENABLED]: String(5)  @title: 'IS_REPLICATION_LOG_ENABLED: Specifies whether the table''s replication log is collected or not: ''TRUE''/''FALSE''' ;
+key     ![NUMA_NODE_INDEXES]: String(5000)  @title: 'NUMA_NODE_INDEXES: Comma separated list of ranges of user specified logical NUMA node indexes' ;
+key     ![IS_MOVABLE]: String(5)  @title: 'IS_MOVABLE: ''TRUE'' if table is movable, else ''FALSE''' ;
+key     ![LOAD_UNIT]: String(7)  @title: 'LOAD_UNIT: Specifies unit of table data loading: ''TABLE''/''COLUMN''/''PAGE''/''DEFAULT''' ;
+}
+

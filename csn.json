@@ -1,0 +1,244 @@
+{
+  "definitions": {
+    "TABLES": {
+      "kind": "entity",
+      "elements": {
+        "SCHEMA_NAME": {
+          "@title": "SCHEMA_NAME: Schema name",
+          "key": true,
+          "type": "cds.String",
+          "length": 256
+        },
+        "TABLE_NAME": {
+          "@title": "TABLE_NAME: Table name",
+          "key": true,
+          "type": "cds.String",
+          "length": 256
+        },
+        "TABLE_OID": {
+          "@title": "TABLE_OID: Object ID of the table",
+          "key": true,
+          "type": "cds.Integer64"
+        },
+        "COMMENTS": {
+          "@title": "COMMENTS: Table description",
+          "key": true,
+          "type": "cds.String",
+          "length": 5000
+        },
+        "FIXED_PART_SIZE": {
+          "@title": "FIXED_PART_SIZE: Fixed part size of the table",
+          "key": true,
+          "type": "cds.hana.SMALLINT"
+        },
+        "IS_LOGGED": {
+          "@title": "IS_LOGGED: Specifies whether or not logging was on for the table at last restart time: 'TRUE'/'FALSE'",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "IS_SYSTEM_TABLE": {
+          "@title": "IS_SYSTEM_TABLE: Specifies whether the table is a system table: 'TRUE'/'FALSE'",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "IS_COLUMN_TABLE": {
+          "@title": "IS_COLUMN_TABLE: Specifies whether the table is a column table: 'TRUE'/'FALSE'",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "TABLE_TYPE": {
+          "@title": "TABLE_TYPE: Specifies type of the table: 'ROW'/'COLUMN'/'VIRTUAL'/'EXTENDED'/'COLLECTION'",
+          "key": true,
+          "type": "cds.String",
+          "length": 16
+        },
+        "IS_INSERT_ONLY": {
+          "@title": "IS_INSERT_ONLY: Deprecated: will not be set any more",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "IS_TEMPORARY": {
+          "@title": "IS_TEMPORARY: Specifies whether the table is a temporary table: 'TRUE'/'FALSE'",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "TEMPORARY_TABLE_TYPE": {
+          "@title": "TEMPORARY_TABLE_TYPE: Temporary table type",
+          "key": true,
+          "type": "cds.String",
+          "length": 10
+        },
+        "COMMIT_ACTION": {
+          "@title": "COMMIT_ACTION: On commit deletion for global temporary tables",
+          "key": true,
+          "type": "cds.String",
+          "length": 8
+        },
+        "IS_USER_DEFINED_TYPE": {
+          "@title": "IS_USER_DEFINED_TYPE: 'TRUE' if user defined table type, 'FALSE' otherwise",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "HAS_PRIMARY_KEY": {
+          "@title": "HAS_PRIMARY_KEY: 'TRUE' if the table has a primary key, else 'FALSE'. Only valid for column store tables",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "USES_EXTKEY": {
+          "@title": "USES_EXTKEY: 'TRUE' if the table uses an external key, else 'FALSE'. Only valid for column store tables",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "AUTO_MERGE_ON": {
+          "@title": "AUTO_MERGE_ON: 'TRUE' if automatic delta table merge is activated for the table, else 'FALSE'. Only valid for column store tables",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "USES_DIMFN_CACHE": {
+          "@title": "USES_DIMFN_CACHE: 'TRUE' if DimFunctionCache feature is used by the table, else 'FALSE'. Only valid for column store tables",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "IS_PUBLIC": {
+          "@title": "IS_PUBLIC: 'TRUE' if the table is public, else 'FALSE'. Only valid for column store tables",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "AUTO_OPTIMIZE_COMPRESSION_ON": {
+          "@title": "AUTO_OPTIMIZE_COMPRESSION_ON: 'TRUE' if automatic optimize compression is activated for the table, else 'FALSE'. Only valid for column store tables",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "COMPRESSED_EXTKEY": {
+          "@title": "COMPRESSED_EXTKEY: 'TRUE' if the table uses a compressed external key, else 'FALSE'. Only valid for column store tables",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "HAS_TEXT_FIELDS": {
+          "@title": "HAS_TEXT_FIELDS: 'TRUE' if the table has at least one column of type TEXT, else 'FALSE'. Only valid for column store tables",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "USES_QUEUE_TABLE": {
+          "@title": "USES_QUEUE_TABLE: 'TRUE' if the table uses a queue table, else 'FALSE'. Only valid for column store tables",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "IS_PRELOAD": {
+          "@title": "IS_PRELOAD: 'TRUE' if the table uses preloading, else 'FALSE'. Only valid for column store tables",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "IS_PARTIAL_PRELOAD": {
+          "@title": "IS_PARTIAL_PRELOAD: 'TRUE' if the table uses partial preloading, else 'FALSE'. Only valid for column store tables",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "UNLOAD_PRIORITY": {
+          "@title": "UNLOAD_PRIORITY: Specifies unload priority of the table: 0 - 9. 0 means not unloadable, 1 means latest unload, and 9 means earliest unload",
+          "key": true,
+          "type": "cds.hana.TINYINT"
+        },
+        "IS_REPLICA": {
+          "@title": "IS_REPLICA: 'TRUE' if the table is a replica, else 'FALSE'",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "HAS_STRUCTURED_PRIVILEGE_CHECK": {
+          "@title": "HAS_STRUCTURED_PRIVILEGE_CHECK: 'TRUE' if the table is registered for structured privilege check, else 'FALSE'",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "ROW_ORDER_TYPE": {
+          "@title": "ROW_ORDER_TYPE: Row order type: NULL/'BY VALUE'",
+          "key": true,
+          "type": "cds.String",
+          "length": 8
+        },
+        "CREATE_TIME": {
+          "@title": "CREATE_TIME: Creation time",
+          "key": true,
+          "type": "cds.Timestamp"
+        },
+        "TEMPORAL_TYPE": {
+          "@title": "TEMPORAL_TYPE: Temporal type",
+          "key": true,
+          "type": "cds.String",
+          "length": 8
+        },
+        "HAS_MASKED_COLUMNS": {
+          "@title": "HAS_MASKED_COLUMNS: 'TRUE' if the table has a MASK definition for at least one column, else 'FALSE'",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "MASK_MODE": {
+          "@title": "MASK_MODE: Specifies the mask mode 'DEFAULT'/'SESSION USER' to be applied if the table has masked columns, otherwise 'NULL'",
+          "key": true,
+          "type": "cds.String",
+          "length": 12
+        },
+        "PERSISTENT_MEMORY": {
+          "@title": "PERSISTENT_MEMORY: 'TRUE' if the table has Persistent Memory preference ON, 'FALSE' if table Persistent Memory preference is OFF",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "HAS_RECORD_COMMIT_TIMESTAMP": {
+          "@title": "HAS_RECORD_COMMIT_TIMESTAMP: Specifies whether the table is tracking commit timestamps of records: 'TRUE'/'FALSE'",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "IS_REPLICATION_LOG_ENABLED": {
+          "@title": "IS_REPLICATION_LOG_ENABLED: Specifies whether the table's replication log is collected or not: 'TRUE'/'FALSE'",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "NUMA_NODE_INDEXES": {
+          "@title": "NUMA_NODE_INDEXES: Comma separated list of ranges of user specified logical NUMA node indexes",
+          "key": true,
+          "type": "cds.String",
+          "length": 5000
+        },
+        "IS_MOVABLE": {
+          "@title": "IS_MOVABLE: 'TRUE' if table is movable, else 'FALSE'",
+          "key": true,
+          "type": "cds.String",
+          "length": 5
+        },
+        "LOAD_UNIT": {
+          "@title": "LOAD_UNIT: Specifies unit of table data loading: 'TABLE'/'COLUMN'/'PAGE'/'DEFAULT'",
+          "key": true,
+          "type": "cds.String",
+          "length": 7
+        }
+      }
+    }
+  },
+  "meta": {
+    "creator": "CDS Compiler v2.12.0",
+    "flavor": "inferred"
+  },
+  "$version": "2.0"
+}

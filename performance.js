@@ -8,6 +8,7 @@ import * as hdb from "./hdb.js"
 import * as hdbext from "./hdbext.js"
 import * as hdbextAwait from "./hdbextAwait.js"
 import * as hdbAwait from "./hdbAwait.js"
+import * as cds from './cds.js'
 import * as fs from 'fs'
 import { createRequire } from 'module'
 const require = createRequire(import.meta.url)

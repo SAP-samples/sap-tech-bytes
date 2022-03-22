@@ -35,3 +35,6 @@ mta_archives/
 # IDEs
 # .vscode
 # .idea
+
+build/
+config.gypi

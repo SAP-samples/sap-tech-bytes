@@ -26,7 +26,7 @@ export function example1(dbQuery, callback) {
         hana: {
             label: "hana"
         }
-    })
+    })   
     let conn = hanaClient.createClient(hanaOptions.hana)
     conn.on('error', (err) => {
         throw(err)
