@@ -1,3 +1,4 @@
+// @ts-check
 import { existsSync as fileExists } from 'fs'
 import * as path from 'path'
 import g from "glob"
