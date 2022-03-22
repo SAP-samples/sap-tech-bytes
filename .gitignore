@@ -14,6 +14,8 @@ default-*.json
 gen/
 node_modules/
 target/
+build/
+*config.gypi*
 
 # Web IDE, App Studio
 .che/
@@ -36,5 +38,3 @@ mta_archives/
 # .vscode
 # .idea
 
-build/
-config.gypi
