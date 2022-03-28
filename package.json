@@ -9,7 +9,8 @@
     "perf": "node performance.js",
     "xsjs": "node xsjs.js",
     "express": "node express.js",
-    "cdsCompile": "cds compile cap.cds --to csn > csn.json"
+    "cdsCompile": "cds compile cap.cds --to csn > csn.json",
+    "cds": "node cds.js"
   },
   "type": "module",
   "module": "./index.js",
@@ -28,8 +29,8 @@
   },
   "homepage": "https://github.com/SAP-samples/sap-tech-bytes#readme",
   "dependencies": {
-    "@sap/cds": "^5.8.4",
-    "@sap/hana-client": "^2.11.20",
+    "@sap/cds": "^5.9.0",
+    "@sap/hana-client": "^2.12.20",
     "@sap/hdbext": "^7.6.2",
     "@sap/xsenv": "^3.2.1",
     "@sap/xsjs": "^6.5.5",

@@ -47,4 +47,5 @@ export async function testExample1() {
     }
 }
 
-await Promise.all([testExample1(), testExample2()])
+/* await Promise.all([testExample1(), testExample2()])
+process.exit() */
