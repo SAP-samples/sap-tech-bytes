@@ -71,7 +71,7 @@ export async function example2(schema, dbProcedure, inputParams) {
  */
  export async function testExample3() {
     try {
-        console.table(await example2('SYS', 'IS_VALID_PASSWORD', {PASSWORD: "TEST"}))
+        console.log(await example2('SYS', 'IS_VALID_PASSWORD', {PASSWORD: "TEST"}))
     } catch (error) {
         console.error(error)
     }

@@ -118,7 +118,7 @@ export function testExample2() {
         if (err) {
             console.error(err)
         } else {
-            console.table(result)
+            console.log(result)
         }
     })
 }

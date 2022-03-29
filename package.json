@@ -4,13 +4,21 @@
   "description": "HANA Access from JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha '*.Test.js' --parallel --reporter mochawesome --require mochawesome/register",
     "types": "tsc  --declaration --allowJs --emitDeclarationOnly --outDir @types",
     "perf": "node performance.js",
     "xsjs": "node xsjs.js",
     "express": "node express.js",
     "cdsCompile": "cds compile cap.cds --to csn > csn.json",
-    "cds": "node cds.js"
+    "cds": "mocha cds.Test.js",
+    "hana-client": "mocha hana-client.Test.js",
+    "hana-clientSync": "mocha hana-clientSync.Test.js",
+    "hana-clientAwait": "mocha hana-clientAwait.Test.js",
+    "hana-clientPromise": "mocha hana-clientPromise.Test.js",
+    "hdb": "mocha hdb.Test.js",
+    "hdbAwait": "mocha hdbAwait.Test.js",
+    "hdbext": "mocha hdbext.Test.js",
+    "hdbextAwait": "mocha hdbextAwait.Test.js"
   },
   "type": "module",
   "module": "./index.js",
@@ -50,7 +58,12 @@
     "@types/node": "^17.0.21",
     "@types/sap__xsenv": "^2.0.3",
     "@types/swagger-jsdoc": "^6.0.1",
-    "@types/swagger-ui-express": "^4.1.3"
+    "@types/swagger-ui-express": "^4.1.3",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^9.2.2",
+    "mochawesome": "^7.1.3",
+    "sinon": "^13.0.1"
   },
   "engines": {
     "node": "^14.8.0 || ^16.0.0"

@@ -60,7 +60,7 @@ export function example1(dbQuery, callback) {
 export function testExample1() {
     example1(`SELECT CURRENT_USER, CURRENT_SCHEMA FROM DUMMY`, (err, result) => {
         if (err) {
-            console.error(err)
+            throw err
         } else {
             console.table(result)
         }
@@ -70,6 +70,7 @@ export function testExample1() {
 
 /**
  * Test hana-client example with Callbacks Multiple Rows
+ * @returns {any} 
  */
  export function testExample2() {
     example1(`SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`, (err, result) => {
@@ -77,6 +78,7 @@ export function testExample1() {
             console.error(err)
         } else {
             console.table(result)
+            return true
         }
     })
 }

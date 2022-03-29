@@ -1,6 +1,6 @@
 // @ts-check
 import cds from '@sap/cds'
-const db = await cds.connect.to('db', { model: './csn.json', credentials: null })
+export const db = await cds.connect.to('db', { model: './csn.json', credentials: null })
 
 /**
  * cds Await example
@@ -17,7 +17,7 @@ export async function example1(dbQuery) {
 }
 
 /**
- * Test cds Await example
+ * Test cds Await example with CDL
  */
 export async function testExample1() {
     try {
@@ -36,16 +36,13 @@ export async function testExample1() {
 
 
 /**
- * Test cds Await example
+ * Test cds Await example with Query as String
  */
  export async function testExample2() {
     try {
-        let dbQuery = `SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY`
+        let dbQuery = `SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY1`
         console.table(await example1(dbQuery))
     } catch (error) {
         console.error(error)
     }
 }
-
-/* await Promise.all([testExample1(), testExample2()])
-process.exit() */

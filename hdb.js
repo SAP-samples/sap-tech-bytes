@@ -66,7 +66,7 @@ export function testExample1() {
 /**
  * Test hdb example with Callbacks Multiple Rows
  */
- export function hdbTestExample2() {
+ export function testExample2() {
     example1(`SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`, (err, result) => {
         if (err) {
             console.error(err)
