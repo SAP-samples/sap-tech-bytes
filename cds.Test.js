@@ -39,5 +39,29 @@ describe('cds', () => {
             assert.rejects(async () => { await cds.example1(dbQuery) }, Error)
         })
     })
+
+
+    describe('Await Example with Stored Procedure', () => {
+        let dbQuery = ' Call SYS.IS_VALID_PASSWORD(PASSWORD => ?, ERROR_CODE => ?, ERROR_MESSAGE => ? )'
+
+        it('Password is too short - Error Code 412', async () => {
+            let result = await cds.cdsLib.run(dbQuery, { PASSWORD: "TEST" })
+            assert.equal(result.ERROR_CODE, 412)
+        })
+
+        it('Password is good - Error Code 412', async () => {
+            let result = await cds.cdsLib.run(dbQuery, { PASSWORD: "TESTtest1234" })
+            assert.equal(result.ERROR_CODE, 0)
+        })
+
+        it('throws error with Stored Procedure not found', async () => {
+            assert.rejects(async () => {
+                await cds.cdsLib.run(
+                    ' Call SYS.IS_VALID_PASSWORD_NOT_A_PROC(PASSWORD => ?, ERROR_CODE => ?, ERROR_MESSAGE => ? )',
+                    { PASSWORD: "TESTtest1234" })
+            }, Error)
+        })
+
+    })
 })
 

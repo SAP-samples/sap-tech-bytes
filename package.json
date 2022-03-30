@@ -4,7 +4,7 @@
   "description": "HANA Access from JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "mocha '*.Test.js' --parallel --reporter mochawesome --require mochawesome/register",
+    "test": "mocha '*.Test.js' --parallel --reporter mochawesome --require mochawesome/register --timeout 5000",
     "types": "tsc  --declaration --allowJs --emitDeclarationOnly --outDir @types",
     "perf": "node performance.js",
     "xsjs": "node xsjs.js",
