@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-05-03-serverless-sap-fiori-apps-kyma-runtime](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-serverless-sap-fiori-apps-kyma-runtime) by [IObert](https://github.com/IObert) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 1 hana-client vs hdb](https://blogs.sap.com/?p=1516535) by Thomas Jung (Mon Apr 04 2022)
+  - Introduction If you are a JavaScript developer then you have multiple options and frameworks for connecting to and working with SAP HANA databases. It’s easy to be overwhelmed with too many options, some of which even seem to be overlapping in functionality. In this blog post series, I’d like to ...
 - [SAP Tech Bytes: Running a UI5 app with an express server and deploying it to Cloud Foundry](https://blogs.sap.com/?p=1493427) by Nicolai Geburek (Fri Feb 18 2022)
   - In this SAP Tech Byte I will describe how to run a UI5 app with an express server and deploy it to the Cloud Foundry environment. You might wonder why one should use express to serve a UI5 app instead of using the UI5 Tooling (e.g. running “ui5 serve”, which ...
 - [SAP Tech Bytes: btp CLI - new home for configuration](https://blogs.sap.com/?p=1492643) by DJ Adams (Thu Feb 17 2022)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - I just completed my first Tech Byte as a Developer Advocate!! 😀 SAP Conversational AI is really cool, and you can see how to create chatbots with both basic and advanced features in these tutorials. Still, I wanted to start working on more SAP scenarios, like: Using the SAP Conversational ...
 - [SAP Tech Bytes: btp CLI - autocompletion](https://blogs.sap.com/?p=1407602) by DJ Adams (Tue Sep 21 2021)
   - Get the btp CLI to help you with command autocompletion. This is a follow-on post from the previous one: SAP Tech Bytes: btp CLI – managing configuration and starts where we left off there, with you logged in. Actions, groups, objects and the command structure There are many different types ...
-- [SAP Tech Bytes: btp CLI - managing configuration](https://blogs.sap.com/?p=1404163) by DJ Adams (Tue Sep 14 2021)
-  - Understand and manage the btp CLI client configuration. 🚨 Update: See SAP Tech Bytes: btp CLI – new home for configuration for new information. This is a follow-on post from the previous one: SAP Tech Bytes: btp CLI – logging in and starts where we left off there, with you ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
