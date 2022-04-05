@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-05-03-serverless-sap-fiori-apps-kyma-runtime](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-serverless-sap-fiori-apps-kyma-runtime) by [IObert](https://github.com/IObert) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 2 Promises](https://blogs.sap.com/?p=1519693) by Thomas Jung (Tue Apr 05 2022)
+  - Introduction In the previous blog post in this series, we took a deep look at the two major different JavaScript modules that act as HANA Clients: @sap/hana-client and hdb. Architectural differences aside, let&#x27;s return to that sample usage of the @sap/hana-client we saw at the end of the previous blog ...
 - [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 1 hana-client vs hdb](https://blogs.sap.com/?p=1516535) by Thomas Jung (Mon Apr 04 2022)
   - Introduction If you are a JavaScript developer then you have multiple options and frameworks for connecting to and working with SAP HANA databases. It’s easy to be overwhelmed with too many options, some of which even seem to be overlapping in functionality. In this blog post series, I’d like to ...
 - [SAP Tech Bytes: Running a UI5 app with an express server and deploying it to Cloud Foundry](https://blogs.sap.com/?p=1493427) by Nicolai Geburek (Fri Feb 18 2022)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - Introduction I read on social media about a New Year’s resolution idea: instead of answering questions sent in direct communication, write the response as a blog post and send the requester a link to the post. It sounds like a great idea to better utilize time and share knowledge so ...
 - [SAP Tech Bytes: Call ABAP services from SAP Conversational AI chatbot](https://blogs.sap.com/?p=1455513) by Daniel Wroblewski (Wed Dec 08 2021)
   - I just completed my first Tech Byte as a Developer Advocate!! 😀 SAP Conversational AI is really cool, and you can see how to create chatbots with both basic and advanced features in these tutorials. Still, I wanted to start working on more SAP scenarios, like: Using the SAP Conversational ...
-- [SAP Tech Bytes: btp CLI - autocompletion](https://blogs.sap.com/?p=1407602) by DJ Adams (Tue Sep 21 2021)
-  - Get the btp CLI to help you with command autocompletion. This is a follow-on post from the previous one: SAP Tech Bytes: btp CLI – managing configuration and starts where we left off there, with you logged in. Actions, groups, objects and the command structure There are many different types ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
