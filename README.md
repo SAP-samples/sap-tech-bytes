@@ -21,7 +21,7 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 
 ## Recent Blog Posts
 - [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 1 hana-client vs hdb](https://blogs.sap.com/?p=1516535) by Thomas Jung (Mon Apr 04 2022)
-  - Introduction If you are a JavaScript developer then you have multiple options and frameworks for connecting to and working with SAP HANA databases. It&#x27;s easy to be overwhelmed with too many options, some of which even seem to be overlapping in functionality. In this blog post series, I&#x27;d like to ...
+  - Introduction If you are a JavaScript developer then you have multiple options and frameworks for connecting to and working with SAP HANA databases. It’s easy to be overwhelmed with too many options, some of which even seem to be overlapping in functionality. In this blog post series, I’d like to ...
 - [SAP Tech Bytes: Running a UI5 app with an express server and deploying it to Cloud Foundry](https://blogs.sap.com/?p=1493427) by Nicolai Geburek (Fri Feb 18 2022)
   - In this SAP Tech Byte I will describe how to run a UI5 app with an express server and deploy it to the Cloud Foundry environment. You might wonder why one should use express to serve a UI5 app instead of using the UI5 Tooling (e.g. running “ui5 serve”, which ...
 - [SAP Tech Bytes: btp CLI - new home for configuration](https://blogs.sap.com/?p=1492643) by DJ Adams (Thu Feb 17 2022)
@@ -40,7 +40,7 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2 Minutes of SAPUI5 - #7 (Authorization)](https://www.youtube.com/watch?v=2QLI_g54D6U) (Wed Feb 23 2022)
 - [2 Minutes of SAPUI5 - #6 (Build, Deployment)](https://www.youtube.com/watch?v=ReZOHY8S2h0) (Wed Feb 16 2022)
 - [2 Minutes of ABAP - #4 (Program Types)](https://www.youtube.com/watch?v=AyUlndXZ6ls) (Fri Feb 11 2022)
-- [2 Minutes of Cloud Native - #2 (Why do I need Kubernetes?)](https://www.youtube.com/watch?v=NDEmS4gkS2g) (Fri Feb 11 2022)
+- [2 Minutes of ABAP - #3 (What Is ABAP?)](https://www.youtube.com/watch?v=3-edz2POPGQ) (Thu Feb 10 2022)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
