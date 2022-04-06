@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-05-03-serverless-sap-fiori-apps-kyma-runtime](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-05-03-serverless-sap-fiori-apps-kyma-runtime) by [IObert](https://github.com/IObert) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 3 Wrappers and Express](https://blogs.sap.com/?p=1519778) by Thomas Jung (Wed Apr 06 2022)
+  - Introduction Going back to our discuss in the previous blog post in this series about @sap/hana-client and hdb, the situation is now even more complex. @sap/hana-client supports promises, but hdb doesn’t. That’s just one of several differences between the two modules. There are also other functions like connection pooling or ...
 - [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 2 Promises](https://blogs.sap.com/?p=1519693) by Thomas Jung (Tue Apr 05 2022)
   - Introduction In the previous blog post in this series, we took a deep look at the two major different JavaScript modules that act as HANA Clients: @sap/hana-client and hdb. Architectural differences aside, let’s return to that sample usage of the @sap/hana-client we saw at the end of the previous blog ...
 - [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 1 hana-client vs hdb](https://blogs.sap.com/?p=1516535) by Thomas Jung (Mon Apr 04 2022)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - Be informed about updates to where the btp CLI configuration is stored by default. This post relates directly to the SAP Tech Bytes: btp CLI – managing configuration post, and provides a brief update to the information in there. Latest version Since that post, the btp CLI has gone through ...
 - [SAP Tech Bytes: SAP HANA / CAP Access Tables from a Different Schema](https://blogs.sap.com/?p=1471463) by Thomas Jung (Fri Jan 14 2022)
   - Introduction I read on social media about a New Year’s resolution idea: instead of answering questions sent in direct communication, write the response as a blog post and send the requester a link to the post. It sounds like a great idea to better utilize time and share knowledge so ...
-- [SAP Tech Bytes: Call ABAP services from SAP Conversational AI chatbot](https://blogs.sap.com/?p=1455513) by Daniel Wroblewski (Wed Dec 08 2021)
-  - I just completed my first Tech Byte as a Developer Advocate!! 😀 SAP Conversational AI is really cool, and you can see how to create chatbots with both basic and advanced features in these tutorials. Still, I wanted to start working on more SAP scenarios, like: Using the SAP Conversational ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
