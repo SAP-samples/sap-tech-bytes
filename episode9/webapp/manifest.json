@@ -1,0 +1,71 @@
+{
+    "sap.app": {
+        "id": "ui5",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "dataSources": {
+            "youTubeAPI": {
+                "uri": "/youTubeURL/youtube/v3/playlistItems?part=contentDetails%2Csnippet&playlistId=PL6RpkC85SLQBM78mD6AiJ1vKlSB7OWtUz&key=API_KEY",
+                "type": "JSON"
+            }
+        }
+    },
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "sap.ui.demo.view.App",
+            "type": "XML",
+            "id": "app"
+        },
+        "models": {
+            "youTubeModel": {
+                "dataSource": "youTubeAPI"
+            },
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "sap.ui.demo.i18n.i18n"
+                }
+            }
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "type": "View",
+                "viewType": "XML",
+                "path": "sap.ui.demo.view",
+                "controlId": "app",
+                "controlAggregation": "pages"
+            },
+            "routes": [
+                {
+                    "pattern": "",
+                    "name": "overview",
+                    "target": "overview"
+                },
+                {
+                    "pattern": "detail/{videoItemPath}",
+                    "name": "detail",
+                    "target": "detail"
+                }
+            ],
+            "targets": {
+                "overview": {
+                    "id": "overview",
+                    "name": "Overview"
+                },
+                "detail": {
+                    "id": "detail",
+                    "name": "Detail"
+                }
+            }
+        },
+        "resources": {
+            "css": [
+                {
+                    "uri": "css/style.css"
+                }
+            ]
+        }
+    }
+}
