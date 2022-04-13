@@ -35,7 +35,7 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
-- [2 Minutes of API Basics - HTTP](https://www.youtube.com/watch?v=Ic37FI351G4) (Wed Apr 13 2022)
+- [API Basics: HTTP](https://www.youtube.com/watch?v=Ic37FI351G4) (Wed Apr 13 2022)
 - [Add Speech-To-Text to Your Chatbot](https://www.youtube.com/watch?v=cE3sfhOMSXU) (Mon Apr 11 2022)
 - [2 Minutes of Cloud Native - #6 (The Kubernetes Control Plane Explained)](https://www.youtube.com/watch?v=Qwa2pFNOc5s) (Fri Apr 08 2022)
 - [2 Minutes of SAPUI5 - #8 (i18n, Custom CSS)](https://www.youtube.com/watch?v=iWofdx18Xk4) (Wed Mar 30 2022)
