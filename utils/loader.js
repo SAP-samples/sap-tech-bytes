@@ -4,6 +4,7 @@ import * as path from 'path'
 import g from "glob"
 import { promisify } from 'util'
 const glob = promisify(g)
+import upath from 'upath'
 
 /**
  * Dynamic Import on single project file (with file exists check)
@@ -26,7 +27,7 @@ const glob = promisify(g)
  export async function importFolder(folder, app) {
 
     let routesDir = path.join(app.baseDir, folder)
-    let files = await glob(routesDir)
+    let files = await glob(upath.normalize(routesDir))
    // this.routerFiles = files
     if (files.length !== 0) {
         for (let file of files) {
