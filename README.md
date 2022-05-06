@@ -35,12 +35,12 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [Cloud Native for Beginners: Which Kubernetes Installation do I need?](https://www.youtube.com/watch?v=n6a6Za0rdRU) (Fri May 06 2022)
 - [SAPUI5 - Routing History, AJAX Requests (#10)](https://www.youtube.com/watch?v=op5E_wyX9pE) (Tue May 03 2022)
 - [API Basics: HTTP](https://www.youtube.com/watch?v=Ic37FI351G4) (Wed Apr 13 2022)
 - [SAPUI5: Routing/Navigation (#9)](https://www.youtube.com/watch?v=9qTnCc3A6BU) (Tue Apr 12 2022)
 - [Add Speech-To-Text to Your Chatbot](https://www.youtube.com/watch?v=cE3sfhOMSXU) (Mon Apr 11 2022)
 - [SAPUI5: i18n, Custom CSS (#8)](https://www.youtube.com/watch?v=iWofdx18Xk4) (Wed Mar 30 2022)
-- [SAPUI5: Authorization (#7)](https://www.youtube.com/watch?v=2QLI_g54D6U) (Wed Feb 23 2022)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
