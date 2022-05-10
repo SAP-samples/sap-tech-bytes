@@ -5,9 +5,9 @@
     "passes": 36,
     "pending": 0,
     "failures": 0,
-    "start": "2022-04-29T20:13:30.252Z",
-    "end": "2022-04-29T20:13:35.283Z",
-    "duration": 5031,
+    "start": "2022-05-10T19:11:05.227Z",
+    "end": "2022-05-10T19:11:10.070Z",
+    "duration": 4843,
     "testsRegistered": 36,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "4dcd1a54-b61b-4aef-9f09-b0d0112efaa1",
+      "uuid": "a6b9e291-04ed-448b-b4e2-b10395e01dc0",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d92bac42-71d7-4e4c-85e6-37320d5e7871",
+          "uuid": "ea7783fd-6713-44bd-a35b-55e3ea9218cb",
           "title": "hana-client",
           "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hana-clientAwait.Test.js",
           "file": "\\hana-clientAwait.Test.js",
@@ -36,7 +36,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "b8c4740c-de7a-4ed1-8162-335db1e9d15a",
+              "uuid": "eb44ad31-7cc8-4d4a-88aa-480702d56cc5",
               "title": "Example with Await",
               "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hana-clientAwait.Test.js",
               "file": "\\hana-clientAwait.Test.js",
@@ -47,7 +47,7 @@
                   "title": "returns 10 records",
                   "fullTitle": "hana-client Example with Await returns 10 records",
                   "timedOut": null,
-                  "duration": 930,
+                  "duration": 895,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -56,7 +56,7 @@
                   "context": null,
                   "code": "let dbQuery = `SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`\nconst results = await hanaClientAwait.example1(dbQuery)\nassert.equal(results.length, 10)",
                   "err": {},
-                  "uuid": "f67a24e1-6c1a-4755-b0f7-f927e04ba6ba",
+                  "uuid": "a81f8cb2-f507-4b1e-a93c-73955fd6a8e4",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -65,7 +65,7 @@
                   "title": "returns single record",
                   "fullTitle": "hana-client Example with Await returns single record",
                   "timedOut": null,
-                  "duration": 485,
+                  "duration": 535,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -74,7 +74,7 @@
                   "context": null,
                   "code": "let dbQuery = `SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY`\nconst results = await hanaClientAwait.example1(dbQuery)\nassert.equal(results.length, 1)",
                   "err": {},
-                  "uuid": "e4d3c95f-e7f1-4209-ab37-fab3ca4bd734",
+                  "uuid": "bf35c25c-6597-4ce8-a606-b71c3eb01adc",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -92,7 +92,7 @@
                   "context": null,
                   "code": "let dbQuery = `SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY_DUMB`\nassert.rejects(async () => { await hanaClientAwait.example1(dbQuery) }, Error)",
                   "err": {},
-                  "uuid": "1c1cfb48-ef20-48e3-97c0-dbe73a3b3ab7",
+                  "uuid": "8da185b7-4401-438b-8494-6783a8323da5",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -100,14 +100,14 @@
               ],
               "suites": [],
               "passes": [
-                "f67a24e1-6c1a-4755-b0f7-f927e04ba6ba",
-                "e4d3c95f-e7f1-4209-ab37-fab3ca4bd734",
-                "1c1cfb48-ef20-48e3-97c0-dbe73a3b3ab7"
+                "a81f8cb2-f507-4b1e-a93c-73955fd6a8e4",
+                "bf35c25c-6597-4ce8-a606-b71c3eb01adc",
+                "8da185b7-4401-438b-8494-6783a8323da5"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1416,
+              "duration": 1431,
               "root": false,
               "rootEmpty": false,
               "_timeout": null
@@ -123,7 +123,7 @@
           "_timeout": null
         },
         {
-          "uuid": "61ae95ff-4a99-4fc3-84b8-b7a010d5436e",
+          "uuid": "f646fcbb-5272-4e87-be4c-fb81b7195c0d",
           "title": "hdb",
           "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hdbAwait.Test.js",
           "file": "\\hdbAwait.Test.js",
@@ -132,7 +132,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "a86bbccb-d326-4906-b539-a87f557a8d6e",
+              "uuid": "ec19b22d-f113-4f52-a4db-74c76922cd91",
               "title": "Example with Await",
               "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hdbAwait.Test.js",
               "file": "\\hdbAwait.Test.js",
@@ -143,7 +143,7 @@
                   "title": "returns 10 records",
                   "fullTitle": "hdb Example with Await returns 10 records",
                   "timedOut": null,
-                  "duration": 591,
+                  "duration": 623,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -152,7 +152,7 @@
                   "context": null,
                   "code": "let dbQuery = `SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`\nconst results = await hdbAwait.example1(dbQuery)\nassert.equal(results.length, 10)",
                   "err": {},
-                  "uuid": "6371e2a1-d913-41d9-8c75-74f82205143b",
+                  "uuid": "0793aa81-ffe2-4b94-995a-1e8f9371a041",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -161,7 +161,7 @@
                   "title": "returns single record",
                   "fullTitle": "hdb Example with Await returns single record",
                   "timedOut": null,
-                  "duration": 484,
+                  "duration": 510,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -170,7 +170,7 @@
                   "context": null,
                   "code": "let dbQuery = `SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY`\nconst results = await hdbAwait.example1(dbQuery)\nassert.equal(results.length, 1)",
                   "err": {},
-                  "uuid": "64c36650-77e5-4f21-85f7-21c0ea7554d1",
+                  "uuid": "b663b6b8-77a2-4dd3-b8f6-a4b9f18f9385",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -179,7 +179,7 @@
                   "title": "throws error with target table not found",
                   "fullTitle": "hdb Example with Await throws error with target table not found",
                   "timedOut": null,
-                  "duration": 1,
+                  "duration": 2,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -188,7 +188,7 @@
                   "context": null,
                   "code": "let dbQuery = `SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY_DUMB`\nassert.rejects(async () => { await hdbAwait.example1(dbQuery) }, Error)",
                   "err": {},
-                  "uuid": "74f14f82-03c6-4c5b-a7b6-8486c7afef97",
+                  "uuid": "cb4e71a2-645f-4117-843f-d72df9230edc",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -196,14 +196,14 @@
               ],
               "suites": [],
               "passes": [
-                "6371e2a1-d913-41d9-8c75-74f82205143b",
-                "64c36650-77e5-4f21-85f7-21c0ea7554d1",
-                "74f14f82-03c6-4c5b-a7b6-8486c7afef97"
+                "0793aa81-ffe2-4b94-995a-1e8f9371a041",
+                "b663b6b8-77a2-4dd3-b8f6-a4b9f18f9385",
+                "cb4e71a2-645f-4117-843f-d72df9230edc"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1076,
+              "duration": 1135,
               "root": false,
               "rootEmpty": false,
               "_timeout": null
@@ -219,103 +219,7 @@
           "_timeout": null
         },
         {
-          "uuid": "f003f938-5f27-4fc6-8763-b6b724cdeb65",
-          "title": "hana-client",
-          "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hana-client.Test.js",
-          "file": "\\hana-client.Test.js",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [],
-          "suites": [
-            {
-              "uuid": "533c05c5-fe40-4a22-a384-7dfbecc47676",
-              "title": "Example with Callbacks",
-              "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hana-client.Test.js",
-              "file": "\\hana-client.Test.js",
-              "beforeHooks": [],
-              "afterHooks": [],
-              "tests": [
-                {
-                  "title": "returns single record",
-                  "fullTitle": "hana-client Example with Callbacks returns single record",
-                  "timedOut": null,
-                  "duration": 969,
-                  "state": "passed",
-                  "speed": "slow",
-                  "pass": true,
-                  "fail": false,
-                  "pending": false,
-                  "context": null,
-                  "code": "hanaClientCallbacks.example1(`SELECT CURRENT_USER, CURRENT_SCHEMA FROM DUMMY`, (err, result) => {\n    if (err) {\n        done(err)\n    } else {\n        assert.equal(result.length, 1)\n        done()\n    }\n})",
-                  "err": {},
-                  "uuid": "0210fc16-b55f-4fbf-b36a-99dba8c581c0",
-                  "parentUUID": null,
-                  "isHook": false,
-                  "skipped": false
-                },
-                {
-                  "title": "throws error with target table not found",
-                  "fullTitle": "hana-client Example with Callbacks throws error with target table not found",
-                  "timedOut": null,
-                  "duration": 467,
-                  "state": "passed",
-                  "speed": "slow",
-                  "pass": true,
-                  "fail": false,
-                  "pending": false,
-                  "context": null,
-                  "code": "hanaClientCallbacks.example1(`SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY_DUMB`, (err, result) => {\n    if (err) {\n        done()\n    } else {\n        done(new Error(`Expected Exception but Received None`))\n    }\n})",
-                  "err": {},
-                  "uuid": "fb218fc4-a6e3-4493-8ce5-7d2455f10053",
-                  "parentUUID": null,
-                  "isHook": false,
-                  "skipped": false
-                },
-                {
-                  "title": "returns 10 records",
-                  "fullTitle": "hana-client Example with Callbacks returns 10 records",
-                  "timedOut": null,
-                  "duration": 507,
-                  "state": "passed",
-                  "speed": "slow",
-                  "pass": true,
-                  "fail": false,
-                  "pending": false,
-                  "context": null,
-                  "code": "hanaClientCallbacks.example1(`SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`, (err, result) => {\n    if (err) {\n        done(err)\n    } else {\n        assert.equal(result.length, 10)\n        done()\n    }\n})",
-                  "err": {},
-                  "uuid": "1842b9ce-1347-4f00-aea8-d2239fefa59a",
-                  "parentUUID": null,
-                  "isHook": false,
-                  "skipped": false
-                }
-              ],
-              "suites": [],
-              "passes": [
-                "0210fc16-b55f-4fbf-b36a-99dba8c581c0",
-                "fb218fc4-a6e3-4493-8ce5-7d2455f10053",
-                "1842b9ce-1347-4f00-aea8-d2239fefa59a"
-              ],
-              "failures": [],
-              "pending": [],
-              "skipped": [],
-              "duration": 1943,
-              "root": false,
-              "rootEmpty": false,
-              "_timeout": null
-            }
-          ],
-          "passes": [],
-          "failures": [],
-          "pending": [],
-          "skipped": [],
-          "duration": 0,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": null
-        },
-        {
-          "uuid": "5be564d2-3a69-4271-825a-359159eaf432",
+          "uuid": "951227de-60fd-44db-b8a1-4bd9c7710f69",
           "title": "hdb",
           "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hdb.Test.js",
           "file": "\\hdb.Test.js",
@@ -324,7 +228,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "39b2d95c-6593-4a79-aa33-b5b3b14e7fe6",
+              "uuid": "8a1f6f60-c51a-49b4-8f0c-803de8745070",
               "title": "Example with Callbacks",
               "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hdb.Test.js",
               "file": "\\hdb.Test.js",
@@ -335,7 +239,7 @@
                   "title": "returns single record",
                   "fullTitle": "hdb Example with Callbacks returns single record",
                   "timedOut": null,
-                  "duration": 601,
+                  "duration": 576,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -344,7 +248,7 @@
                   "context": null,
                   "code": "hdb.example1(`SELECT CURRENT_USER, CURRENT_SCHEMA FROM DUMMY`, (err, result) => {\n    if (err) {\n        done(err)\n    } else {\n        assert.equal(result.length, 1)\n        done()\n    }\n})",
                   "err": {},
-                  "uuid": "1967f184-d0f0-49f8-841e-e13bace312b8",
+                  "uuid": "550b7059-131a-4edf-a97d-5ac6871c4215",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -353,7 +257,7 @@
                   "title": "throws error with target table not found",
                   "fullTitle": "hdb Example with Callbacks throws error with target table not found",
                   "timedOut": null,
-                  "duration": 467,
+                  "duration": 480,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -362,7 +266,7 @@
                   "context": null,
                   "code": "hdb.example1(`SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY_DUMB`, (err, result) => {\n    if (err) {\n        done()\n    } else {\n        done(new Error(`Expected Exception but Received None`))\n    }\n})",
                   "err": {},
-                  "uuid": "0d127960-a5a4-4b7a-9bca-79282f6f9862",
+                  "uuid": "ef374b05-d651-41a8-83e0-596cfffda244",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -371,7 +275,7 @@
                   "title": "returns 10 records",
                   "fullTitle": "hdb Example with Callbacks returns 10 records",
                   "timedOut": null,
-                  "duration": 465,
+                  "duration": 463,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -380,7 +284,7 @@
                   "context": null,
                   "code": "hdb.example1(`SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`, (err, result) => {\n    if (err) {\n        done(err)\n    } else {\n        assert.equal(result.length, 10)\n        done()\n    }\n})",
                   "err": {},
-                  "uuid": "f7e00d76-6c46-4e42-8d57-69f5c036f734",
+                  "uuid": "fe65ee2f-ecb8-47bb-9268-2de070805250",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -388,14 +292,14 @@
               ],
               "suites": [],
               "passes": [
-                "1967f184-d0f0-49f8-841e-e13bace312b8",
-                "0d127960-a5a4-4b7a-9bca-79282f6f9862",
-                "f7e00d76-6c46-4e42-8d57-69f5c036f734"
+                "550b7059-131a-4edf-a97d-5ac6871c4215",
+                "ef374b05-d651-41a8-83e0-596cfffda244",
+                "fe65ee2f-ecb8-47bb-9268-2de070805250"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1533,
+              "duration": 1519,
               "root": false,
               "rootEmpty": false,
               "_timeout": null
@@ -411,43 +315,43 @@
           "_timeout": null
         },
         {
-          "uuid": "f01a67bf-0ea2-49bd-a680-bccec52bc5ee",
+          "uuid": "be693781-a313-479c-97d9-609f6bcd2eb8",
           "title": "hana-client",
-          "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hana-clientPromise.Test.js",
-          "file": "\\hana-clientPromise.Test.js",
+          "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hana-client.Test.js",
+          "file": "\\hana-client.Test.js",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [],
           "suites": [
             {
-              "uuid": "43053b31-c0cc-45fd-b23e-f91cc90af137",
-              "title": "Example with Promises",
-              "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hana-clientPromise.Test.js",
-              "file": "\\hana-clientPromise.Test.js",
+              "uuid": "731164be-f0bc-4141-a69f-0c0cb4d8acdf",
+              "title": "Example with Callbacks",
+              "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hana-client.Test.js",
+              "file": "\\hana-client.Test.js",
               "beforeHooks": [],
               "afterHooks": [],
               "tests": [
                 {
-                  "title": "returns 10 records",
-                  "fullTitle": "hana-client Example with Promises returns 10 records",
+                  "title": "returns single record",
+                  "fullTitle": "hana-client Example with Callbacks returns single record",
                   "timedOut": null,
-                  "duration": 901,
+                  "duration": 926,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "hanaClientPromise.example1(`SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`)\n    .then((result) => {\n        assert.equal(result.length, 10)\n        done()\n    })",
+                  "code": "hanaClientCallbacks.example1(`SELECT CURRENT_USER, CURRENT_SCHEMA FROM DUMMY`, (err, result) => {\n    if (err) {\n        done(err)\n    } else {\n        assert.equal(result.length, 1)\n        done()\n    }\n})",
                   "err": {},
-                  "uuid": "50add5b4-4fc1-4d4d-a27c-17d1c258f841",
+                  "uuid": "9c2e34a5-c457-4f94-92b3-6471f3da9012",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
                 },
                 {
-                  "title": "returns single record",
-                  "fullTitle": "hana-client Example with Promises returns single record",
+                  "title": "throws error with target table not found",
+                  "fullTitle": "hana-client Example with Callbacks throws error with target table not found",
                   "timedOut": null,
                   "duration": 491,
                   "state": "passed",
@@ -456,27 +360,27 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "hanaClientPromise.example1(`SELECT CURRENT_USER, CURRENT_SCHEMA FROM DUMMY`)\n    .then((result) => {\n        assert.equal(result.length, 1)\n        done()\n    })",
+                  "code": "hanaClientCallbacks.example1(`SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY_DUMB`, (err, result) => {\n    if (err) {\n        done()\n    } else {\n        done(new Error(`Expected Exception but Received None`))\n    }\n})",
                   "err": {},
-                  "uuid": "ad828bfd-9fd7-43cf-b952-a17bf35965fb",
+                  "uuid": "7aec6e06-da29-4b27-b4f8-6f2b9daa19d3",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
                 },
                 {
-                  "title": "throws error with target table not found",
-                  "fullTitle": "hana-client Example with Promises throws error with target table not found",
+                  "title": "returns 10 records",
+                  "fullTitle": "hana-client Example with Callbacks returns 10 records",
                   "timedOut": null,
-                  "duration": 499,
+                  "duration": 483,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "hanaClientPromise.example1(`SELECT CURRENT_USER, CURRENT_SCHEMA FROM DUMMY_DUMB`)\n                .then(() => {\n                    done(new Error(`Expected Exception but Received None`))\n                })\n                .catch(() => {\n                    done()\n                })",
+                  "code": "hanaClientCallbacks.example1(`SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`, (err, result) => {\n    if (err) {\n        done(err)\n    } else {\n        assert.equal(result.length, 10)\n        done()\n    }\n})",
                   "err": {},
-                  "uuid": "60e72018-f70c-4552-9167-a089031c0035",
+                  "uuid": "084ac4ef-c4b3-4974-8c8a-69e2135c8550",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -484,14 +388,14 @@
               ],
               "suites": [],
               "passes": [
-                "50add5b4-4fc1-4d4d-a27c-17d1c258f841",
-                "ad828bfd-9fd7-43cf-b952-a17bf35965fb",
-                "60e72018-f70c-4552-9167-a089031c0035"
+                "9c2e34a5-c457-4f94-92b3-6471f3da9012",
+                "7aec6e06-da29-4b27-b4f8-6f2b9daa19d3",
+                "084ac4ef-c4b3-4974-8c8a-69e2135c8550"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1891,
+              "duration": 1900,
               "root": false,
               "rootEmpty": false,
               "_timeout": null
@@ -507,7 +411,7 @@
           "_timeout": null
         },
         {
-          "uuid": "3e87d2d0-fc40-483a-a192-2068460a7709",
+          "uuid": "ba03110f-43b0-41f8-8f67-3e7eeeca0a91",
           "title": "hana-client",
           "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hana-clientSync.Test.js",
           "file": "\\hana-clientSync.Test.js",
@@ -516,7 +420,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "5aa23244-965f-43bb-9819-544b0eb5f7fa",
+              "uuid": "46bdb5d5-d97c-4147-8793-7ddce5bc5c2d",
               "title": "Example with Synchronous Calls",
               "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hana-clientSync.Test.js",
               "file": "\\hana-clientSync.Test.js",
@@ -527,7 +431,7 @@
                   "title": "returns 10 records",
                   "fullTitle": "hana-client Example with Synchronous Calls returns 10 records",
                   "timedOut": null,
-                  "duration": 855,
+                  "duration": 876,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -536,7 +440,7 @@
                   "context": null,
                   "code": "let dbQuery = `SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`\nconst results = hanaClientSync.example1(dbQuery)\nassert.equal(results.length, 10)",
                   "err": {},
-                  "uuid": "6b8c9d54-5c44-4174-b537-2422e92ec8b1",
+                  "uuid": "a64d4612-474d-4e8c-9dda-87297359c4b9",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -545,7 +449,7 @@
                   "title": "returns single record",
                   "fullTitle": "hana-client Example with Synchronous Calls returns single record",
                   "timedOut": null,
-                  "duration": 486,
+                  "duration": 480,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -554,7 +458,7 @@
                   "context": null,
                   "code": "let dbQuery = `SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY`\nconst results = hanaClientSync.example1(dbQuery)\nassert.equal(results.length, 1)",
                   "err": {},
-                  "uuid": "71816407-5ca5-46b5-ab4b-757dbe15c121",
+                  "uuid": "33b5c040-186d-4c9a-b7e9-02a61dbf2ba9",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -563,7 +467,7 @@
                   "title": "throws error with target table not found",
                   "fullTitle": "hana-client Example with Synchronous Calls throws error with target table not found",
                   "timedOut": null,
-                  "duration": 500,
+                  "duration": 496,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -572,7 +476,7 @@
                   "context": null,
                   "code": "let dbQuery = `SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY_DUMB`\nassert.throws(() => { hanaClientSync.example1(dbQuery) }, Error)",
                   "err": {},
-                  "uuid": "e892ebe0-ae14-4546-8ac1-6050f98323e6",
+                  "uuid": "518da0f8-7fba-41b6-93a2-c20d5fdaa533",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -580,14 +484,14 @@
               ],
               "suites": [],
               "passes": [
-                "6b8c9d54-5c44-4174-b537-2422e92ec8b1",
-                "71816407-5ca5-46b5-ab4b-757dbe15c121",
-                "e892ebe0-ae14-4546-8ac1-6050f98323e6"
+                "a64d4612-474d-4e8c-9dda-87297359c4b9",
+                "33b5c040-186d-4c9a-b7e9-02a61dbf2ba9",
+                "518da0f8-7fba-41b6-93a2-c20d5fdaa533"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1841,
+              "duration": 1852,
               "root": false,
               "rootEmpty": false,
               "_timeout": null
@@ -603,7 +507,103 @@
           "_timeout": null
         },
         {
-          "uuid": "a39813b4-c6fa-4d88-86d6-33db52c4262e",
+          "uuid": "93bc7539-3585-42af-b502-ea471c70403c",
+          "title": "hana-client",
+          "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hana-clientPromise.Test.js",
+          "file": "\\hana-clientPromise.Test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "1b307b22-be3d-4943-a855-e3e4640c1f7e",
+              "title": "Example with Promises",
+              "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hana-clientPromise.Test.js",
+              "file": "\\hana-clientPromise.Test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "returns 10 records",
+                  "fullTitle": "hana-client Example with Promises returns 10 records",
+                  "timedOut": null,
+                  "duration": 908,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "hanaClientPromise.example1(`SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`)\n    .then((result) => {\n        assert.equal(result.length, 10)\n        done()\n    })",
+                  "err": {},
+                  "uuid": "3a9546a7-6fe1-47b2-b0e0-befed220f557",
+                  "parentUUID": null,
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "returns single record",
+                  "fullTitle": "hana-client Example with Promises returns single record",
+                  "timedOut": null,
+                  "duration": 496,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "hanaClientPromise.example1(`SELECT CURRENT_USER, CURRENT_SCHEMA FROM DUMMY`)\n    .then((result) => {\n        assert.equal(result.length, 1)\n        done()\n    })",
+                  "err": {},
+                  "uuid": "5609846f-05b1-4e89-a83b-a653b90478dd",
+                  "parentUUID": null,
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "throws error with target table not found",
+                  "fullTitle": "hana-client Example with Promises throws error with target table not found",
+                  "timedOut": null,
+                  "duration": 503,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "hanaClientPromise.example1(`SELECT CURRENT_USER, CURRENT_SCHEMA FROM DUMMY_DUMB`)\n                .then(() => {\n                    done(new Error(`Expected Exception but Received None`))\n                })\n                .catch(() => {\n                    done()\n                })",
+                  "err": {},
+                  "uuid": "b34b33c7-be2a-4777-9a36-2b0be85b18bf",
+                  "parentUUID": null,
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "3a9546a7-6fe1-47b2-b0e0-befed220f557",
+                "5609846f-05b1-4e89-a83b-a653b90478dd",
+                "b34b33c7-be2a-4777-9a36-2b0be85b18bf"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1907,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": null
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": null
+        },
+        {
+          "uuid": "98834125-ad7e-4fbc-9183-75b7efad9011",
           "title": "cds",
           "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\cds.Test.js",
           "file": "\\cds.Test.js",
@@ -621,7 +621,7 @@
               "context": null,
               "code": "sinon.stub(console, 'log')  // disable console.log\nsinon.stub(console, 'info')  // disable console.info",
               "err": {},
-              "uuid": "8b5ae71f-bf1e-4106-9965-cc0054781daf",
+              "uuid": "24af2697-dd19-47ee-b9a0-e1570817d192",
               "parentUUID": null,
               "isHook": true,
               "skipped": false
@@ -641,7 +641,7 @@
               "context": null,
               "code": "console.log.restore()\nconsole.info.restore()",
               "err": {},
-              "uuid": "5d0ffabd-4cdb-4d69-9298-2defeac5fe62",
+              "uuid": "2178afa8-4648-46f3-805f-2bc11b596d3b",
               "parentUUID": null,
               "isHook": true,
               "skipped": false
@@ -650,7 +650,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "5de3b57c-5968-46f1-bc52-0d99c6c7eaa5",
+              "uuid": "e0f5a3ea-c522-46bb-ba60-add66d7e4143",
               "title": "Await example with CDL",
               "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\cds.Test.js",
               "file": "\\cds.Test.js",
@@ -661,7 +661,7 @@
                   "title": "returns 10 records",
                   "fullTitle": "cds Await example with CDL returns 10 records",
                   "timedOut": null,
-                  "duration": 603,
+                  "duration": 571,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -670,7 +670,7 @@
                   "context": null,
                   "code": "let dbQuery = SELECT\n    .from(cds.db.entities.TABLES)\n    .columns(TABLES => {\n        TABLES.SCHEMA_NAME.as('SCHEMA'),\n            TABLES.TABLE_NAME\n    })\n    .limit(10)\nconst results = await cds.example1(dbQuery)\nassert.equal(results.length, 10)",
                   "err": {},
-                  "uuid": "78720cf8-ee9f-4b07-98bc-4d4ecd41e178",
+                  "uuid": "d3d40f7f-dfb6-4751-99e1-cd339d7d6fe3",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -678,18 +678,18 @@
               ],
               "suites": [],
               "passes": [
-                "78720cf8-ee9f-4b07-98bc-4d4ecd41e178"
+                "d3d40f7f-dfb6-4751-99e1-cd339d7d6fe3"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 603,
+              "duration": 571,
               "root": false,
               "rootEmpty": false,
               "_timeout": null
             },
             {
-              "uuid": "f8871580-1127-4dc3-a9ff-a9566ec498b4",
+              "uuid": "be56d9b7-c800-4513-bf12-fd3a7af1cda2",
               "title": "Await example with Query as String",
               "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\cds.Test.js",
               "file": "\\cds.Test.js",
@@ -700,16 +700,16 @@
                   "title": "returns single record",
                   "fullTitle": "cds Await example with Query as String returns single record",
                   "timedOut": null,
-                  "duration": 78,
+                  "duration": 73,
                   "state": "passed",
-                  "speed": "slow",
+                  "speed": "medium",
                   "pass": true,
                   "fail": false,
                   "pending": false,
                   "context": null,
                   "code": "let dbQuery = `SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY`\nconst results = await cds.example1(dbQuery)\nassert.equal(results.length, 1)",
                   "err": {},
-                  "uuid": "807a80be-4110-47ef-ad09-2c90de8eaa0e",
+                  "uuid": "02391b7d-d26b-41a1-962e-76448e5e67cc",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -727,7 +727,7 @@
                   "context": null,
                   "code": "let dbQuery = `SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY_DUMB`\nassert.rejects(async () => { await cds.example1(dbQuery) }, Error)",
                   "err": {},
-                  "uuid": "5f59a337-8d60-428a-b2fa-da0583e6a81f",
+                  "uuid": "b70ab3a2-5e73-4630-b4f7-c4f74a0f4055",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -735,19 +735,19 @@
               ],
               "suites": [],
               "passes": [
-                "807a80be-4110-47ef-ad09-2c90de8eaa0e",
-                "5f59a337-8d60-428a-b2fa-da0583e6a81f"
+                "02391b7d-d26b-41a1-962e-76448e5e67cc",
+                "b70ab3a2-5e73-4630-b4f7-c4f74a0f4055"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 78,
+              "duration": 73,
               "root": false,
               "rootEmpty": false,
               "_timeout": null
             },
             {
-              "uuid": "a5e351c6-649f-4f3a-a504-c16c6beb6a4e",
+              "uuid": "7722b2f4-6c06-4af5-8c4a-f18fb9909c64",
               "title": "Await Example with Stored Procedure",
               "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\cds.Test.js",
               "file": "\\cds.Test.js",
@@ -758,7 +758,7 @@
                   "title": "Password is too short - Error Code 412",
                   "fullTitle": "cds Await Example with Stored Procedure Password is too short - Error Code 412",
                   "timedOut": null,
-                  "duration": 267,
+                  "duration": 249,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -767,7 +767,7 @@
                   "context": null,
                   "code": "let result = await cds.cdsLib.run(dbQuery, { PASSWORD: \"TEST\" })\nassert.equal(result.ERROR_CODE, 412)",
                   "err": {},
-                  "uuid": "2f438261-2e5d-48b6-a5c8-20d7badaeafc",
+                  "uuid": "86059d0b-ec47-4b8a-a3c6-70a7c7d1f51d",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -776,7 +776,7 @@
                   "title": "Password is good - Error Code 412",
                   "fullTitle": "cds Await Example with Stored Procedure Password is good - Error Code 412",
                   "timedOut": null,
-                  "duration": 201,
+                  "duration": 184,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -785,7 +785,7 @@
                   "context": null,
                   "code": "let result = await cds.cdsLib.run(dbQuery, { PASSWORD: \"TESTtest1234\" })\nassert.equal(result.ERROR_CODE, 0)",
                   "err": {},
-                  "uuid": "249eb29e-ea72-463f-93e0-40d03dcfdc15",
+                  "uuid": "73774b5a-8a9a-4148-a46e-1aacf3196b02",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -794,7 +794,7 @@
                   "title": "throws error with Stored Procedure not found",
                   "fullTitle": "cds Await Example with Stored Procedure throws error with Stored Procedure not found",
                   "timedOut": null,
-                  "duration": 0,
+                  "duration": 1,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -803,7 +803,7 @@
                   "context": null,
                   "code": "assert.rejects(async () => {\n    await cds.cdsLib.run(\n        ' Call SYS.IS_VALID_PASSWORD_NOT_A_PROC(PASSWORD => ?, ERROR_CODE => ?, ERROR_MESSAGE => ? )',\n        { PASSWORD: \"TESTtest1234\" })\n}, Error)",
                   "err": {},
-                  "uuid": "d24a7b4f-eb90-47c8-a3f0-e170c998032c",
+                  "uuid": "3f8d6cce-f685-4bee-a12e-d70b6f33d7c7",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -811,14 +811,14 @@
               ],
               "suites": [],
               "passes": [
-                "2f438261-2e5d-48b6-a5c8-20d7badaeafc",
-                "249eb29e-ea72-463f-93e0-40d03dcfdc15",
-                "d24a7b4f-eb90-47c8-a3f0-e170c998032c"
+                "86059d0b-ec47-4b8a-a3c6-70a7c7d1f51d",
+                "73774b5a-8a9a-4148-a46e-1aacf3196b02",
+                "3f8d6cce-f685-4bee-a12e-d70b6f33d7c7"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 468,
+              "duration": 434,
               "root": false,
               "rootEmpty": false,
               "_timeout": null
@@ -834,7 +834,7 @@
           "_timeout": null
         },
         {
-          "uuid": "44f91f1d-9594-4125-b38f-7ff1a82ecb77",
+          "uuid": "058eae3f-0392-4840-8cd1-3bf638bdf582",
           "title": "hdbext",
           "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hdbextAwait.Test.js",
           "file": "\\hdbextAwait.Test.js",
@@ -843,7 +843,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "f64658d5-4ffb-46b8-9142-da86644ed68b",
+              "uuid": "45b6e998-f7e3-4f1c-bcae-61bff3a0e3b8",
               "title": "Example with Await",
               "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hdbextAwait.Test.js",
               "file": "\\hdbextAwait.Test.js",
@@ -854,7 +854,7 @@
                   "title": "returns 10 records",
                   "fullTitle": "hdbext Example with Await returns 10 records",
                   "timedOut": null,
-                  "duration": 824,
+                  "duration": 799,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -863,7 +863,7 @@
                   "context": null,
                   "code": "let dbQuery = `SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`\nconst results = await hdbextAwait.example1(dbQuery)\nassert.equal(results.length, 10)",
                   "err": {},
-                  "uuid": "a6d10e60-edb3-4c55-a9cb-b8424db882f9",
+                  "uuid": "7375424c-47d8-49d4-a242-f0b119dfd05c",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -872,7 +872,7 @@
                   "title": "returns single record",
                   "fullTitle": "hdbext Example with Await returns single record",
                   "timedOut": null,
-                  "duration": 568,
+                  "duration": 546,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -881,7 +881,7 @@
                   "context": null,
                   "code": "let dbQuery = `SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY`\nconst results = await hdbextAwait.example1(dbQuery)\nassert.equal(results.length, 1)",
                   "err": {},
-                  "uuid": "37955334-22f7-4402-8c9f-35a90361dc0a",
+                  "uuid": "f3302da2-dab1-4141-9b58-4267e459f5c7",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -890,7 +890,7 @@
                   "title": "throws error with target table not found",
                   "fullTitle": "hdbext Example with Await throws error with target table not found",
                   "timedOut": null,
-                  "duration": 1,
+                  "duration": 2,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -899,7 +899,7 @@
                   "context": null,
                   "code": "let dbQuery = `SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY_DUMB`\nassert.rejects(async () => { await hdbextAwait.example1(dbQuery) }, Error)",
                   "err": {},
-                  "uuid": "08f26c40-ee18-4f60-b298-105fa7f76c88",
+                  "uuid": "1cf905a5-da78-43e8-8410-7448ccedc1b3",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -907,20 +907,20 @@
               ],
               "suites": [],
               "passes": [
-                "a6d10e60-edb3-4c55-a9cb-b8424db882f9",
-                "37955334-22f7-4402-8c9f-35a90361dc0a",
-                "08f26c40-ee18-4f60-b298-105fa7f76c88"
+                "7375424c-47d8-49d4-a242-f0b119dfd05c",
+                "f3302da2-dab1-4141-9b58-4267e459f5c7",
+                "1cf905a5-da78-43e8-8410-7448ccedc1b3"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1393,
+              "duration": 1347,
               "root": false,
               "rootEmpty": false,
               "_timeout": null
             },
             {
-              "uuid": "92f97a45-0554-4b64-95f8-993e16ab28f2",
+              "uuid": "d99cb2f7-f89d-46da-9add-64549a53e397",
               "title": "Example Stored Procedure with Await",
               "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hdbextAwait.Test.js",
               "file": "\\hdbextAwait.Test.js",
@@ -931,7 +931,7 @@
                   "title": "Password is too short - Error Code 412",
                   "fullTitle": "hdbext Example Stored Procedure with Await Password is too short - Error Code 412",
                   "timedOut": null,
-                  "duration": 601,
+                  "duration": 629,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -940,7 +940,7 @@
                   "context": null,
                   "code": "let result = await hdbextAwait.example2('SYS', 'IS_VALID_PASSWORD', { PASSWORD: \"TEST\" })\nassert.equal(result.outputScalar.ERROR_CODE, 412)",
                   "err": {},
-                  "uuid": "a5cc5e75-d749-444b-8490-21f0f1042d68",
+                  "uuid": "cdd05ebe-91a2-4021-bb2a-4e5d86cc79bb",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -949,7 +949,7 @@
                   "title": "Password is good - Error Code 412",
                   "fullTitle": "hdbext Example Stored Procedure with Await Password is good - Error Code 412",
                   "timedOut": null,
-                  "duration": 589,
+                  "duration": 662,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -958,7 +958,7 @@
                   "context": null,
                   "code": "let result = await hdbextAwait.example2('SYS', 'IS_VALID_PASSWORD', { PASSWORD: \"TESTtest1234\" })\nassert.equal(result.outputScalar.ERROR_CODE, 0)",
                   "err": {},
-                  "uuid": "dbf24c60-aee2-43eb-aeac-bca028b3ddd7",
+                  "uuid": "e7d5b8f8-7838-48d6-b912-b6c0e30be144",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -967,7 +967,7 @@
                   "title": "throws error with Stored Procedure not found",
                   "fullTitle": "hdbext Example Stored Procedure with Await throws error with Stored Procedure not found",
                   "timedOut": null,
-                  "duration": 4,
+                  "duration": 1,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -976,7 +976,7 @@
                   "context": null,
                   "code": "assert.rejects(async () => { await hdbextAwait.example2('SYS', 'IS_VALID_PASSWORD_NOT_A_PROC', { PASSWORD: \"TESTtest1234\" }) }, Error)",
                   "err": {},
-                  "uuid": "d0fee5e2-8966-4fd8-82ac-cb57eb2467e0",
+                  "uuid": "0a5886e9-d88f-4536-b222-1bd9e4901827",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -984,14 +984,14 @@
               ],
               "suites": [],
               "passes": [
-                "a5cc5e75-d749-444b-8490-21f0f1042d68",
-                "dbf24c60-aee2-43eb-aeac-bca028b3ddd7",
-                "d0fee5e2-8966-4fd8-82ac-cb57eb2467e0"
+                "cdd05ebe-91a2-4021-bb2a-4e5d86cc79bb",
+                "e7d5b8f8-7838-48d6-b912-b6c0e30be144",
+                "0a5886e9-d88f-4536-b222-1bd9e4901827"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1194,
+              "duration": 1292,
               "root": false,
               "rootEmpty": false,
               "_timeout": null
@@ -1007,7 +1007,7 @@
           "_timeout": null
         },
         {
-          "uuid": "e5c1e649-d2e1-4e00-8993-4474f3c930fd",
+          "uuid": "5f5ea6dd-e410-4370-8292-8a98bf2b5bac",
           "title": "hdbext",
           "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hdbext.Test.js",
           "file": "\\hdbext.Test.js",
@@ -1016,7 +1016,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "b3bc6798-ee1f-4293-aa8e-213b67e42581",
+              "uuid": "a482b473-d241-4e32-8dda-2c9c0ac21a53",
               "title": "Example with Callbacks",
               "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hdbext.Test.js",
               "file": "\\hdbext.Test.js",
@@ -1027,7 +1027,7 @@
                   "title": "returns single record",
                   "fullTitle": "hdbext Example with Callbacks returns single record",
                   "timedOut": null,
-                  "duration": 812,
+                  "duration": 779,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -1036,7 +1036,7 @@
                   "context": null,
                   "code": "hdbextCallbacks.example1(`SELECT CURRENT_USER, CURRENT_SCHEMA FROM DUMMY`, (err, result) => {\n    if (err) {\n        done(err)\n    } else {\n        assert.equal(result.length, 1)\n        done()\n    }\n})",
                   "err": {},
-                  "uuid": "ba767eca-2b67-4450-8f98-44acb8ce9405",
+                  "uuid": "c202ab7f-8433-42db-acee-6066ab16b433",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -1045,7 +1045,7 @@
                   "title": "throws error with target table not found",
                   "fullTitle": "hdbext Example with Callbacks throws error with target table not found",
                   "timedOut": null,
-                  "duration": 510,
+                  "duration": 496,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -1054,7 +1054,7 @@
                   "context": null,
                   "code": "hdbextCallbacks.example1(`SELECT CURRENT_USER, CURRENT_SCHEMA from DUMMY_DUMB`, (err, result) => {\n    if (err) {\n        done()\n    } else {\n        done(new Error(`Expected Exception but Received None`))\n    }\n})",
                   "err": {},
-                  "uuid": "db48cbe5-74e7-4572-afa8-a209ad36f1f9",
+                  "uuid": "2df9fd29-6851-49e1-a476-de9258de9492",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -1063,7 +1063,7 @@
                   "title": "returns 10 records",
                   "fullTitle": "hdbext Example with Callbacks returns 10 records",
                   "timedOut": null,
-                  "duration": 502,
+                  "duration": 486,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -1072,7 +1072,7 @@
                   "context": null,
                   "code": "hdbextCallbacks.example1(`SELECT SCHEMA_NAME, TABLE_NAME, COMMENTS FROM TABLES LIMIT 10`, (err, result) => {\n    if (err) {\n        done(err)\n    } else {\n        assert.equal(result.length, 10)\n        done()\n    }\n})",
                   "err": {},
-                  "uuid": "e0ca54c5-aaea-44a2-834f-5098fab87e78",
+                  "uuid": "f5abe334-1d9d-4e79-9dfd-a0b407744937",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -1080,20 +1080,20 @@
               ],
               "suites": [],
               "passes": [
-                "ba767eca-2b67-4450-8f98-44acb8ce9405",
-                "db48cbe5-74e7-4572-afa8-a209ad36f1f9",
-                "e0ca54c5-aaea-44a2-834f-5098fab87e78"
+                "c202ab7f-8433-42db-acee-6066ab16b433",
+                "2df9fd29-6851-49e1-a476-de9258de9492",
+                "f5abe334-1d9d-4e79-9dfd-a0b407744937"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1824,
+              "duration": 1761,
               "root": false,
               "rootEmpty": false,
               "_timeout": null
             },
             {
-              "uuid": "8d3c3a27-91e7-43ce-b005-618dadd7bed6",
+              "uuid": "1b0356f7-92fc-4037-ad5f-139395aee801",
               "title": "Example Stored Procedure with Callbacks",
               "fullFile": "C:\\SAPDevelop\\git\\sap-tech-bytes-public\\hdbext.Test.js",
               "file": "\\hdbext.Test.js",
@@ -1104,7 +1104,7 @@
                   "title": "Password is too short - Error Code 412",
                   "fullTitle": "hdbext Example Stored Procedure with Callbacks Password is too short - Error Code 412",
                   "timedOut": null,
-                  "duration": 633,
+                  "duration": 657,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -1113,7 +1113,7 @@
                   "context": null,
                   "code": "hdbextCallbacks.example2('SYS', 'IS_VALID_PASSWORD', {PASSWORD: \"TEST\"}, (err, result) => {\n    if (err) {\n        done(err)\n    } else {\n        assert.equal(result.ERROR_CODE, 412)\n        done()\n    }\n})",
                   "err": {},
-                  "uuid": "1bfb4a2a-c2b5-45ca-9a62-7e39f3d245dd",
+                  "uuid": "7dfc0a55-f2d5-4045-a6b3-799818cae6e4",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -1122,7 +1122,7 @@
                   "title": "Password is good - Error Code 412",
                   "fullTitle": "hdbext Example Stored Procedure with Callbacks Password is good - Error Code 412",
                   "timedOut": null,
-                  "duration": 632,
+                  "duration": 602,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -1131,7 +1131,7 @@
                   "context": null,
                   "code": "hdbextCallbacks.example2('SYS', 'IS_VALID_PASSWORD', {PASSWORD: \"TESTtest1234\"}, (err, result) => {\n    if (err) {\n        done(err)\n    } else {\n        assert.equal(result.ERROR_CODE, 0)\n        done()\n    }\n})",
                   "err": {},
-                  "uuid": "94084d5e-cee9-4628-9975-b4e626f0b8b7",
+                  "uuid": "ef46df9c-09b8-49d6-a21b-2ec2ac75ea45",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -1140,7 +1140,7 @@
                   "title": "throws error with Stored Procedure not found",
                   "fullTitle": "hdbext Example Stored Procedure with Callbacks throws error with Stored Procedure not found",
                   "timedOut": null,
-                  "duration": 649,
+                  "duration": 654,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -1149,7 +1149,7 @@
                   "context": null,
                   "code": "hdbextCallbacks.example2('SYS', 'IS_VALID_PASSWORD_NOT_A_PROC', {PASSWORD: \"TESTtest1234\"}, (err, result) => {\n    if (err) {\n        done()\n    } else {\n        done(new Error(`Expected Exception but Received None`))\n    }\n})",
                   "err": {},
-                  "uuid": "4fd0325e-34a2-4d2b-b91b-e5ef36204a85",
+                  "uuid": "b759dcaf-d25c-4904-8fe3-4bba4a5ed930",
                   "parentUUID": null,
                   "isHook": false,
                   "skipped": false
@@ -1157,14 +1157,14 @@
               ],
               "suites": [],
               "passes": [
-                "1bfb4a2a-c2b5-45ca-9a62-7e39f3d245dd",
-                "94084d5e-cee9-4628-9975-b4e626f0b8b7",
-                "4fd0325e-34a2-4d2b-b91b-e5ef36204a85"
+                "7dfc0a55-f2d5-4045-a6b3-799818cae6e4",
+                "ef46df9c-09b8-49d6-a21b-2ec2ac75ea45",
+                "b759dcaf-d25c-4904-8fe3-4bba4a5ed930"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1914,
+              "duration": 1913,
               "root": false,
               "rootEmpty": false,
               "_timeout": null
@@ -1192,7 +1192,7 @@
   ],
   "meta": {
     "mocha": {
-      "version": "9.2.2"
+      "version": "10.0.0"
     },
     "mochawesome": {
       "options": {
