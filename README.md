@@ -35,7 +35,7 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
-- [Cloud Native for Beginners: Which Kubernetes Installation do I need?](https://www.youtube.com/watch?v=n6a6Za0rdRU) (Fri May 06 2022)
+- [API Basics: REST](https://www.youtube.com/watch?v=bhn-Dl87SDE) (Tue May 10 2022)
 - [SAPUI5 - Routing History, AJAX Requests (#10)](https://www.youtube.com/watch?v=op5E_wyX9pE) (Tue May 03 2022)
 - [API Basics: HTTP](https://www.youtube.com/watch?v=Ic37FI351G4) (Wed Apr 13 2022)
 - [SAPUI5: Routing/Navigation (#9)](https://www.youtube.com/watch?v=9qTnCc3A6BU) (Tue Apr 12 2022)
