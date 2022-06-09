@@ -1,0 +1,1 @@
+web: streamlit run loadfile_mvp.py --server.port ${PORT}

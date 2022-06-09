@@ -1,0 +1,4 @@
+cfenv
+#shapely
+hana-ml
+streamlit
