@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-07-07-predictive-scenarios](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-07-07-predictive-scenarios) by [Sygyzmundovych](https://github.com/Sygyzmundovych) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: Deploy a Static Web Page - Cloud Foundry Basics #1](https://blogs.sap.com/?p=1556380) by Nicolai Geburek (Fri Jun 10 2022)
+  - This SAP Tech Byte is about how to deploy a static web page to Cloud Foundry in the most basic way that requires minimal configuration. There are a lot of complex scenarios and application architectures you can build on the SAP BTP, Cloud Foundry environment, but really the foundation of ...
 - [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 4 XSJS and CAP](https://blogs.sap.com/?p=1519898) by Thomas Jung (Thu Apr 07 2022)
   - Introduction In this blog post series, we’ve explored several aspects of the HANA client tooling for JavaScript developers. In part one, we examined the differences between @sap/hana-client and hdb modules. In part two, we saw how to optimize our code using Promises / Async / Await. Then in part three, ...
 - [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 3 Wrappers and Express](https://blogs.sap.com/?p=1519778) by Thomas Jung (Wed Apr 06 2022)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - Introduction If you are a JavaScript developer then you have multiple options and frameworks for connecting to and working with SAP HANA databases. It’s easy to be overwhelmed with too many options, some of which even seem to be overlapping in functionality. In this blog post series, I’d like to ...
 - [SAP Tech Bytes: Running a UI5 app with an express server and deploying it to Cloud Foundry](https://blogs.sap.com/?p=1493427) by Nicolai Geburek (Fri Feb 18 2022)
   - In this SAP Tech Byte I will describe how to run a UI5 app with an express server and deploy it to the Cloud Foundry environment. You might wonder why one should use express to serve a UI5 app instead of using the UI5 Tooling (e.g. running “ui5 serve”, which ...
-- [SAP Tech Bytes: btp CLI - new home for configuration](https://blogs.sap.com/?p=1492643) by DJ Adams (Thu Feb 17 2022)
-  - Be informed about updates to where the btp CLI configuration is stored by default. This post relates directly to the SAP Tech Bytes: btp CLI – managing configuration post, and provides a brief update to the information in there. Latest version Since that post, the btp CLI has gone through ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
