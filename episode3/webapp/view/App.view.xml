@@ -5,7 +5,11 @@
    <Button 
       text="increment by 1"
       press=".incrementBy1" />
-   <Text id="counter" text="0"/>
+   <Text id="counter" text="0">
+   
+
+   
+   </Text>
 
    <List
       id="episodeOverview"
@@ -14,7 +18,18 @@
       <items>
          <StandardListItem
             title="{title}"
-            description="{index}" />
+            description="{index}">
+
+            <!-- optional popover -->
+            <dependents>
+               <Popover id="popover" showHeader="false" placement="Auto">
+                  <content>
+                     <Text id="popoverText" class="sapUiSmallMargin" />
+                  </content>
+               </Popover>
+            </dependents>   
+         
+         </StandardListItem>
       </items>
    </List>
 </mvc:View>
