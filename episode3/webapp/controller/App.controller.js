@@ -14,8 +14,8 @@ sap.ui.define([
          let oModel = new JSONModel(sap.ui.require.toUrl("sap/ui/demo/Data.json"))
          this.getView().setModel(oModel)
       },
-      
-      //everything below is for the optional pop-up
+
+      //everything below is for the optional popover
       onAfterRendering: function () {
          let that = this
          window.setTimeout(function () {
