@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-07-07-predictive-scenarios](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-07-07-predictive-scenarios) by [Sygyzmundovych](https://github.com/Sygyzmundovych) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: Serve Web Page with an Approuter - Cloud Foundry Basics #2](https://blogs.sap.com/?p=1560724) by Nicolai Geburek (Fri Jun 17 2022)
+  - This SAP Tech Byte is about how to use an approuter on Cloud Foundry to serve a web page. We will use the approuter to authenticate users and route them to the web page. Building on top of the first blog post of this “Cloud Foundry Basics” series, which covered ...
 - [SAP Tech Bytes: Deploy a Static Web Page - Cloud Foundry Basics #1](https://blogs.sap.com/?p=1556380) by Nicolai Geburek (Fri Jun 10 2022)
   - This SAP Tech Byte is about how to deploy a static web page to Cloud Foundry in the most basic way that requires minimal configuration. There are a lot of complex scenarios and application architectures you can build on the SAP BTP, Cloud Foundry environment, but really the foundation of ...
 - [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 4 XSJS and CAP](https://blogs.sap.com/?p=1519898) by Thomas Jung (Thu Apr 07 2022)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - Introduction In the previous blog post in this series, we took a deep look at the two major different JavaScript modules that act as HANA Clients: @sap/hana-client and hdb. Architectural differences aside, let’s return to that sample usage of the @sap/hana-client we saw at the end of the previous blog ...
 - [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 1 hana-client vs hdb](https://blogs.sap.com/?p=1516535) by Thomas Jung (Mon Apr 04 2022)
   - Introduction If you are a JavaScript developer then you have multiple options and frameworks for connecting to and working with SAP HANA databases. It’s easy to be overwhelmed with too many options, some of which even seem to be overlapping in functionality. In this blog post series, I’d like to ...
-- [SAP Tech Bytes: Running a UI5 app with an express server and deploying it to Cloud Foundry](https://blogs.sap.com/?p=1493427) by Nicolai Geburek (Fri Feb 18 2022)
-  - In this SAP Tech Byte I will describe how to run a UI5 app with an express server and deploy it to the Cloud Foundry environment. You might wonder why one should use express to serve a UI5 app instead of using the UI5 Tooling (e.g. running “ui5 serve”, which ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
