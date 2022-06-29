@@ -35,12 +35,12 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [Access the Business Entity Recognition Service via the Python SDK](https://www.youtube.com/watch?v=ucZFrONCVZ4) (Wed Jun 29 2022)
 - [Exploring the SAP Audit Log service](https://www.youtube.com/watch?v=Td1KpvMIlzw) (Mon Jun 27 2022)
 - [ABAP: ABAP Doc Comments](https://www.youtube.com/watch?v=qJkYLPEyyBo) (Mon May 16 2022)
 - [Cloud Native for Beginners: What are Kubernetes Deployments?](https://www.youtube.com/watch?v=CZmXl06nUVE) (Fri May 13 2022)
 - [API Basics: REST](https://www.youtube.com/watch?v=bhn-Dl87SDE) (Tue May 10 2022)
 - [SAPUI5 - Routing History, AJAX Requests (#10)](https://www.youtube.com/watch?v=op5E_wyX9pE) (Tue May 03 2022)
-- [API Basics: HTTP](https://www.youtube.com/watch?v=Ic37FI351G4) (Wed Apr 13 2022)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
