@@ -1,3 +1,4 @@
+
 ![SAP Tech Bytes header image](header-image.png)
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/sap-tech-bytes)](https://api.reuse.software/info/github.com/SAP-samples/sap-tech-bytes)
@@ -23,23 +24,23 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - This SAP Tech Byte is about how to use an approuter on Cloud Foundry to serve a web page. We will use the approuter to authenticate users and route them to the web page. Building on top of the first blog post of this “Cloud Foundry Basics” series, which covered ...
 - [SAP Tech Bytes: Deploy a Static Web Page - Cloud Foundry Basics #1](https://blogs.sap.com/?p=1556380) by Nicolai Geburek (Fri Jun 10 2022)
   - This SAP Tech Byte is about how to deploy a static web page to Cloud Foundry in the most basic way that requires minimal configuration. There are a lot of complex scenarios and application architectures you can build on the SAP BTP, Cloud Foundry environment, but really the foundation of ...
+- [SAP Tech Bytes: CF Python app to upload CSV files into HANA database in SAP HANA Cloud](https://blogs.sap.com/?p=1496417) by Witalij Rudnicki (Thu Jun 09 2022)
+  - Some time ago I wrote about a way to quickly load data from CSV files into SAP HANA table using hana_ml Python package. It became quite a popular post. But it does require running some code to get a file loaded. Recently I was asked if that hana_ml functionality can ...
 - [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 4 XSJS and CAP](https://blogs.sap.com/?p=1519898) by Thomas Jung (Thu Apr 07 2022)
   - Introduction In this blog post series, we’ve explored several aspects of the HANA client tooling for JavaScript developers. In part one, we examined the differences between @sap/hana-client and hdb modules. In part two, we saw how to optimize our code using Promises / Async / Await. Then in part three, ...
 - [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 3 Wrappers and Express](https://blogs.sap.com/?p=1519778) by Thomas Jung (Wed Apr 06 2022)
   - Introduction Going back to our discuss in the previous blog post in this series about @sap/hana-client and hdb, the situation is now even more complex. @sap/hana-client supports promises, but hdb doesn’t. That’s just one of several differences between the two modules. There are also other functions like connection pooling or ...
 - [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 2 Promises](https://blogs.sap.com/?p=1519693) by Thomas Jung (Tue Apr 05 2022)
   - Introduction In the previous blog post in this series, we took a deep look at the two major different JavaScript modules that act as HANA Clients: @sap/hana-client and hdb. Architectural differences aside, let’s return to that sample usage of the @sap/hana-client we saw at the end of the previous blog ...
-- [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 1 hana-client vs hdb](https://blogs.sap.com/?p=1516535) by Thomas Jung (Mon Apr 04 2022)
-  - Introduction If you are a JavaScript developer then you have multiple options and frameworks for connecting to and working with SAP HANA databases. It’s easy to be overwhelmed with too many options, some of which even seem to be overlapping in functionality. In this blog post series, I’d like to ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [Add chatbots to S/4HANA Fiori launchpad, Part I](https://www.youtube.com/watch?v=9mqU3uYFQbY) (Thu Jun 30 2022)
 - [Access the Business Entity Recognition Service via the Python SDK](https://www.youtube.com/watch?v=ucZFrONCVZ4) (Wed Jun 29 2022)
 - [Exploring the SAP Audit Log service](https://www.youtube.com/watch?v=Td1KpvMIlzw) (Mon Jun 27 2022)
 - [ABAP: ABAP Doc Comments](https://www.youtube.com/watch?v=qJkYLPEyyBo) (Mon May 16 2022)
 - [Cloud Native for Beginners: What are Kubernetes Deployments?](https://www.youtube.com/watch?v=CZmXl06nUVE) (Fri May 13 2022)
 - [API Basics: REST](https://www.youtube.com/watch?v=bhn-Dl87SDE) (Tue May 10 2022)
-- [SAPUI5 - Routing History, AJAX Requests (#10)](https://www.youtube.com/watch?v=op5E_wyX9pE) (Tue May 03 2022)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
