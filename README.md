@@ -20,6 +20,8 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - [2021-08-02-github-actions-kyma](https://github.com/SAP-samples/sap-tech-bytes/tree/2021-08-02-github-actions-kyma) by [IObert](https://github.com/IObert) 
 
 ## Recent Blog Posts
+- [SAP Tech Bytes: UI Theme Designer - Applying Custom Theme to UI5 Application](https://blogs.sap.com/?p=1576337) by Nicolai Geburek (Mon Jul 18 2022)
+  - In this blog post I want to share how to apply a custom theme that was built with the UI theme designer to a UI5 application that is not running in the SAP Fiori Launchpad (e.g. your local development environment). The UI theme designer is part of the SAP Fiori ...
 - [SAP Tech Bytes: Serve Web Page with an Approuter - Cloud Foundry Basics #2](https://blogs.sap.com/?p=1560724) by Nicolai Geburek (Fri Jun 17 2022)
   - This SAP Tech Byte is about how to use an approuter on Cloud Foundry to serve a web page. We will use the approuter to authenticate users and route them to the web page. Building on top of the first blog post of this “Cloud Foundry Basics” series, which covered ...
 - [SAP Tech Bytes: Deploy a Static Web Page - Cloud Foundry Basics #1](https://blogs.sap.com/?p=1556380) by Nicolai Geburek (Fri Jun 10 2022)
@@ -30,8 +32,6 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - Introduction In this blog post series, we’ve explored several aspects of the HANA client tooling for JavaScript developers. In part one, we examined the differences between @sap/hana-client and hdb modules. In part two, we saw how to optimize our code using Promises / Async / Await. Then in part three, ...
 - [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 3 Wrappers and Express](https://blogs.sap.com/?p=1519778) by Thomas Jung (Wed Apr 06 2022)
   - Introduction Going back to our discuss in the previous blog post in this series about @sap/hana-client and hdb, the situation is now even more complex. @sap/hana-client supports promises, but hdb doesn’t. That’s just one of several differences between the two modules. There are also other functions like connection pooling or ...
-- [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 2 Promises](https://blogs.sap.com/?p=1519693) by Thomas Jung (Tue Apr 05 2022)
-  - Introduction In the previous blog post in this series, we took a deep look at the two major different JavaScript modules that act as HANA Clients: @sap/hana-client and hdb. Architectural differences aside, let’s return to that sample usage of the @sap/hana-client we saw at the end of the previous blog ...
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
