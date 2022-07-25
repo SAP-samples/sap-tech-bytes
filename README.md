@@ -35,12 +35,12 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
 - More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
     
 ## Recent Videos
+- [Deploy a Static Web Page – Cloud Foundry Basics #1](https://www.youtube.com/watch?v=ZfxKnOZSnKk) (Mon Jul 25 2022)
 - [Exploring the SAP Discovery Center](https://www.youtube.com/watch?v=DJ9jVuGQZNM) (Mon Jul 18 2022)
 - [Add Chatbots to SAP S/4HANA, Part II -- Access Backend Data With #SAPBTP Destinations](https://www.youtube.com/watch?v=K5u5sVajBqk) (Tue Jul 12 2022)
 - [Exploring the SAP Audit Log Service - Store audit log entries in the Object Store](https://www.youtube.com/watch?v=xoEop0RCB7k) (Mon Jul 11 2022)
 - [Exploring the SAP Audit Log Service - Using SAP Cloud Integration](https://www.youtube.com/watch?v=gAzOeKIrepM) (Mon Jul 04 2022)
 - [Add Chatbots to S/4HANA, Part I -- Set Up Fiori Launchpad](https://www.youtube.com/watch?v=9mqU3uYFQbY) (Thu Jun 30 2022)
-- [Access the Business Entity Recognition Service via the Python SDK](https://www.youtube.com/watch?v=ucZFrONCVZ4) (Wed Jun 29 2022)
 - More on [SAP Developers YouTube Channel](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
 
 ## Requirements
