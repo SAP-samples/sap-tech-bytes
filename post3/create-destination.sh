@@ -1,1 +1,1 @@
-cf create-service destination lite backendDestination -c backendDestination.json
+cf create-service destination lite backendDestination -c dest-config.json
