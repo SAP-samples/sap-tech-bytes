@@ -1,0 +1,6 @@
+---
+applications:
+- name: my-web-page
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  services:
+  - my-xsuaa

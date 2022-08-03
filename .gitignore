@@ -1,9 +1,2 @@
-.DS_Store
-node_modules
 package-lock.json
-resources
-dist
-mta_archives
-default-env.json
-episode10
-episode11
+node_modules

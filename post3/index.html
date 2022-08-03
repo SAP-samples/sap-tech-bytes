@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script
+        id="sap-ui-bootstrap"
+        src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+        data-sap-ui-theme="sap_horizon"
+        data-sap-ui-libs="sap.m"
+    ></script>
+    <script defer>
+        fetch("/user-api/currentUser")
+            .then(response => response.json())
+            .then(data => {
+                let user = data
+
+                sap.ui.jsview("my.view", {
+                    createContent: function (oController) {
+                        return new sap.m.MessagePage({
+                                    title:  `Hello, ${user.firstname}!`,
+                                    text: "Bear with us.",
+                                    description: "This application is work in progress.",
+                                    icon: "sap-icon://wrench"
+                                })
+                    }
+                })
+
+                var app = new sap.m.App({
+                    initialPage: "mainPage"
+                })
+                var page = sap.ui.view({
+                    id: "mainPage",
+                    viewName: "my.view",
+                    type: sap.ui.core.mvc.ViewType.JS
+                })
+                app.addPage(page)
+                app.placeAt("content")
+            })
+    </script>
+</head>
+
+<body class="sapUiBody" id="content"></body>
+
+</html>

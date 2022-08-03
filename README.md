@@ -1,13 +1,7 @@
 # 2 Minutes of SAPUI5
 
-The content in this branch accompanies the YouTube series [2 Minutes of SAPUI5](https://www.youtube.com/watch?v=J9NMwsipMkw&list=PL6RpkC85SLQBM78mD6AiJ1vKlSB7OWtUz). Check out the corresponding folder to see the code that is shown in each episode.
+The content in this branch accompanies the blog post series **Cloud Foundry Basics**:
 
-1. [#1 - Getting Started, XML Views](/episode1)
-1. [#2 - JavaScript Controllers](/episode2)
-1. [#3 - JSON Models, Data Binding](/episode3)
-1. [#4 - Remote Data Source, Approuter](/episode4)
-1. [#5 - Approuter, Middleware](/episode5)
-1. [#6 - Build, Deployment](/episode6)
-1. [#7 - Authorization](/episode7)
-1. [#8 - i18n, Custom CSS](/episode8)
-1. [#9 - Routing/Navigation](/episode9)
+1. [#1 - Deploy a Static Web Page](https://blogs.sap.com/2022/06/10/sap-tech-bytes-deploy-a-static-web-page-cloud-foundry-basics-1/)
+1. [#2 - Serve Web Page with an Approuter](https://blogs.sap.com/2022/06/17/sap-tech-bytes-serve-web-page-with-an-approuter-cloud-foundry-basics-2/)
+1. [#3 - Consume Data Using Destinations with an Approuter](https://blogs.sap.com/2022/08/03/sap-tech-bytes-consume-data-using-destinations-with-an-approuter-cloud-foundry-basics-3/)
