@@ -76,18 +76,48 @@ get_version() {
 
 }
 
+showhelp() {
+
+  cat << EOF
+Usage:
+getbtpcli [options] [version]
+
+Options:
+--help (-h)   This help information
+--test (-t)   Test mode, just return latest version number available
+--accept (-a) Accept license agreement
+EOF
+
+}
+
 main() {
 
   # Move to a temporary directory; extract and check version, and
   # (unless --test mode) install, setting up symlink.
 
-  local desired tempdir ver testmode=false
+  local accept desired tempdir ver testmode=false
 
-  # Determine if we're in test mode
-  [[ $1 =~ ^(-t|--test)$ ]] && {
-    testmode=true
-    shift
-  }
+  while [[ $1 =~ - ]]; do
+
+    # Determine if we're in test mode
+    [[ $1 =~ ^(-t|--test)$ ]] && {
+      testmode=true
+      shift
+    }
+
+    # License acceptance may be indicated
+    [[ $1 =~ ^(-a|--accept)$ ]] && {
+      accept=true
+      shift
+    }
+
+    # Help mode
+    [[ $1 =~ ^(-h|--help)$ ]] && {
+      showhelp
+      exit
+    }
+
+  done
 
   desired="${1:-latest}"
 
@@ -96,7 +126,7 @@ main() {
   # - make sure the user confirms acceptance of the licence
   if [[ $testmode = false ]]; then
     [[ ! -d "$TARGETDIR" ]] && mkdir "$TARGETDIR"
-    confirm_licence_acceptance
+    [[ -z "$accept" ]] && confirm_licence_acceptance
   fi
 
   # Set up temporary directory and move into it
