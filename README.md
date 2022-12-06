@@ -1,4 +1,4 @@
-# 2 Minutes of SAPUI5
+# Cloud Foundry Basics
 
 The content in this branch accompanies the blog post series **Cloud Foundry Basics**:
 
