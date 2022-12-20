@@ -1,0 +1,45 @@
+<mvc:View
+    controllerName="sap.ui.demo.controller.Detail"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		title="Video Details"
+		showNavButton="true"
+		navButtonPress=".onNavBack">
+        <Panel headerText="{youTubeModel>snippet/title}">
+            <content>
+				<FlexBox
+					class="sapUiTinyMarginTop"
+					justifyContent="SpaceAround">
+						<GenericTile
+							header="{i18n>Views}"
+							frameType="OneByHalf">
+								<TileContent>
+									<NumericContent
+										value="{videoDetailModel>/items/0/statistics/viewCount}"
+										icon="sap-icon://cursor-arrow"/>
+								</TileContent>
+						</GenericTile>
+						<GenericTile
+							header="{i18n>Likes}"
+							frameType="OneByHalf">
+								<TileContent>
+									<NumericContent
+										value="{videoDetailModel>/items/0/statistics/likeCount}"
+										icon="sap-icon://thumb-up"/>
+								</TileContent>
+						</GenericTile>
+						<GenericTile
+							header="{i18n>Comments}"
+							frameType="OneByHalf">
+								<TileContent>
+									<NumericContent
+										value="{videoDetailModel>/items/0/statistics/commentCount}"
+										icon="sap-icon://comment"/>
+								</TileContent>
+						</GenericTile>
+				</FlexBox>
+			</content>
+        </Panel>       
+	</Page>
+</mvc:View>

@@ -1,0 +1,49 @@
+<mvc:View
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc"
+   controllerName="sap.ui.demo.controller.App"
+   xmlns:html="http://www.w3.org/1999/xhtml">
+   <html:style>
+        .redBold {
+            color: red;
+            font-weight: bold;
+        }
+   </html:style>
+
+         <Page title="2 Minutes of SAPUI5">
+            <content>
+               <Panel
+                  id="appPanel"
+                  headerText="Hello, Dev! 👋">
+                  <content>
+                     <Button 
+                        text="{i18n>countMsg}"
+                        press=".incrementBy1" />
+                     <Text id="counter" text="0" class="bigText" />
+
+                     <List
+                        id="episodeOverview"
+                        headerText="{youTubeModel>/items/1/snippet/channelTitle}"
+                        items="{youTubeModel>/items}">
+                        <items>
+                           <StandardListItem
+                              title="{youTubeModel>snippet/title}"
+                              description="{youTubeModel>snippet/publishedAt}"
+                              type="Navigation"
+					               press=".onPress" />
+                        </items>
+                     </List>
+
+                     <Text class="redBold" text="In case you don't see any data: You need a valid" />
+                     <Link
+                        class="redBold"
+                        text="Google Developer API Key"
+                        target="_blank"
+                        href="https://console.developers.google.com/apis/credentials" />
+                     <Text class="redBold" text="and attach it to the value for 'youTubeAPI' in the manifest.json to make the API call work." />
+                  </content>
+               </Panel>
+            </content>
+         </Page>
+
+</mvc:View>

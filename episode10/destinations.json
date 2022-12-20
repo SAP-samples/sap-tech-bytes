@@ -1,0 +1,16 @@
+{
+    "init_data": {
+        "subaccount": {
+            "existing_destinations_policy": "update",
+            "destinations": [
+                {
+                    "Name": "youTubeDestination",
+                    "Authentication": "NoAuthentication",
+                    "ProxyType": "Internet",
+                    "Type": "HTTP",
+                    "URL": "https://youtube.googleapis.com"
+                }
+            ]
+        }
+    }
+}
