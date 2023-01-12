@@ -12,3 +12,5 @@ The content in this branch accompanies the YouTube series [2 Minutes of SAPUI5](
 1. [#08 - i18n, Custom CSS](/episode08)
 1. [#09 - Routing/Navigation](/episode09)
 1. [#10 - Routing History, AJAX Requests](/episode10)
+1. [#11 - TypeScript](/episode11)
+1. [#12 - Sorting/Grouping & Filtering](/episode12)

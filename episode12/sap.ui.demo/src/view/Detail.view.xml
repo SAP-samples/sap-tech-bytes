@@ -1,0 +1,79 @@
+<mvc:View controllerName="sap.ui.demo.controller.Detail"
+	xmlns="sap.m"
+	xmlns:t="sap.ui.table"
+	xmlns:f="sap.f"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:l="sap.ui.layout"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc">
+	<f:DynamicPage id="detailPage" showFooter="{comp>/detailEditMode}"
+			stickySubheaderProvider="iconTabBar"
+			class="sapUiNoContentPadding" 
+			busy="{detailView>/busy}"
+			busyIndicatorDelay="{detailView>/delay}">
+		<f:title>
+			<f:DynamicPageTitle>
+				<f:heading>
+					<Title text="{ProductName}" level="H2"/>
+				</f:heading>
+				<f:expandedContent>
+					<Label text="{ProductName}"/>
+				</f:expandedContent>
+				<f:snappedContent>
+					<Label text="{ProductName}"/>
+				</f:snappedContent>
+				<f:snappedTitleOnMobile>
+					<Title text="{ProductName}"/>
+				</f:snappedTitleOnMobile>
+				<f:navigationActions>
+					<OverflowToolbarButton
+						type="Transparent"
+						icon="sap-icon://full-screen"
+						press=".handleFullScreen"
+						tooltip="{i18n>fullscreen}"
+						visible="{= ${appView>/actionButtonsInfo/midColumn/fullScreen} !== null }"/>
+					<OverflowToolbarButton
+						type="Transparent"
+						icon="sap-icon://exit-full-screen"
+						press=".handleExitFullScreen"
+						tooltip="{i18n>exitFullscreen}"
+						visible="{= ${appView>/actionButtonsInfo/midColumn/exitFullScreen} !== null }"/>
+					<OverflowToolbarButton
+						type="Transparent"
+						icon="sap-icon://decline"
+						press=".handleClose"
+						tooltip="{i18n>close}"
+						visible="{= ${appView>/actionButtonsInfo/midColumn/closeColumn} !== null }"/>
+				</f:navigationActions> 
+			</f:DynamicPageTitle>
+		</f:title>
+		<f:header>
+			<f:DynamicPageHeader pinnable="true">
+				<ObjectAttribute title="Other field" text="{path:'UnitPrice',formatter: '.formatter.formatValue'}"/>
+			</f:DynamicPageHeader>
+		</f:header>
+		<f:content>
+			<IconTabBar
+				id="iconTabBar"
+				expanded="{device>/isNoPhone}"
+				class="sapUiResponsiveContentPadding">
+				<items>
+					<IconTabFilter text="Tab 1" key="tab1">
+						<Text text="Add some content..."></Text>
+					</IconTabFilter>
+					<IconTabFilter text="Tab 2" key="tab2">
+						<Text text="Whatever you like"></Text>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</f:content>
+			<f:footer>
+			<OverflowToolbar>
+				<Button icon="sap-icon://alert" text="{=${message>/}.length}" visible="{=${message>/}.length > 0}"
+					type="Emphasized" press=".onMessagePopoverPress">
+				</Button>
+				<ToolbarSpacer/>
+			</OverflowToolbar>			
+		</f:footer>
+	</f:DynamicPage>
+</mvc:View>
