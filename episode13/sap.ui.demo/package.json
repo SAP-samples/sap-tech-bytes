@@ -1,0 +1,50 @@
+{
+    "name": "demo",
+    "version": "1.0.0",
+    "description": "UI5 Application: demo",
+    "author": "nicoschoenteich",
+    "license": "Apache-2.0",
+    "keywords": [
+        "ui5",
+        "openui5",
+        "sapui5"
+    ],
+    "scripts": {
+        "build": "npm-run-all build:ts build:ui5",
+        "build:opt": "npm-run-all build:ts build:ui5:opt",
+        "build:ts": "babel src --out-dir webapp --source-maps true --extensions \".ts,.js\" --copy-files",
+        "build:ui5": "ui5 build --clean-dest",
+        "build:ui5:opt": "ui5 build self-contained --clean-dest --all",
+        "start": "npm-run-all --parallel watch:ts start:ui5",
+        "watch:ts": "babel src --out-dir webapp --source-maps true --extensions \".ts,.js\" --copy-files --watch",
+        "start:ui5": "ui5 serve --port 8080 -o index.html",
+        "start:dist": "ui5 serve  --port 8080 -o index.html --config ui5-dist.yaml",
+        "ts-typecheck": "tsc --noEmit",
+        "lint": "eslint src",
+        "deploy": "ui5 build preload --clean-dest --config ui5-deploy.yaml --include-task=generateManifestBundle generateCachebusterInfo"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.16.8",
+        "@babel/core": "^7.16.7",
+        "@babel/preset-env": "^7.16.8",
+        "@babel/preset-typescript": "^7.16.7",
+        "@openui5/ts-types-esm": "1.109.0",
+        "@sap/ux-ui5-tooling": "^1.4.4",
+        "@types/dompurify": "^2.2.1",
+        "@types/qunit": "2.5.4",
+        "@typescript-eslint/eslint-plugin": "^5.9.1",
+        "@typescript-eslint/parser": "^5.9.1",
+        "@ui5/cli": "^2.14.2",
+        "@ui5/ts-interface-generator": "^0.5.0",
+        "babel-preset-transform-ui5": "^7.0.5",
+        "eslint": "^8.6.0",
+        "npm-run-all": "^4.1.5",
+        "typescript": "^4.5.4",
+        "ui5-middleware-livereload": "^0.5.8"
+    },
+    "ui5": {
+        "dependencies": [
+            "@sap/ux-ui5-tooling"
+        ]
+    }
+}
