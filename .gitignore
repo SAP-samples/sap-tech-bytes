@@ -6,9 +6,9 @@ dist
 mta_archives
 default-env.json
 API_KEY.txt
+
 episode11/sap.ui.demo/webapp
 episode12/sap.ui.demo/webapp
-episode11-js
-episode12-js
-episode13-js
-episode14-js
+episode13/sap.ui.demo/webapp
+episode14
+episode15
