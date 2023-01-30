@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@sap/textbundle": "^4.1.0",
-    "debug": "^4.3.4"
+    "debug": "^4.3.4",
+    "open": "^8.4.0"
   }
 }
