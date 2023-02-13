@@ -1,5 +1,7 @@
 # 2 Minutes of SAPUI5
 
+[![YouTube playlist](youtube-playlist.png)](https://www.youtube.com/playlist?list=PL6RpkC85SLQC4kuj22e4hw85Sa1pClD8y)
+
 The content in this branch accompanies the YouTube series [2 Minutes of SAPUI5](https://www.youtube.com/watch?v=J9NMwsipMkw&list=PL6RpkC85SLQBM78mD6AiJ1vKlSB7OWtUz). Check out the corresponding folder to see the code that is shown in each episode.
 
 1. [#01 - Getting Started, XML Views](/episode01)
