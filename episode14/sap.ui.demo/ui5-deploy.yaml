@@ -1,0 +1,26 @@
+specVersion: "2.0"
+metadata:
+  name: sap.ui.demo
+type: application
+#ui5Theme: sap_fiori_3
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          url: https://target.sys/
+          client: 600
+          auth: basic
+        credentials:
+          username: env:SAPUSERID
+          password: env:SAPPWD
+        app:
+          name: ZBSP_APP_NAME
+          description: New app with TypeScript
+          package: env:PACKAGE
+          transport: env:TRANSPORT

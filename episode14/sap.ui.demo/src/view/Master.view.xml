@@ -1,0 +1,76 @@
+<mvc:View
+	controllerName="sap.ui.demo.controller.Master"
+	xmlns="sap.m"
+	xmlns:f="sap.f"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns:cc="sap.ui.demo.control">
+	<f:DynamicPage id="masterPage" 
+			stickySubheaderProvider="iconTabBar"
+			class="sapUiNoContentPadding">
+		<!-- DynamicPage Title -->
+		<f:title>
+			<f:DynamicPageTitle>
+				<f:heading>
+					<Title text="{i18n>appTitle}" level="H2"/>
+				</f:heading>
+			</f:DynamicPageTitle>
+		</f:title>
+		<f:content>
+			<VBox>
+				<HBox
+					items="{
+						path: '/Categories',
+						factory: '.createTiles'
+					}"
+					class="sapUiMediumMargin"
+					justifyContent="Center"
+					wrap="Wrap">
+					<!-- <cc:Tile
+					text="{/Categories(2)/CategoryName}"
+					image="{/Categories(2)/Picture}" /> -->
+				</HBox>
+				<Table id="productsTable"
+						inset="false"
+						items="{
+							path : '/Products',
+							sorter: {
+								path: 'Category/CategoryName',
+								descending: false,
+								group: true
+							},
+							parameters: {
+								expand: 'Category'
+							}
+						}"
+						class="sapFDynamicPageAlignContent"
+						width="auto"
+						busyIndicatorDelay="0">
+					<headerToolbar>
+						<OverflowToolbar>
+							<ToolbarSpacer/>
+							<SearchField search="onSearch" width="17.5rem"/>
+							<OverflowToolbarButton icon="sap-icon://sort" type="Transparent" press="onSort"/>
+						</OverflowToolbar>
+					</headerToolbar>
+					<columns>
+						<Column width="12em">
+							<Text text="Title" />
+						</Column>
+						<Column	hAlign="End">
+							<Text text="Other field" />
+						</Column>
+					</columns>
+					<items>
+						<ColumnListItem type="Navigation" press=".onListItemPress">
+							<cells>
+								<ObjectIdentifier title="{ProductName}" text="{ProductID}" />
+								<Text text="{UnitPrice}" />
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			</VBox>
+		</f:content>
+	</f:DynamicPage>
+</mvc:View>
