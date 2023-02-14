@@ -1,0 +1,16 @@
+specVersion: "2.5"
+metadata:
+  name: approuter-subacc-level-dest
+type: application
+server:
+  customMiddleware:
+    - name: fiori-tools-proxy
+      afterMiddleware: compression
+      configuration:
+        backend:
+          - path: /V4/Northwind/Northwind.svc/
+            destination: Northwind
+    - name: fiori-tools-appreload
+      afterMiddleware: compression
+      configuration:
+        port: 35729

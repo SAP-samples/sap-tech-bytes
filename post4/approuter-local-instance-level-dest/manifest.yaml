@@ -1,0 +1,8 @@
+---
+applications:
+- name: my-web-page
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  random-route: true
+  services:
+  - my-xsuaa
+  - backendDestination

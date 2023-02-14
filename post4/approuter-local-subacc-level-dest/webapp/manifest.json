@@ -1,0 +1,6 @@
+{
+    "sap.app": {
+        "id": "sap.cfbasics",
+        "type": "application"
+    }
+}

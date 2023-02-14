@@ -1,0 +1,10 @@
+{
+    "xsappname": "my-xsuaa",
+    "tenant-mode": "dedicated",
+    "oauth2-configuration": {
+        "redirect-uris": [
+            "https://my-web-page-*cfapps.us10-001.hana.ondemand.com/login/callback",
+            "https://port5000-workspaces-ws-58bmf.us10.applicationstudio.cloud.sap/login/callback"
+        ]
+    }
+}

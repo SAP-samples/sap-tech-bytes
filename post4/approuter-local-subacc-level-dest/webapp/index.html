@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script
+        id="sap-ui-bootstrap"
+        src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+        data-sap-ui-theme="sap_horizon"
+        data-sap-ui-libs="sap.m"
+        data-sap-ui-compatVersion="edge"
+        data-sap-ui-resourceroots='{
+            "sap.cfbasics": "./"
+        }'>
+    </script>
+    <script>
+        sap.ui.require([
+            "sap/ui/core/mvc/View",
+            "sap/m/Page",
+            "sap/m/List",
+            "sap/m/StandardListItem",
+            "sap/ui/model/json/JSONModel"
+        ], function (View, Page, List, StandardListItem, JSONModel) {
+            "use strict"
+
+            fetch("/V4/Northwind/Northwind.svc/Products")
+                .then(response => response.json())
+                .then(data => {
+                    new View({
+                        content: [
+                            new List({
+                                items: {
+                                    path: "/value",
+                                    template: new StandardListItem({
+                                        title: "{ProductName}"
+                                    })
+                                }
+                            })
+                        ]
+                    }).setModel(new JSONModel(data)).placeAt("content")
+                })
+        })
+    </script>
+</head>
+
+<body class="sapUiBody" id="content">
+</body>
+</html>
