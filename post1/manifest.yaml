@@ -1,4 +1,5 @@
 ---
  applications:
  - name: my-web-pageeee
-   buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+   buildpacks:
+   - https://github.com/cloudfoundry/staticfile-buildpack
