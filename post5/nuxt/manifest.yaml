@@ -1,0 +1,9 @@
+---
+applications:
+- name: nuxt
+  buildpacks:
+  - https://github.com/cloudfoundry/nodejs-buildpack
+  command: npm run start:prod
+  services:
+  - approuter-xsuaa
+

@@ -1,0 +1,13 @@
+---
+applications:
+- name: approuter
+  buildpacks:
+  - https://github.com/cloudfoundry/nodejs-buildpack
+  random-route: true
+  services:
+  - approuter-xsuaa
+  env:
+    destinations: >
+                  [
+                    {"name":"nuxt", "url":"https://nuxt.cfapps.us10-001.hana.ondemand.com", "forwardAuthToken": true}
+                  ]

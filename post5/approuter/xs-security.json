@@ -1,0 +1,10 @@
+{
+    "xsappname": "approuter-xsuaa",
+    "tenant-mode": "dedicated",
+    "oauth2-configuration": {
+        "redirect-uris": [
+            "https://approuter*cfapps.us10-001.hana.ondemand.com/login/callback",
+			"http://localhost:5001/login/callback"
+        ]
+    }
+}
