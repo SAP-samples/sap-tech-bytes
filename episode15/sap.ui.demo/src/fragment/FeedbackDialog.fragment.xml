@@ -1,0 +1,12 @@
+<core:FragmentDefinition xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <Dialog id="feedbackDialog" title ="Feedback">
+        <content></content>
+        <beginButton>
+            <Button text="Cancel" press=".onCloseFeedbackDialog"/>
+        </beginButton>
+        <endButton>
+            <Button text="Submit" press=".onCloseFeedbackDialog" type="Emphasized"/>
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>

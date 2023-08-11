@@ -18,3 +18,4 @@ The content in this branch accompanies the YouTube series [2 Minutes of SAPUI5](
 1. [#12 - Sorting/Grouping & Filtering](/episode12)
 1. [#13 - Custom Controls](/episode13/)
 1. [#14 - Factory Functions](/episode14/)
+1. [#15 - Fragments](/episode15/)

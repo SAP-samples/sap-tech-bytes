@@ -1,0 +1,22 @@
+{
+  "generator-ui5-ts-app-fcl": {
+    "application": "demo",
+    "namespace": "sap.ui",
+    "endpoint": "https://services.odata.org/V2/Northwind/Northwind.svc/",
+    "entity": "Products",
+    "key": "ProductID",
+    "title": "ProductName",
+    "otherField": "UnitPrice",
+    "framework": "OpenUI5",
+    "frameworkVersion": "1.109.0",
+    "author": "nicoschoenteich",
+    "tstypes": "@openui5/ts-types-esm",
+    "tstypesVersion": "1.109.0",
+    "appId": "sap.ui.demo",
+    "appURI": "sap/ui/demo",
+    "origin": "https://services.odata.org",
+    "path": "/V2/Northwind/Northwind.svc/",
+    "pathPrefix": "/V2",
+    "setupCompleted": true
+  }
+}
