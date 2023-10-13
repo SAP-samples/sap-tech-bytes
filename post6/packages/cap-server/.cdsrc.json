@@ -1,0 +1,23 @@
+{
+    "auth": {
+        "passport": {
+            "strategy": "mock",
+            "users": {
+                "user": {
+                    "password": "123",
+                    "ID": "user@test.com",
+                    "roles": [
+                        "user"
+                    ]
+                },
+                "admin": {
+                    "password": "123",
+                    "ID": "admin@test.com",
+                    "roles": [
+                        "admin"
+                    ]
+                }
+            }
+        }
+    }
+}

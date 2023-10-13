@@ -1,0 +1,11 @@
+{
+    "name": "approuter",
+    "scripts": {
+        "dev": "CDS_ENV=hybrid node -e 'new require(`dev-approuter`)' _"
+    },
+    "devDependencies": {
+        "dev-approuter": "*",
+        "cap-server": "*",
+        "uimodule": "*"
+    }
+}

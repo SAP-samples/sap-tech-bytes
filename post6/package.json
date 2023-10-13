@@ -1,0 +1,12 @@
+{
+    "name": "devtoberfest-dev-approuter",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "npm run dev -w=approuter"
+    },
+    "sapux": [
+      "packages/uimodule"
+    ]
+}

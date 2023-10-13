@@ -1,0 +1,19 @@
+{
+    "welcomeFile": "uimodule/index.html",
+    "authenticationMethod": "route",
+    "routes": [
+        {
+            "source": "^/user-api(.*)",
+            "target": "$1",
+            "service": "sap-approuter-userapi"
+        },
+        {
+            "dependency": "uimodule",
+            "authenticationType": "xsuaa"
+        },
+        {
+            "dependency": "cap-server",
+            "authenticationType": "xsuaa"
+        }
+    ]
+}
