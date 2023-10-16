@@ -19,7 +19,8 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "dev": "cds watch"
+    "dev": "cds watch",
+    "dev-approuter": "cds bind --exec -- npm run dev --prefix ../approuter"
   },
   "cds": {
     "requires": {

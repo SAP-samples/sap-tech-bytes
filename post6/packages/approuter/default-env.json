@@ -1,0 +1,13 @@
+{
+    "PORT": 5001,
+    "destinations": [
+        {
+            "Name": "cap-server",
+            "Authentication": "NoAuthentication",
+            "ProxyType": "Internet",
+            "Type": "HTTP",
+            "URL": "http://localhost:4004",
+            "forwardAuthToken": true
+        }
+    ]
+}

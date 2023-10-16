@@ -4,7 +4,7 @@
         "packages/*"
     ],
     "scripts": {
-        "dev": "npm run dev -w=approuter"
+        "dev": "npm run dev-approuter -w=cap-server"
     },
     "sapux": [
       "packages/uimodule"
