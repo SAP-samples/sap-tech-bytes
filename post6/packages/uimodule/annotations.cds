@@ -1,4 +1,4 @@
-using CatalogService as service from '../../srv/cat-service';
+using CatalogService as service from '../cap-server/srv/cat-service';
 
 annotate service.ListOfBooks with @(
     UI.LineItem : [
@@ -14,7 +14,7 @@ annotate service.ListOfBooks with @(
         },
         {
             $Type : 'UI.DataField',
-            Label : 'author',
+            Label : 'Author',
             Value : author,
         },
         {
