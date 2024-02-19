@@ -13,7 +13,7 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
  
 ## Recent Branches
 - [cloud-foundry-basics](https://github.com/SAP-samples/sap-tech-bytes/tree/cloud-foundry-basics) by [nicoschoenteich](https://github.com/nicoschoenteich) 
-- [2022-06-20-aibus-ber](https://github.com/SAP-samples/sap-tech-bytes/tree/2022-06-20-aibus-ber) by [noravth](https://github.com/noravth) 
+- [2024-29-01-generative-ai-hub](https://github.com/SAP-samples/sap-tech-bytes/tree/2024-29-01-generative-ai-hub) by [noravth](https://github.com/noravth) 
 - [2022-06-08-btp-cf-py-app-hanacloud-csv-flexload](https://github.com/SAP-samples/sap-tech-bytes/tree/2022-06-08-btp-cf-py-app-hanacloud-csv-flexload) by [Sygyzmundovych](https://github.com/Sygyzmundovych) 
 - [2022-03-17-hana-javascript](https://github.com/SAP-samples/sap-tech-bytes/tree/2022-03-17-hana-javascript) by [jung-thomas](https://github.com/jung-thomas) 
 - [2022-02-18-ui5-express-cf](https://github.com/SAP-samples/sap-tech-bytes/tree/2022-02-18-ui5-express-cf) by [nicoschoenteich](https://github.com/nicoschoenteich) 
