@@ -16,16 +16,18 @@ set -o errexit
 declare PLATFORM
 PLATFORM="$(uname -s)"
 
+declare -r licence_major=3
+declare -r licence_minor=2
 declare -r ARCH="${PLATFORM,,}-amd64"
 declare -r TARGETDIR="$HOME/bin"
-declare -r LICENCE="tools.hana.ondemand.com/developer-license-3_1.txt"
+declare -r LICENCE="tools.hana.ondemand.com/developer-license-${licence_major}_${licence_minor}.txt"
 
 confirm_licence_acceptance() {
 
   # Ensure licence acceptance
 
   local proceed
-  echo "Proceed (with Enter) only if you accept the SAP Developer Licence 3.1"
+  echo "Proceed (with Enter) only if you accept the SAP Developer Licence ${licence_major}.${licence_minor}"
   echo -n "(see https://$LICENCE) ..."
   # shellcheck disable=2034
   read -r proceed
@@ -55,7 +57,7 @@ retrieve() {
       --silent \
       --location \
       --output "$filename" \
-      --header "Cookie: eula_3_1_agreed=$LICENCE; path=/;" \
+      --header "Cookie: eula_${licence_major}_${licence_minor}_agreed=$LICENCE; path=/;" \
       "https://tools.hana.ondemand.com/additional/$filename" \
     && tar \
       --file "$filename" \
