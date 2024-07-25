@@ -68,3 +68,6 @@ default-*.json
 
 # Visual Studio Code
 .vscode
+
+#Python venv
+.venv_cf_aigenhub
