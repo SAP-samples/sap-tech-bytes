@@ -1,0 +1,4 @@
+generative-ai-hub-sdk[langchain]
+cloudfoundry-client
+ipykernel
+ipywidgets

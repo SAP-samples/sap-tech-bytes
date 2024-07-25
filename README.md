@@ -1,7 +1,6 @@
 # SAP Tech Bytes - 2024-07-25
 
-The related blog posts:
-1. tbd
+The related blog post is the work-in-progress 🚧
 
 Prerequisites
 * [Generative AI with SAP AI Core](https://developers.sap.com/group.sap-ai-core-generative.html)
