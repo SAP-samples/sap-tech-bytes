@@ -33,7 +33,7 @@ Perhaps most of the time you&#x27;ll be arriving at this repository, coming from
   - Some time ago I wrote about a way to quickly load data from CSV files into SAP HANA table using hana_ml Python package. It became quite a popular post. But it does require running some code to get a file loaded. Recently I was asked if that hana_ml functionality can ...
 - [SAP Tech Bytes: HANA Client Tools for JavaScript Developers - Part 4 XSJS and CAP](https://blogs.sap.com/?p=1519898) by Thomas Jung (Thu Apr 07 2022)
   - Introduction In this blog post series, we’ve explored several aspects of the HANA client tooling for JavaScript developers. In part one, we examined the differences between @sap/hana-client and hdb modules. In part two, we saw how to optimize our code using Promises / Async / Await. Then in part three, ...
-- More on [SAP Community Blog](https://blogs.sap.com/tag/sap-tech-bytes/)
+- More on [SAP Community Blog](https://community.sap.com/t5/tag/sap-tech-bytes/tg-p)
     
 ## Recent Videos
 - [Deploy a Static Web Page – Cloud Foundry Basics #1](https://www.youtube.com/watch?v=ZfxKnOZSnKk) (Mon Jul 25 2022)
