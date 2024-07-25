@@ -12,6 +12,7 @@ Where there&#x27;s sample code or configuration to share, specifically relating 
 Perhaps most of the time you&#x27;ll be arriving at this repository, coming from such an episode or blog post, so you&#x27;ll be sent to the appropriate branch like that. But if you&#x27;re starting here and want to find out to which SAP Tech Bytes episode or blog post a given branch-based sample relates, you&#x27;ll find the back link in the README in that branch.
  
 ## Recent Branches
+- [2024-07-25-btp-sapaicore-genai-cf-py](https://github.com/SAP-samples/sap-tech-bytes/tree/2024-07-25-btp-sapaicore-genai-cf-py) by [Sygyzmundovych](https://github.com/Sygyzmundovych)
 - [cloud-foundry-basics](https://github.com/SAP-samples/sap-tech-bytes/tree/cloud-foundry-basics) by [nicoschoenteich](https://github.com/nicoschoenteich) 
 - [2022-06-20-aibus-ber](https://github.com/SAP-samples/sap-tech-bytes/tree/2022-06-20-aibus-ber) by [noravth](https://github.com/noravth) 
 - [2022-06-08-btp-cf-py-app-hanacloud-csv-flexload](https://github.com/SAP-samples/sap-tech-bytes/tree/2022-06-08-btp-cf-py-app-hanacloud-csv-flexload) by [Sygyzmundovych](https://github.com/Sygyzmundovych) 
