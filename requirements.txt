@@ -1,6 +1,6 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 # Use +cpu only on Linux
-torch==2.10.0+cpu ; sys_platform == 'linux'
+torch==2.10.0+cpu ; sys_platform == 'linux' or sys_platform == 'win32'
 # Use standard version on macOS (darwin)
 torch==2.10.0 ; sys_platform == 'darwin'
 
