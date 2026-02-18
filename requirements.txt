@@ -1,5 +1,5 @@
---index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 torch
---index-url https://pypi.org/simple/
 pandas<3.0
 git+https://github.com/SAP-samples/sap-rpt-1-oss.git
