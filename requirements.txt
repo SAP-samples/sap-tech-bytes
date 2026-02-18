@@ -1,5 +1,5 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
-
-torch
+torch==2.10.0+cpu
 pandas<3.0
+matplotlib
 git+https://github.com/SAP-samples/sap-rpt-1-oss.git

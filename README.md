@@ -7,9 +7,14 @@ Prerequisites
 * When running in SAP Business Application Studio:
 ```shell
 pip install torch --index-url https://download.pytorch.org/whl/cpu
-pip install 'pandas<3'
+pip install 'pandas<3' 'matplotlib'
 pip install git+https://github.com/SAP-samples/sap-rpt-1-oss
 ```
+or simply
+```shell
+pip install --require-venv -r requirements.txt
+```
+...but then you need to update the version of the CPU-only `torch` manually.
 
 ---
 
