@@ -4,7 +4,7 @@ The related blog posts are work-in-progress. Please contact https://profile.sap.
 
 Prerequisites
 * Access to [SAP-RPT-1 Playground](https://rpt.cloud.sap/dashboard) and [SAP-RPT-1 OSS model](https://huggingface.co/SAP/sap-rpt-1-oss)
-* When running in SAP Business Application Studio:
+* When running in SAP Business Application Studio as per https://pytorch.org/get-started/locally/:
 ```shell
 pip install torch --index-url https://download.pytorch.org/whl/cpu
 pip install 'pandas<3' 'matplotlib'
