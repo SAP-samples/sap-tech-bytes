@@ -1,5 +1,9 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.10.0+cpu
+# Use +cpu only on Linux
+torch==2.10.0+cpu ; sys_platform == 'linux'
+# Use standard version on macOS (darwin)
+torch==2.10.0 ; sys_platform == 'darwin'
+
 pandas<3.0
 matplotlib
 git+https://github.com/SAP-samples/sap-rpt-1-oss.git
