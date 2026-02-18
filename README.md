@@ -5,6 +5,11 @@ The related blog posts:
 
 Prerequisites
 * Access to [SAP-RPT-1 Playground](https://rpt.cloud.sap/dashboard) and [SAP-RPT-1 OSS model](https://huggingface.co/SAP/sap-rpt-1-oss)
+* When running in SAP Business Application Studio:
+```shell
+pip install torch --index-url https://download.pytorch.org/whl/cpu
+pip install git+https://github.com/SAP-samples/sap-rpt-1-oss
+```
 
 ---
 
