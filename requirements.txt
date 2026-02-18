@@ -6,4 +6,5 @@ torch==2.10.0 ; sys_platform == 'darwin'
 
 pandas<3.0
 matplotlib
+ipywidgets
 git+https://github.com/SAP-samples/sap-rpt-1-oss.git
