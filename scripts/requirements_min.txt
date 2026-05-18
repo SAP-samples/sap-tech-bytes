@@ -1,4 +1,4 @@
-generative-ai-hub-sdk[langchain]
+sap-ai-sdk-gen[all]
 cloudfoundry-client
 ipykernel
 ipywidgets
