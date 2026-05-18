@@ -1,4 +1,4 @@
-# SAP Tech Bytes - 2024-07-25
+# SAP Tech Bytes - 2026-05-18
 
 The related blog post is the work-in-progress 🚧
 
